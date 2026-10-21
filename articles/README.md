@@ -15,6 +15,7 @@ The folders follow the wiki's own paths. `reseller-environment/account-managemen
 
 ## Writing rules (Manon's review, 2026-10-21)
 
+- **Current product only** (Jarno, 2026-10-21): no version names (no V3, no V4), no "What changed" sections, no comparisons with before. The configurator is called DevCon. Go-live is planned in `plan/cutover.md`; wiki changes are logged in `CHANGELOG.md`.
 - **Describe what happens, not why**, unless Jarno, a ticket or the product notes say why. No invented intent ("this is on purpose so that...").
 - **Do not document bugs or gaps as behaviour.** No workarounds for known bugs in the text. Put them in the Draft notes with the ticket id, and describe the intended behaviour once Jarno confirms it, or leave the point out.
 - **"Good to know" only for what a customer really needs** to do the task right.

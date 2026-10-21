@@ -13,7 +13,7 @@ author: David van der Berg
 
 A scenario starts when its **trigger** happens. You choose one trigger per scenario under **When this happens**, then set its options under **Configure trigger**.
 
-Which triggers you see depends on your account and its devices. The list below is what V4 offers for a standard customer account. [see draft notes]
+Which triggers you see depends on your account and its devices. The list below is what a standard customer account offers. [see draft notes]
 
 ## Personal alarms
 
@@ -57,22 +57,22 @@ Which triggers you see depends on your account and its devices. The list below i
 
 | Trigger | Starts the scenario when |
 |---|---|
-| **Quick button** | someone presses a quick button tile in the Cuebly app. This trigger has no settings in the scenario: you link it from the tile, in the device's custom view in DevCon V4 |
+| **Quick button** | someone presses a quick button tile in the Cuebly app. This trigger has no settings in the scenario: you link it from the tile, in the device's custom view in DevCon |
 | **Multi tenant** | a scenario in another customer account starts it, with the **Multi tenant** action |
 | **Scenario disabled** | a selected scenario is disabled, by hand or automatically |
 
 ## Tips
 
-- **Connection change:** set a timeout (for example 60 seconds), so a short network gap does not start the scenario. [unverified in V4]
-- **Inverting the selection:** some triggers let you start the scenario for every device except the selected ones. The table of examples on the previous version of this page still applies. [unverified in V4]
-
-## What changed from V3
-
-Not offered in V4 for a standard account: Generic alarm, ARC alarm, Assistance request closed, Idle, Beacon battery, SMS message, Webhook, I/O change, ESPA message and Email. [see draft notes]
+- **Connection change:** set a timeout (for example 60 seconds), so a short network gap does not start the scenario. [unverified]
+- **Inverting the selection:** some triggers let you start the scenario for every device except the selected ones. [add the table of examples] [unverified]
 
 ---
 
 ## Draft notes (remove before publishing)
+
+**Removed from the page (wiki rule: current product only, Jarno 2026-10-21). Kept here for the cutover plan:**
+
+Not offered in V4 for a standard account: Generic alarm, ARC alarm, Assistance request closed, Idle, Beacon battery, SMS message, Webhook, I/O change, ESPA message and Email. [see draft notes]
 
 - **"As seen on V4 dev":** the 21 triggers are what V4 dev offers for Tess's test customer (wiki report). Jarno to confirm whether the missing V3 triggers depend on devices (gateways, ESPA, I/O) or modules, or are gone (Q8 area). Until then keep "for a standard customer account" and the "What changed" line, or drop that line.
 - **Group names:** the screenshot shows "Personal alarms" and "Device status"; the other group names in V4 are not known. The draft uses its own headings for the rest; align with the real groups.

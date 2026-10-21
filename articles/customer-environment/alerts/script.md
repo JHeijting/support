@@ -69,7 +69,7 @@ The alarm moves to **Closed alerts**. The closed alarm shows your notes and the 
 
 ## Good to know
 
-- The information in the script comes from the device and its alarm protocol. Fill in the device fields and link an alarm protocol to get the most out of the script. [unverified: alarm protocols in V4-only accounts]
+- The information in the script comes from the device and its alarm protocol. Fill in the device fields and link an alarm protocol to get the most out of the script. [unverified: alarm protocols in accounts without the old interface]
 - Alarms that nobody closes are closed automatically after the period set in **Alarm auto-close after** at the top of **Alerts** (30 days by default).
 
 ---

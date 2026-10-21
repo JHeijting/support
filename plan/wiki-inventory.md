@@ -35,7 +35,7 @@ Tess's report (frontend-design `knowledge/wiki-report.md`, T4) agrees with this 
 
 | Wiki path | Title | Kind | Status | Open marks | Draft |
 |---|---|---|---|---|---|
-| `customer-environment/devices/devcon-v4` | Change device settings (DevCon V4) | new | review | 1 | `articles/customer-environment/devices/devcon-v4.md` |
+| `customer-environment/devices/devcon` | Change device settings (DevCon) | new | review | 1 | `articles/customer-environment/devices/devcon.md` |
 | `reseller-environment/device-management/add-app-user` | Add an app user | new | review | 1 | `articles/reseller-environment/device-management/add-app-user.md` |
 | `reseller-environment/presentation-mode` | Presentation mode | new | review | 0 | `articles/reseller-environment/presentation-mode.md` |
 | `about-cuebly/supported-languages` | Supported languages | rewrite | check | 0 | `articles/about-cuebly/supported-languages.md` |
@@ -232,7 +232,7 @@ In the wiki's own structure. Status: `draft` means a Markdown draft exists in `s
 | N2 | `reseller-environment/device-management/add-app-user` | Add an app user (Mobile App Lite) | devices.md, mobile-app.md | Draft |
 | N3 | `cuebly-app/timer-alarm` | Timer alarm | fact sheet, mobile-app.md | Draft |
 | N4 | `cuebly-app/availability-presence` | Availability, presence and connection | glossary, fact sheet | Draft |
-| N5 | `customer-environment/devices/devcon-v4` | Change device settings (DevCon V4) | devices.md | Draft |
+| N5 | `customer-environment/devices/devcon` | Change device settings (DevCon) | devices.md | Draft |
 | N6 | `customer-environment/devices/custom-views` | Custom views and quick buttons in the app | devices.md, scenarios.md | Later: held until custom views show without the hidden switch (B14, B20) |
 | N7 | `reseller-environment/account-management/sub-account-managers` | Sub-account managers | account-management.md | Part of the account management draft |
 | N8 | `reseller-environment/device-management/import-devices` | Import devices from a file | devices.md | Draft |

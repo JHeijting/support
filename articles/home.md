@@ -15,7 +15,7 @@ Here you find how to work with the Cuebly platform and the Cuebly app: for custo
 
 ## Start here
 
-- **New to Cuebly V4?** Start with the [customer environment](/en/customer-environment) or, as a reseller, the [reseller environment](/en/reseller-environment).
+- **New to Cuebly?** Start with the [customer environment](/en/customer-environment) or, as a reseller, the [reseller environment](/en/reseller-environment).
 - **Using the app?** See the [Cuebly app](/en/cuebly-app): how to [send an alarm](/en/cuebly-app/send-help), set a [timer alarm](/en/cuebly-app/timer-alarm) and change your [settings](/en/cuebly-app/settings).
 - **Setting up a customer?** [Create an account](/en/reseller-environment/account-management), [add an app user](/en/reseller-environment/device-management/add-app-user) and check what the customer sees with [presentation mode](/en/reseller-environment/presentation-mode).
 - **Devices:** see the [supported personal alarms](/en/supported-devices/personal-trackers) and [gateways](/en/supported-devices/gateways).

@@ -1,6 +1,6 @@
 ---
-path: customer-environment/devices/devcon-v4
-title: Change device settings (DevCon V4)
+path: customer-environment/devices/devcon
+title: Change device settings (DevCon)
 description: Change the settings of a device over the air, sync them and undo changes
 status: review
 sources: frontend-design knowledge/modules/devices.md, glossary.md (DevCon V4), screenshots current/platform-v4/devices/ (Tess, V4 dev, 2026-10-20 and 2026-10-21)
@@ -8,9 +8,9 @@ last fact check: 2026-10-21 (updated with Tess's wiki report, T4)
 author: David van der Berg
 ---
 
-# Change device settings (DevCon V4)
+# Change device settings (DevCon)
 
-With **DevCon** you change the settings of a device from the platform, over the air. You do not need the device in your hands or any technical tools. Cuebly V4 devices and Emerit devices use **DevCon V4**, described on this page. [Jarno: confirm for production] Other devices use the previous configurator, see [Devices](/en/customer-environment/devices).
+With **DevCon** you change the settings of a device from the platform, over the air. You do not need the device in your hands or any technical tools.
 
 ## Open DevCon
 
@@ -30,8 +30,8 @@ Change the setting you need. The platform stores the change right away, even bef
 - the group shows an orange number, for example "1 setting not yet synced to the device",
 - the save button at the top shows a badge: "Sync 1 change to the device".
 
-![How device settings reach a device or the app in DevCon V4, in five steps. 1. Change a setting in the device configurator, for example a custom view of the Cuebly app. 2. The platform stores the new value at once. 3. It shows as not yet synced: an orange count on the group and a badge on the save icon; undo discards the change. 4. Click the save icon, check the list in Save configuration and click Save; for devices you choose whether they restart. 5. The device or app gets the settings; the change counts as synced once the device reports it. Other devices use the legacy DevCon.](/wiki-images/diagrams/diagrams-05-devcon-sync.png)
-*Changes in DevCon V4 reach the device when you save them.*
+![How device settings reach a device or the app in DevCon, in five steps. 1. Change a setting in the device configurator, for example a custom view of the Cuebly app. 2. The platform stores the new value at once. 3. It shows as not yet synced: an orange count on the group and a badge on the save icon; undo discards the change. 4. Click the save icon, check the list in Save configuration and click Save; for devices you choose whether they restart. 5. The device or app gets the settings; the change counts as synced once the device reports it.](/wiki-images/diagrams/diagrams-05-devcon-sync.png)
+*Changes in DevCon reach the device when you save them.*
 
 ## Send the changes to the device
 
@@ -61,11 +61,11 @@ For an app device (type Mobile App Lite), DevCon has the group **General** with:
   - **Enabled**: whether the feature is on when the app starts.
   - **Change device configuration**: whether the app user may change the feature in the app's Settings.
 
-The app's own Settings no longer has sound, inactivity or geofence settings. You set the app's features here, per device.
+The app's own Settings has no sound, inactivity or geofence settings. You set the app's features here, per device.
 
 ## Hide settings from the customer
 
-Account managers can hide a group or a single setting of DevCon V4 from the customer's users, with the eye icons that appear when presentation mode is off. See [Presentation mode](/en/reseller-environment/presentation-mode).
+Account managers can hide a group or a single setting of DevCon from the customer's users, with the eye icons that appear when presentation mode is off. See [Presentation mode](/en/reseller-environment/presentation-mode).
 
 ---
 

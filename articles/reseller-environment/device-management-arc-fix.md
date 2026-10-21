@@ -24,9 +24,9 @@ author: David van der Berg
 > Lastly, the alarms must be sent to the ARC by a scenario in the customer environment.
 >
 > 1. Log in to the customer environment. See [Account management](/en/reseller-environment/account-management).
-> 2. Go to **Scenarios** and check that there is a scenario with an alarm trigger and the action that sends the alarm to the alarm center. Only devices that are connected to the ARC are used by this action. [unverified in V4]
+> 2. Go to **Scenarios** and check that there is a scenario with an alarm trigger and the action that sends the alarm to the alarm center. Only devices that are connected to the ARC are used by this action. [unverified]
 >
-> In V4, scenarios cannot be hidden from the customer. The customer sees this scenario in their own **Scenarios** list. You do not need to switch off presentation mode to see it. See [Presentation mode](/en/reseller-environment/presentation-mode).
+> Scenarios cannot be hidden from the customer. The customer sees this scenario in their own **Scenarios** list. You do not need to switch off presentation mode to see it. See [Presentation mode](/en/reseller-environment/presentation-mode).
 
 ---
 

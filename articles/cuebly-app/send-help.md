@@ -37,7 +37,7 @@ Let go before the long vibration to cancel.
 ## What happens next
 
 - The alarm appears in **Alerts** in the customer environment and can start scenarios, for example a message to colleagues nearby.
-- The app may open a voice connection, so the person who handles the alarm can hear you. This is set per device by your administrator (**Voice connection on alarm** in DevCon V4).
+- The app may open a voice connection, so the person who handles the alarm can hear you. This is set per device by your administrator (**Voice connection on alarm** in DevCon).
 
 ## Tips
 

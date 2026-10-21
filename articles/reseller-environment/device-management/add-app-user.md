@@ -10,7 +10,7 @@ author: David van der Berg
 
 # Add an app user
 
-In Cuebly V4 the app is a device like any other. To give someone the Cuebly app, you add a device of the type **Mobile App Lite** to the customer's account and link it to a user of that account. You can create the user in the same step.
+The Cuebly app is a device like any other. To give someone the Cuebly app, you add a device of the type **Mobile App Lite** to the customer's account and link it to a user of that account. You can create the user in the same step.
 
 You need no app licenses for this.
 
@@ -52,7 +52,7 @@ You need no app licenses for this.
 ## Where the app user shows up
 
 - In the customer environment, the app is one of the **Devices**, with its own device card.
-- You can add the device to **teams**, use it in **scenarios** and change its settings with **Change device configuration** (DevCon V4).
+- You can add the device to **teams**, use it in **scenarios** and change its settings with **Change device configuration** (DevCon).
 - In **Devices** in your own environment, a Mobile App Lite device has the actions **Edit**, **Manage alarm center**, **Login as** and **Delete**.
 
 ## Good to know

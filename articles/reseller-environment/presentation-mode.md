@@ -34,7 +34,7 @@ Only account managers who manage the account see the icon. The customer's own us
 
 ## Choose which device settings the customer sees
 
-In **DevCon V4** you can hide a group of settings, or a single setting, from the customer's users.
+In **DevCon** you can hide a group of settings, or a single setting, from the customer's users.
 
 1. Switch presentation mode **off** (grey icon).
 2. Go to **Devices**, open a device card and click the gear icon **Change device configuration**.
@@ -58,25 +58,21 @@ Switch presentation mode **on** to check the result: the eye icons are gone and 
 
 - **Saved at once, for the whole account.** A click on an eye is saved immediately. You do not need the DevCon save button. The choice applies to every device of that type in the account, not only to the device you have open.
 - **Hiding is not switching off.** Hiding a setting does not change the setting on the device. To switch a feature off, change the setting itself (for example **Enabled**), and then hide it if the customer should not change it back.
-- **Change first, then hide.** A change in DevCon V4 is stored right away. If you change a setting and then hide it, your change stays.
+- **Change first, then hide.** A change in DevCon is stored right away. If you change a setting and then hide it, your change stays.
 
 ## Scenarios
 
-In V4, scenarios cannot be hidden from the customer yet. All scenarios are shown, with presentation mode on and off.
-
-## What changed from V3
-
-- The icon and its place are the same as in V3.
-- New in V4: the eye icons in DevCon V4, to hide groups and settings from the customer.
-- In V3 you could hide a scenario from the customer, for example the scenario that sends alarms to an alarm receiving centre. In V4 that is not possible yet.
+Scenarios cannot be hidden from the customer. All scenarios are shown, with presentation mode on and off.
 
 ---
 
 ## Draft notes (remove before publishing)
 
+**Wiki rule (Jarno, 2026-10-21):** the wiki describes the current product only: no V3 or V4, no "What changed" sections. The configurator is called DevCon.
+
 **Decided by Jarno (Q10, 2026-10-21), waiting to be built:**
 
-1. **Hide scenarios:** scenarios must be hideable from the customer again (ticket draft **F30**). When built, replace the Scenarios section with how to hide one, and remove "yet" in the two places it appears.
+1. **Hide scenarios:** scenarios must be hideable from the customer again (ticket draft **F30**). When built, replace the Scenarios section with how to hide one.
 2. **Every group hidden:** the panel must then tell the customer's user that they have no permission to change anything (ticket draft **B67**; today the panel is empty). When fixed, add one line under "Good to know": "If you hide every group of a device, the customer's users see that they have no permission to change its settings."
 3. **Always on when you log in to an account:** intended (F31 "remember the choice" is not wanted). The article describes it as intended.
 

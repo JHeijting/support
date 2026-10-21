@@ -56,17 +56,17 @@ At the top of **Alerts**, **Alarm auto-close after** shows after how long alarms
 
 ## Sound
 
-The speaker icon at the top of **Alerts** switches the alarm sound on or off. [unverified: V4 behaviour]
+The speaker icon at the top of **Alerts** switches the alarm sound on or off. [unverified]
 
 If you do not hear alarms while the browser is in the background, see [FAQ - Web](/en/customer-environment/faq).
-
-## What changed from V3
-
-- Alarms from scenarios with the action **Show at alerts page** no longer exist; that action is gone.
 
 ---
 
 ## Draft notes (remove before publishing)
+
+**Removed from the page (wiki rule: current product only, Jarno 2026-10-21). Kept here for the cutover plan:**
+
+- Alarms from scenarios with the action **Show at alerts page** no longer exist; that action is gone.
 
 - **Bulk close without note or confirmation** (B21, development/docs/v4-platform#476): a gap, left out of the text. The check icon also has no label. Describe the intended flow (notes, confirmation) once fixed.
 - **Who may change auto-close:** the header shows it on the Alerts page, the account setting is on Edit account (account manager). Whether a customer user can change it from the Alerts header is not verified; Tess's screenshot shows a drop-down. Check.

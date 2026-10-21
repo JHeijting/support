@@ -43,7 +43,7 @@ When you are safe, tap **Cancel** on the banner on the **Home** screen. The time
 
 - A timer alarm is an alarm like any other. Handle it in **Alerts**, and use the scenario trigger **Timer** to warn colleagues or an alarm receiving centre.
 - A scenario can also start or stop the timer on a device with the action **Toggle timer alarm**.
-- In DevCon V4, the feature **Timer alarm** has two switches per app device: **Enabled** (whether the timer is on when the app starts) and **Change device configuration** (whether the user may change it in the app). [unverified: what the user sees when it is off]
+- In DevCon, the feature **Timer alarm** has two switches per app device: **Enabled** (whether the timer is on when the app starts) and **Change device configuration** (whether the user may change it in the app). [unverified: what the user sees when it is off]
 
 ---
 

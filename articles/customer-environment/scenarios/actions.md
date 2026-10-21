@@ -70,20 +70,20 @@ Placeholders add live information to a message. You add them with a click; they 
 
 Device fields you added yourself are available as placeholders too.
 
-**Be careful with LIVE LOCATION URL.** Anyone with the link can see where the person is while the link is valid (24 hours). [unverified in V4: link lifetime]
+**Be careful with LIVE LOCATION URL.** Anyone with the link can see where the person is while the link is valid (24 hours). [unverified: link lifetime]
 
 ## Call webhook
 
-Sends the event, with the device and its location, to your own system. For the request body and how to check that a request comes from Cuebly, see [Webhook signature](/en/customer-environment/scenarios/webhook-signature). [unverified: V4 body unchanged]
-
-## What changed from V3
-
-- **Show at alerts page** is gone. Alarms show in **Alerts** by themselves.
-- Not offered in V4 for a standard account: Start tracking, Change geofence presence, Create generic alarm, Send to ARC and Set digital I/O. [see draft notes]
+Sends the event, with the device and its location, to your own system. For the request body and how to check that a request comes from Cuebly, see [Webhook signature](/en/customer-environment/scenarios/webhook-signature). [unverified: request body]
 
 ---
 
 ## Draft notes (remove before publishing)
+
+**Removed from the page (wiki rule: current product only, Jarno 2026-10-21). Kept here for the cutover plan:**
+
+- **Show at alerts page** is gone. Alarms show in **Alerts** by themselves.
+- Not offered in V4 for a standard account: Start tracking, Change geofence presence, Create generic alarm, Send to ARC and Set digital I/O. [see draft notes]
 
 - **"As seen on V4 dev":** 10 actions for Tess's test customer. Missing V3 actions may depend on devices or modules (Jarno, Q8 area). Send to ARC especially: see the device management ARC correction.
 - **Lock icons:** in the screenshot Multi tenant, Sms message, Send assistance request and Voice message have a lock. On the dashboard, a locked tile opens "Activate module" with a request form (B42); for actions this is not verified. Proposal 006 drops the request flow. Describe once verified.

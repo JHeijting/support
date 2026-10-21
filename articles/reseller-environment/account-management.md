@@ -136,17 +136,17 @@ To bring an account back, open it in the archive and choose **Unarchive**.
 
 As an account manager you cannot delete an account. Archive it instead. To have an archived account deleted, contact Cuebly. [unverified: who deletes, and how]
 
-## What changed from V3
+---
+
+## Draft notes (remove before publishing)
+
+**Removed from the page (wiki rule: current product only, Jarno 2026-10-21). Kept here for the cutover plan:**
 
 - You choose between **Account** and **Sub-account manager**. Sub-account managers are new in V4.
 - You choose which of your users may manage a new account.
 - New settings: **Location maximum validity** and **Alarm auto-close after**.
 - **Timezone**, **App licenses** and **Modules** are not part of the account in V4. The V4 app is added as a device, so app licenses are no longer needed. Choosing which features an account gets is not available in V4 yet.
 - Logging in to a customer environment is an arrow icon; leaving is **Back to admin**.
-
----
-
-## Draft notes (remove before publishing)
 
 - **Hold until bug B1 is fixed** ([v4-platform#463](https://gitlab.development.itelligo.nl/development/docs/v4-platform/-/issues/463)): own reference and language are not saved on V4 dev today. The article describes the intended behaviour.
 - **Delete (wiki report):** an account manager cannot delete archived accounts in V4. "Contact Cuebly" is an assumption; Jarno to confirm.

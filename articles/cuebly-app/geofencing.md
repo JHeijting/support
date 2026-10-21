@@ -30,15 +30,15 @@ Go to **Groups** > **Locations**. You see the geofences assigned to you, with th
 - Location permission set to **Allow all the time**. See [Onboarding](/en/cuebly-app/onboarding).
 - Background activity allowed for the app.
 
-## What changed from the previous app
+---
+
+## Draft notes (remove before publishing)
+
+**Removed from the page (wiki rule: current product only, Jarno 2026-10-21). Kept here for the cutover plan:**
 
 - You no longer set up geofencing in the device configurator under "App settings". Your administrator links geofences to devices and teams on the platform.
 - There is no button to set your presence by hand.
 - The setting that switched the app on or off when entering or leaving a geofence is not in the new app. [unverified: see draft notes]
-
----
-
-## Draft notes (remove before publishing)
 
 - **Presence label in the app:** Groups > Locations counts presence as "Available / Unavailable" today (B17, proposal 004). The article says "who is present". Check the label before publishing.
 - **How often the app checks** (Android every 15 minutes, iOS when the system allows, on the previous page): not verified for the new app; left out.

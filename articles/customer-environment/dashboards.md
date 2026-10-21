@@ -26,7 +26,7 @@ Every account starts with the **Default dashboard**, with these tiles:
 
 ## Custom dashboards
 
-Custom dashboards, with your own tiles, are not available in V4 yet. The [dashboard tiles](/en/customer-environment/dashboards/tiles) page describes the tiles of the previous version. [see draft notes]
+Custom dashboards, with your own tiles, are not available. [see draft notes]
 
 ## Presentation pages are not presentation mode
 

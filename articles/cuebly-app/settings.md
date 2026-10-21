@@ -56,14 +56,14 @@ At the bottom, **Version** shows the version of the app.
 ![The Settings screen of the Cuebly app: the user's name, Availability with the Available switch, Status of Notifications, Critical alerts and Location, Timer with Set timer alarm, Shortcuts with SOS shortcuts, and Language. The email address and device number are hidden.](/wiki-images/cuebly-app/cuebly-app-07-settings.png)
 *Settings in the Cuebly app.*
 
-## What changed from the previous app
-
-- Settings is a tab in the bottom bar, not behind the menu icon.
-- The sound settings, call permissions, inactivity (man down) alarm and the switch to enable the app in a geofence are no longer in the app's settings. Your administrator sets the app's features per device in DevCon V4, for example **Voice connection on alarm**, **Teams** and **Timer alarm**, and decides whether you may change them yourself. See [Change device settings (DevCon V4)](/en/customer-environment/devices/devcon-v4).
-
 ---
 
 ## Draft notes (remove before publishing)
+
+**Removed from the page (wiki rule: current product only, Jarno 2026-10-21). Kept here for the cutover plan:**
+
+- Settings is a tab in the bottom bar, not behind the menu icon.
+- The sound settings, call permissions, inactivity (man down) alarm and the switch to enable the app in a geofence are no longer in the app's settings. Your administrator sets the app's features per device in DevCon, for example **Voice connection on alarm**, **Teams** and **Timer alarm**, and decides whether you may change them yourself. See [Change device settings (DevCon)](/en/customer-environment/devices/devcon).
 
 - **Logout effect** ("no longer receive messages") is an assumption; verify with Tess.
 - **Answered (wiki report):** old settings are not in the new app; features are set per device in DevCon V4. Whether inactivity (man down) and sound settings exist at all in the new app is not confirmed; the text does not promise them.

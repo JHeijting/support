@@ -44,7 +44,7 @@ The bottom bar has:
 
 ## Is the app online?
 
-The app tells the platform regularly that it is still running (a heartbeat). The platform uses this to show the app's connection: online, idle or offline. Phones decide themselves how often an app may run in the background, depending on battery, memory, charging and use, so the interval varies. [unverified for the new app: the 60 minute idle and 9 hour offline limits of the previous app]
+The app tells the platform regularly that it is still running (a heartbeat). The platform uses this to show the app's connection: online, idle or offline. Phones decide themselves how often an app may run in the background, depending on battery, memory, charging and use, so the interval varies. [unverified: the 60 minute idle and 9 hour offline limits]
 
 Messages and assistance requests reach apps that are online. That is why the onboarding asks to let the app run in the background.
 

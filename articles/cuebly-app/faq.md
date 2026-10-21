@@ -13,9 +13,9 @@ author: David van der Berg
 
 ## Why is there a permanent notification on my Android phone?
 
-The app must keep running in the background, so it can send an alarm and check your locations (geofences). Android only allows that when the app shows a permanent notification. In the new app it reads "Cue is checking configured geofences".
+The app must keep running in the background, so it can send an alarm and check your locations (geofences). Android only allows that when the app shows a permanent notification. It reads "Cue is checking configured geofences".
 
-You can hide the notification and keep the function: in the Android settings for the app, switch off the notification channel of that notification. [unverified: channel name in the new app]
+You can hide the notification and keep the function: in the Android settings for the app, switch off the notification channel of that notification. [unverified: channel name]
 
 ## Why does the app ask for so many permissions?
 

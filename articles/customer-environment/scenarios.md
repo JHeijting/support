@@ -48,7 +48,7 @@ The scenario is stored when you click the save icon.
 
 Click the scenario card to open it. Change what you need and click the save icon.
 
-- **Disable**: switch **Enabled** off and save. [unverified: Delete and Copy in V4]
+- **Disable**: switch **Enabled** off and save. [unverified: Delete and Copy]
 
 ## Test an action
 
@@ -56,11 +56,11 @@ Open the action and click **Test action**. The action runs once, without the tri
 
 ## Quick buttons
 
-A scenario with the trigger **Quick button** is started from a tile in the Cuebly app. You link the tile to the scenario in the device's custom view in DevCon V4, not in the scenario. See [Change device settings (DevCon V4)](/en/customer-environment/devices/devcon-v4).
+A scenario with the trigger **Quick button** is started from a tile in the Cuebly app. You link the tile to the scenario in the device's custom view in DevCon, not in the scenario. See [Change device settings (DevCon)](/en/customer-environment/devices/devcon).
 
 ## Who sees the scenarios
 
-All users with access to scenarios see all scenarios of the account. In V4 a scenario cannot be hidden from the customer, also not by an account manager. See [Presentation mode](/en/reseller-environment/presentation-mode).
+All users with access to scenarios see all scenarios of the account. A scenario cannot be hidden from the customer, also not by an account manager. See [Presentation mode](/en/reseller-environment/presentation-mode).
 
 ## Webhooks
 

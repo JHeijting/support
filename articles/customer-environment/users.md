@@ -11,7 +11,7 @@ author: David van der Berg
 
 # Users and permissions
 
-Users are the people who log in to a customer environment. In V4 you choose per user what they may do, with **permissions**. There are no fixed roles any more.
+Users are the people who log in to a customer environment. You choose per user what they may do, with **permissions**.
 
 You find the users of an account under **Administration** > **Users** in the customer environment.
 
@@ -48,14 +48,14 @@ The menu at the end of a user's row also has:
 
 People who use the Cuebly app are users of the account too. Their app is added as a device of the type Mobile App Lite. See [Add an app user](/en/reseller-environment/device-management/add-app-user).
 
-## What changed from V3
-
-- The roles Administrator, Portal user, App user and Alarm receiving center are replaced by permissions per subject.
-- App licenses are gone: the app is added as a device.
-
 ---
 
 ## Draft notes (remove before publishing)
+
+**Removed from the page (wiki rule: current product only, Jarno 2026-10-21). Kept here for the cutover plan:**
+
+- The roles Administrator, Portal user, App user and Alarm receiving center are replaced by permissions per subject.
+- App licenses are gone: the app is added as a device.
 
 - **Customer environment Users page:** the permissions dialog and the user menu (Permissions, Reset password, Delete) were verified on the Account management panel and the V4 permissions screenshot. The customer environment's own Add user form is not documented by Tess; this draft does not describe adding a user there. Ask Tess for the fields (T13), then add "Add a user".
 - **Subjects:** 25 in total; the screenshot shows Translations, Alarms, Contacts, Accounts, Communications, Device_configs, Dashboards, Geofences, Sites, Alarm Protocols, Scenarios, Users, Arc, Whitelabels, Alerts, App, Api_tokens, Permissions and more. Several are raw names ("Device_configs", "Api_tokens") and some are not meaningful inside a customer account (Accounts, Whitelabels, Translations). Worth a ticket for readable names; the article names only the clear ones.
