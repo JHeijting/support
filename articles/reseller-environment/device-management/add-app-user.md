@@ -2,7 +2,7 @@
 path: reseller-environment/device-management/add-app-user
 title: Add an app user
 description: Give a user the Cuebly app by adding a Mobile App Lite device
-status: check
+status: review
 sources: frontend-design knowledge/modules/devices.md, mobile-app.md, glossary.md (Tess, V4 dev and app 1.4.0, 2026-10-20 and 2026-10-21)
 last fact check: 2026-10-21
 author: David van der Berg
@@ -24,9 +24,7 @@ You need no app licenses for this.
 1. Go to **Devices** and click **Add**.
 2. Choose the device type **Mobile App Lite**.
 3. Choose the **account** of the customer.
-4. Link a user:
-   - **Create a new user**: fill in the first name, last name (optional) and email address. Leave **Inform user by email** on, so the user receives the login details by email.
-   - **Select an existing user** of that account.
+4. Create the user: fill in the first name, last name (optional) and email address. Leave **Inform user by email** on, so the user receives the login details by email.
 5. Fill in a **device name**, for example the user's name. The name is used in alarms and in scenario messages.
 6. Click **Save**. The message "Device has been saved" appears.
 
@@ -35,17 +33,15 @@ You need no app licenses for this.
 
 ## What the user does next
 
-1. Install the Cuebly app from the App Store or Google Play. [unverified: store names and links]
+1. Install the Cuebly app from the App Store or Google Play. [Jarno: store links]
 2. Log in with the email address and the password from the welcome email.
 3. Follow the onboarding. The app asks, one step at a time, for:
    - **Location**, set to "Allow all the time", so the app can send a location with an alarm and check locations (geofences),
    - **Notifications**, to receive messages,
    - **Critical alerts** (Android), so alarms and messages sound through Do Not Disturb,
-   - **Microphone**,
+   - **Microphone**, for the voice connection after an alarm and for push to talk,
    - **Background activity**, so the phone does not stop the app.
 4. At the end, the app shows a summary of what is enabled.
-
-After login the app shows the branding of the customer's account.
 
 ![The last onboarding screen of the Cuebly app, titled Welcome: You're all set. Marker 1 points at the list Location, Notifications, Critical alerts, Microphone and Allow app, each marked Enabled.](/wiki-images/cuebly-app/cuebly-app-01-onboarding-complete.png)
 *At the end of the onboarding the app shows which permissions are on (1). You can change them later in the phone settings.*
@@ -66,10 +62,11 @@ After login the app shows the branding of the customer's account.
 
 ## Draft notes (remove before publishing)
 
-- **Select an existing user does not work well on dev** (Jarno, to investigate); creating a new user in the same form does. Keep the option in the text only once it works, or add a note.
-- **Device types:** on dev only "Mobile App Lite" is offered for Tess's login. Mobile App Pro and Pro Voice are not mentioned until confirmed.
-- **Store names and links, OS minimums:** not verified for the new app. The old page says Android 10 and iOS 14.
-- **Login errors:** every login error shows "Credentials invalid", also network errors (app code). Consider a troubleshooting line once the app distinguishes them.
-- **Onboarding bug:** after returning from system settings in the location step, the notifications step may not react until the app is restarted (1.4.0). Leave out of the article; add to the app FAQ if it ships like this.
-- **Branding:** "shows the branding of the customer's account" is from the fact sheet, not tested with a partner brand.
-- **Images:** requested from Art (add-app-user-01, 02).
+**For Jarno to decide:**
+
+1. **Store links:** the exact app name in the App Store and Google Play, and the links to add in step 1.
+2. **Location wording** in the onboarding list ("send a location with an alarm and check locations"): the app itself says "Your location will only be sent when you make an alarm". Which wording is right?
+3. **Select an existing user:** the form also offers this, but it does not work well on dev (Jarno, to investigate). The article only describes creating a new user. Add the option back once it works?
+4. **Diagram (optional, Q11):** Art's `diagrams/diagrams-03-account-structure.png` (account managers, accounts, users, devices) could go under the intro. Only if Jarno allows concept diagrams on the wiki.
+
+Verified by Tess (V4 dev and app 1.4.0, 2026-10-20 and 2026-10-21): the add form and its fields, the save message, no adding from inside a customer environment, no import for Mobile App Lite, the row actions, the onboarding steps, the microphone reason (wiki report). Images: Art's sets, from Tess's screenshots; image 01 will be retaken once the raw labels SELECTUSER and CREATENEWUSER are translated (T7).

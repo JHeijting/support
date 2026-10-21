@@ -72,3 +72,4 @@ If you do not hear alarms while the browser is in the background, see [FAQ - Web
 - **"Open alarms" and "Open alerts"** dashboard tiles: difference unexplained (B32). Not mentioned.
 - **Response pane** (wiki report: "describe the response pane"): not documented; ask Tess what it shows.
 - **Images:** Art's `handle-an-alarm/handle-an-alarm-01-open-alerts.png`; auto-close and bulk close have no image yet (T7).
+- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-01-alarm-flow.png`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).

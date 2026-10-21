@@ -79,3 +79,4 @@ The alarm moves to **Closed alerts**. The closed alarm shows your notes and the 
 - **Discrete mode / silent alarm:** the V3 script had an extra listen step for devices in discrete mode. Not seen in V4.
 - **ARC accounts:** in V3 the script runs automatically for alarm receiving centres. Not verified in V4.
 - **Images:** requested from Art (closing-script-01, 02). Sources: `current/platform-v4/alerts/02-alarm-detail-close-menu.png`, `03-closing-script.png`, `04-closing-outcome.png` (this one has a text overlap glitch on the step title; ask Art to pick a clean frame or retake).
+- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-01-alarm-flow.png (alarm from the app to Alerts, closing script or Quick close, auto-close)`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).

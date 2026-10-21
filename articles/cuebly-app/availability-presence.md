@@ -62,3 +62,4 @@ Example: Sam is present in the geofence "Warehouse" and online, but switched ava
 - **Availability may later follow presence automatically** (glossary, Jarno). Not described.
 - **Example name "Sam"** is invented.
 - **Images:** requested from Art (availability-01). Source: `current/app-v4/01-home-nl.png` (Dutch, English needed).
+- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-04-connection-availability-presence.png`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).

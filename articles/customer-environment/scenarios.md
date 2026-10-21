@@ -73,3 +73,4 @@ To send events to your own system, use the action **Call webhook**. To check tha
 - **Unsaved card** (night test): a new scenario shows as a card in the list before it is saved, and is lost on close without saving. A gap, left out of the text; ask Tess for the ticket id.
 - **Empty list:** shows "Create a scenario" with an arrow pointing away from the button (B27). Not mentioned.
 - **Images:** Art's `create-a-scenario` 01, 02, 03.
+- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-02-scenario.png (trigger, configure, Enabled and schedule, actions)`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).

@@ -55,3 +55,4 @@ When you are safe, tap **Cancel** on the banner on the **Home** screen. The time
 - **DevCon V4 feature Timer alarm:** meaning of both switches answered in the wiki report. Tess saw "Set timer alarm" still shown in the app with the setting hidden (presentation mode screenshot 07).
 - **Presentation mode:** with Timer alarm hidden, the app still shows Set timer alarm. Left out of the text (gap, see presentation mode notes and Q10).
 - **Images:** requested from Art (timer-alarm-01, 02). Source screenshots: `current/app-v4/09-timer-nl.png` (Dutch, an English one is needed), `current/app-v4/10-timer-banner-en.png`.
+- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-01-alarm-flow.png`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).

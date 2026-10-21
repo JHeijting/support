@@ -31,35 +31,35 @@ Tess's report (frontend-design `knowledge/wiki-report.md`, T4) agrees with this 
 
 ## Draft status (T14)
 
-Every draft is `check`: written, waiting for the facts listed in its own "Draft notes" before Jarno's review. "Open marks" counts the `[unverified]` and `[see draft notes]` marks in the text.
+`review`: publish-ready, every fact verified by Tess or marked as a question for Jarno; its Draft notes hold only what Jarno must decide. `check`: written, waiting for the facts in its Draft notes. "Open marks" counts the `[unverified]`, `[see draft notes]` and `[Jarno: ...]` marks in the article text.
 
-| Wiki path | Title | Kind | Open marks | Draft |
-|---|---|---|---|---|
-| `about-cuebly/supported-languages` | Supported languages | rewrite | 0 | `articles/about-cuebly/supported-languages.md` |
-| `cuebly-app` | Cuebly app | rewrite | 3 | `articles/cuebly-app.md` |
-| `cuebly-app/availability-presence` | Availability, presence and connection | new | 0 | `articles/cuebly-app/availability-presence.md` |
-| `cuebly-app/faq` | FAQ - mobile app | rewrite | 3 | `articles/cuebly-app/faq.md` |
-| `cuebly-app/geofencing` | App geofencing | rewrite | 1 | `articles/cuebly-app/geofencing.md` |
-| `cuebly-app/onboarding` | Onboarding | rewrite | 0 | `articles/cuebly-app/onboarding.md` |
-| `cuebly-app/send-help` | Send an alarm with the app | new | 2 | `articles/cuebly-app/send-help.md` |
-| `cuebly-app/settings` | App settings | rewrite | 2 | `articles/cuebly-app/settings.md` |
-| `cuebly-app/timer-alarm` | Timer alarm | new | 1 | `articles/cuebly-app/timer-alarm.md` |
-| `customer-environment` | Customer environment | rewrite | 0 | `articles/customer-environment.md` |
-| `customer-environment/alerts` | Alerts | rewrite | 2 | `articles/customer-environment/alerts.md` |
-| `customer-environment/alerts/script` | Close an alarm with the closing script | rewrite | 1 | `articles/customer-environment/alerts/script.md` |
-| `customer-environment/dashboards` | Dashboards | rewrite | 2 | `articles/customer-environment/dashboards.md` |
-| `customer-environment/devices/devcon-v4` | Change device settings (DevCon V4) | new | 2 | `articles/customer-environment/devices/devcon-v4.md` |
-| `customer-environment/scenarios` | Scenarios | rewrite | 2 | `articles/customer-environment/scenarios.md` |
-| `customer-environment/scenarios/actions` | Scenario actions | rewrite | 4 | `articles/customer-environment/scenarios/actions.md` |
-| `customer-environment/scenarios/triggers` | Scenario triggers | rewrite | 6 | `articles/customer-environment/scenarios/triggers.md` |
-| `customer-environment/teams` | Teams | rewrite | 2 | `articles/customer-environment/teams.md` |
-| `customer-environment/users` | Users and permissions | rewrite | 2 | `articles/customer-environment/users.md` |
-| `home` | Cuebly Wiki home | rewrite | 0 | `articles/home.md` |
-| `reseller-environment/account-management` | Account management | rewrite | 1 | `articles/reseller-environment/account-management.md` |
-| `reseller-environment/device-management` | Device management (correction: ARC scenario) | correction | 1 | `articles/reseller-environment/device-management-arc-fix.md` |
-| `reseller-environment/device-management/add-app-user` | Add an app user | new | 1 | `articles/reseller-environment/device-management/add-app-user.md` |
-| `reseller-environment/device-management/import-devices` | Import devices from a file | new | 0 | `articles/reseller-environment/device-management/import-devices.md` |
-| `reseller-environment/presentation-mode` | Presentation mode | new | 1 | `articles/reseller-environment/presentation-mode.md` |
+| Wiki path | Title | Kind | Status | Open marks | Draft |
+|---|---|---|---|---|---|
+| `customer-environment/devices/devcon-v4` | Change device settings (DevCon V4) | new | review | 1 | `articles/customer-environment/devices/devcon-v4.md` |
+| `reseller-environment/device-management/add-app-user` | Add an app user | new | review | 1 | `articles/reseller-environment/device-management/add-app-user.md` |
+| `reseller-environment/presentation-mode` | Presentation mode | new | review | 0 | `articles/reseller-environment/presentation-mode.md` |
+| `about-cuebly/supported-languages` | Supported languages | rewrite | check | 0 | `articles/about-cuebly/supported-languages.md` |
+| `cuebly-app` | Cuebly app | rewrite | check | 3 | `articles/cuebly-app.md` |
+| `cuebly-app/availability-presence` | Availability, presence and connection | new | check | 0 | `articles/cuebly-app/availability-presence.md` |
+| `cuebly-app/faq` | FAQ - mobile app | rewrite | check | 2 | `articles/cuebly-app/faq.md` |
+| `cuebly-app/geofencing` | App geofencing | rewrite | check | 1 | `articles/cuebly-app/geofencing.md` |
+| `cuebly-app/onboarding` | Onboarding | rewrite | check | 0 | `articles/cuebly-app/onboarding.md` |
+| `cuebly-app/send-help` | Send an alarm with the app | new | check | 1 | `articles/cuebly-app/send-help.md` |
+| `cuebly-app/settings` | App settings | rewrite | check | 2 | `articles/cuebly-app/settings.md` |
+| `cuebly-app/timer-alarm` | Timer alarm | new | check | 1 | `articles/cuebly-app/timer-alarm.md` |
+| `customer-environment` | Customer environment | rewrite | check | 0 | `articles/customer-environment.md` |
+| `customer-environment/alerts` | Alerts | rewrite | check | 2 | `articles/customer-environment/alerts.md` |
+| `customer-environment/alerts/script` | Close an alarm with the closing script | rewrite | check | 1 | `articles/customer-environment/alerts/script.md` |
+| `customer-environment/dashboards` | Dashboards | rewrite | check | 2 | `articles/customer-environment/dashboards.md` |
+| `customer-environment/scenarios` | Scenarios | rewrite | check | 2 | `articles/customer-environment/scenarios.md` |
+| `customer-environment/scenarios/actions` | Scenario actions | rewrite | check | 4 | `articles/customer-environment/scenarios/actions.md` |
+| `customer-environment/scenarios/triggers` | Scenario triggers | rewrite | check | 6 | `articles/customer-environment/scenarios/triggers.md` |
+| `customer-environment/teams` | Teams | rewrite | check | 2 | `articles/customer-environment/teams.md` |
+| `customer-environment/users` | Users and permissions | rewrite | check | 2 | `articles/customer-environment/users.md` |
+| `home` | Cuebly Wiki home | rewrite | check | 0 | `articles/home.md` |
+| `reseller-environment/account-management` | Account management | rewrite | check | 1 | `articles/reseller-environment/account-management.md` |
+| `reseller-environment/device-management` | Device management (correction: ARC scenario) | correction | check | 1 | `articles/reseller-environment/device-management-arc-fix.md` |
+| `reseller-environment/device-management/import-devices` | Import devices from a file | new | check | 0 | `articles/reseller-environment/device-management/import-devices.md` |
 
 **Not written, waiting for facts:** N6 custom views and N14 quick button (custom views hidden behind a feature switch, B14, B20), N10 Groups in the app (covered by the `cuebly-app` rewrite for now), N11 what is new in V4 (after the rewrites), N15 to N17 device types (no device facts in Tess's knowledge yet: features, configuration, connection settings), N18 messages in the app (proposal 009), N19 alarm centre management (steps needed from Tess), and the rewrites of `customer-environment/devices`, `geofences`, `contacts`, `beacons`, `reseller-environment/device-management`, `user-management`, `beacon-management`, `translations` and the device pages (each needs a Tess check first, see the tables above).
 

@@ -2,7 +2,7 @@
 path: reseller-environment/presentation-mode
 title: Presentation mode
 description: See a customer account the way the customer sees it, and choose which device settings the customer may see
-status: check
+status: review
 sources: frontend-design knowledge/modules/presentation-mode.md and its wiki notes, screenshots current/platform-v4/presentation-mode/ (Tess, V4 dev and frontend code, 2026-10-21)
 last fact check: 2026-10-21
 author: David van der Berg
@@ -60,10 +60,6 @@ Switch presentation mode **on** to check the result: the eye icons are gone and 
 - **Hiding is not switching off.** Hiding a setting does not change the setting on the device. To switch a feature off, change the setting itself (for example **Enabled**), and then hide it if the customer should not change it back.
 - **Change first, then hide.** A change in DevCon V4 is stored right away. If you change a setting and then hide it, your change stays.
 
-## Other things presentation mode hides
-
-With presentation mode on, the platform also hides some other details, for example the device id next to the device name in alarm details, and the instructions field on alarm protocol cards. [unverified in V4: taken from the platform code]
-
 ## Scenarios
 
 In V4, scenarios cannot be hidden from the customer. All scenarios are shown, with presentation mode on and off.
@@ -78,15 +74,13 @@ In V4, scenarios cannot be hidden from the customer. All scenarios are shown, wi
 
 ## Draft notes (remove before publishing)
 
-- **Customer user's view not tested live** (no web login for a customer user yet). From the code, hidden items are always enforced for users who cannot present as customer. Verify with a customer login before publishing.
-- **"Every device of that type"**: the module says the policy is per account and "applies to every device of that type in the account". Confirm whether hiding a General setting on a Mobile App Lite also hides a General group on an EV04 (same group key), or only on the same type.
-- **Two managers at once:** each eye click writes the whole account setting; not tested whether one overwrites the other. Leave out unless it proves to be a problem.
-- **Who sees the icon:** account managers who manage the account, and V3 shadow users (`canPresentAsCustomer`). "V3 shadow user" is left out of the customer text.
-- **Removed from the text after Manon's review (no workarounds for gaps, no invented intent):**
-  - Every group hidden gives the customer an empty panel without explanation: ticket draft **B67**. Describe the intended behaviour once Jarno answers Q10.
-  - With Timer alarm hidden, the app still shows Set timer alarm (screenshot 07): hiding works on the web only. Whether the app should follow is open (Q10 area); Art's images 06 and 07 are not used for now.
-  - Why the switch turns on after every page load is not documented; ticket draft **F31** asks to remember the choice. The text only says what happens.
-  - Hiding scenarios: ticket draft **F30**. The text states the fact that V4 cannot hide scenarios.
-- **Open questions for Jarno** (from Tess): should V4 hide scenarios again; should the choice be remembered after reload; what should a customer see when every group is hidden. Update the article when answered.
-- **Other hidden details:** device id and protocol instructions come from code; alarm protocols have no menu in V4 customer environments (wiki report). Verify or drop that section.
-- **Images:** Art's set `wiki-images/presentation-mode/` (frontend-design main), from Tess's screenshots. Paths in the article are relative to `wiki-images/`; adjust to the wiki's upload folder when publishing.
+**For Jarno to decide (Q10):**
+
+1. **Remember the choice?** Today presentation mode switches on after every page load or login (ticket draft F31 asks to remember it). The article describes today's behaviour.
+2. **Every group hidden:** the customer then sees an empty settings panel without explanation (ticket draft B67). What should the customer see? The article leaves this out until decided.
+3. **Hide scenarios again?** V4 cannot hide scenarios (ticket draft F30). The article says so; update if F30 is built.
+4. **The app:** hiding works in DevCon on the web only; the app still shows a hidden feature (for example Set timer alarm). Intended, or should the app follow? Left out of the article.
+
+**One check for Tess before publishing:** the customer's own view was checked with presentation mode on, not yet with a customer user's login.
+
+Verified by Tess (V4 dev and the web frontend code, 2026-10-21): the icon, its tooltip and colours, on after every page load, the eye icons, the red crossed eye and its tooltip, saving at once for the whole account and every device of that type, hiding does not change the device setting, scenarios cannot be hidden, presentation pages are a different feature. Left out: other details hidden by presentation mode (from code only). Images: Art's `presentation-mode` set 01 to 05, from Tess's screenshots.

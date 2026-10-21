@@ -57,3 +57,4 @@ In team overviews, a member counts as available only when the device is online a
 - **Create steps:** Tess documented the card, not the full create flow. Verify the steps and button labels.
 - **Message dialog:** the V3 page showed a summary of recipients before sending. Not verified in V4.
 - **Images:** Art's `teams/teams-01-team-card.png`. It shows "Tess QA team"; Jarno's demo names question is open (Q6).
+- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-04-connection-availability-presence.png`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).

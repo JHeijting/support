@@ -90,3 +90,4 @@ Sends the event, with the device and its location, to your own system. For the r
 - **"For concerning device"** did not show the message in the app in one geofence test (B36, to verify). Keep an eye on it before publishing.
 - **Webhook example on the old Scenarios page:** see Q5 (credentials).
 - **Images:** Art's `create-a-scenario/create-a-scenario-03-add-action.png` and `-04-text-message-action.png`.
+- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-02-scenario.png`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).
