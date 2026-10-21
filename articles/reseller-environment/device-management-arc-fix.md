@@ -1,5 +1,6 @@
 ---
 path: reseller-environment/device-management
+title: Device management (correction: ARC scenario)
 section: Connect a device to your alarm receiving center (ARC), last part
 type: correction (replace one passage on the live page; the full page rewrite comes later)
 status: check

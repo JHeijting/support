@@ -20,7 +20,8 @@ For a fast close without the steps, use **Quick close**. See [Alerts](/en/custom
 1. Go to **Alerts** and open the alarm under **Open alerts**.
 2. Click **Close alarm** and choose **Start closing script**.
 
-![The Close alarm menu with Start closing script and Quick close](image: closing-script-01-menu)
+![The detail of an open SOS button alarm with the Close alarm menu open. Marker 1 points at the Close alarm button, marker 2 at Start closing script. Quick close is the second option in the menu. On the right, the What happened timeline.](/wiki-images/handle-an-alarm/handle-an-alarm-02-close-alarm-menu.png)
+*Click Close alarm (1) and choose Start closing script (2). Quick close closes the alarm without the script.*
 
 ## The steps
 
@@ -47,7 +48,8 @@ Ask the user what happened and offer your help. Then choose the outcome:
 | **Situation not (yet) clear** | You cannot tell yet what is going on |
 | **No answer** | Nobody answered the call |
 
-![The outcome step of the closing script](image: closing-script-02-outcome)
+![The outcome step of the closing script, titled Offer your help and ask what you can do. Marker 1 points at the outcome buttons: It was a false or test alarm, Verified alarm, Situation not (yet) clear, and No answer.](/wiki-images/handle-an-alarm/handle-an-alarm-04-choose-outcome.png)
+*Choose what happened (1). Then add your notes and click Close alarm.*
 
 ### 4. Notes and close
 

@@ -22,7 +22,11 @@ Presentation mode is not the same as a presentation page. A presentation page is
    - **Green**: presentation mode is **on**. You see what the customer sees.
    - **Grey**: presentation mode is **off**. You see everything.
 
-![The presentation mode icon, on (green) and off (grey)](image: presentation-mode-01-icon)
+![The bottom of the left menu in a customer account. Marker 1 points at the presentation mode icon next to the language selector. The icon is green: presentation mode is on.](/wiki-images/presentation-mode/presentation-mode-01-icon-on.png)
+*The presentation mode icon sits at the bottom of the menu, next to the language (1). Green means on: you see the account as the customer's users see it.*
+
+![The bottom of the left menu with the presentation mode icon grey, which means off. A tooltip reads: Toggle presentation mode for customers on/off.](/wiki-images/presentation-mode/presentation-mode-02-icon-off.png)
+*Click the icon to switch presentation mode off (1). Grey means off. After every page load or new login it is on again.*
 
 **Presentation mode is always on when you start.** Every time you open or reload a page, or log in again, it is switched on. This is on purpose: you never show a customer something by accident. Switch it off again when you need it.
 
@@ -37,15 +41,18 @@ In **DevCon V4** you can hide a group of settings, or a single setting, from the
 3. Every group (for example **General**) and every setting has an eye icon on the right.
 4. Click the eye of the group or setting you want to hide.
 
-![DevCon V4 with presentation mode off: an eye icon on every group and setting](image: presentation-mode-02-eye-icons)
+![The device configurator of an app device with presentation mode off. Marker 1 points at the grey presentation mode icon. Marker 2 points at the eye icon of the group General, marker 3 at the eye icon of one setting. Every group and setting has an eye icon.](/wiki-images/presentation-mode/presentation-mode-03-devcon-off-eye-icons.png)
+*With presentation mode off (1), every group (2) and every setting (3) in the device configurator has an eye icon. Click an eye to hide that group or setting from the customer's users.*
 
 What you hid stays visible to you, greyed out, with a red crossed eye. Hover over it to see "Account user can't see this section". Click the eye again to show it to the customer again.
 
-![A hidden group and a hidden setting, greyed out with a red crossed eye](image: presentation-mode-03-hidden-greyed)
+![The device configurator with presentation mode off and items hidden. Marker 1 points at a red crossed eye on the group General, with the tooltip: Account user can't see this section. Marker 2 points at the Timer alarm setting, greyed out because it is hidden.](/wiki-images/presentation-mode/presentation-mode-04-hidden-greyed-out.png)
+*A hidden group or setting shows a red crossed eye (1) and stays visible to you, greyed out (2). The change is saved at once, for every device of this type in the account.*
 
 Switch presentation mode **on** to check the result: the eye icons are gone and the hidden items are not shown, exactly as the customer sees it.
 
-![DevCon V4 as the customer sees it](image: presentation-mode-04-customer-view)
+![The device configurator of an app device with presentation mode on. Marker 1 points at the green presentation mode icon. Marker 2 points at the group General, which has no eye icon. Hidden items are not shown at all.](/wiki-images/presentation-mode/presentation-mode-05-devcon-customer-view.png)
+*With presentation mode on (1) there are no eye icons (2) and hidden items are left out: this is what the customer's users see.*
 
 ### Good to know
 
@@ -53,6 +60,12 @@ Switch presentation mode **on** to check the result: the eye icons are gone and 
 - **Hiding is not switching off.** Hiding a setting only changes what the customer's users see in DevCon on the web. It does not change the setting on the device, and it does not change the app. For example: with **Timer alarm** hidden, the app user still sees **Set timer alarm** in the app. To switch a feature off, change the setting itself (for example **Enabled**), and then hide it if the customer should not change it back.
 - **Change first, then hide.** A change in DevCon V4 is stored right away. If you change a setting and then hide it, your change stays.
 - **Do not hide every group.** If you hide all groups of a device, the customer sees an empty settings panel with only the device name.
+
+![The device configurator as the customer sees it when every group is hidden: the panel shows only the device name and is otherwise empty.](/wiki-images/presentation-mode/presentation-mode-06-all-hidden-empty.png)
+*If you hide every group, the customer sees an empty panel with only the device name (1), without an explanation.*
+
+![The Settings screen of the Cuebly app. Marker 1 points at Set timer alarm, which still shows although the Timer alarm setting is hidden in the device configurator.](/wiki-images/presentation-mode/presentation-mode-07-app-not-affected.png)
+*Hiding only changes what the customer's users see in the device configurator on the web. The app is not affected: Set timer alarm still shows (1).*
 
 ## Other things presentation mode hides
 
@@ -78,4 +91,4 @@ In V4, scenarios cannot be hidden from the customer. All scenarios are shown, wi
 - **Who sees the icon:** account managers who manage the account, and V3 shadow users (`canPresentAsCustomer`). "V3 shadow user" is left out of the customer text.
 - **Open questions for Jarno** (from Tess): should V4 hide scenarios again; should the choice be remembered after reload; what should a customer see when every group is hidden. Update the article when answered.
 - **Other hidden details:** device id and protocol instructions come from code; alarm protocols have no menu in V4 customer environments (wiki report). Verify or drop that section.
-- **Images:** requested from Art (presentation-mode-01 to 04). Sources: `current/platform-v4/presentation-mode/01` and `02` (icon), `04` (eye icons), `05` (hidden greyed), `03` (customer view). Optional fifth image from `06` (empty panel) if Jarno wants the warning illustrated.
+- **Images:** Art's set `wiki-images/presentation-mode/` (frontend-design main), from Tess's screenshots. Paths in the article are relative to `wiki-images/`; adjust to the wiki's upload folder when publishing.

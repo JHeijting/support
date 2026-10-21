@@ -20,7 +20,8 @@ With **DevCon** you change the settings of a device from the platform, over the 
 
 DevCon opens on the right. The settings are grouped, for example **General**, **Wifi**, **Sound**, **Man down**, **Alarm numbers**, **Trusted numbers** and **Periodic positioning**. Which groups you see depends on the device type.
 
-![DevCon V4 next to the device cards](image: devcon-v4-01-open)
+![The Devices page with the card of the Cuebly app open and the device configurator on the right. Marker 1 points at the gear icon on the card, marker 2 at the header of the device configurator with the device name and the save, history and menu icons.](/wiki-images/app-custom-views/app-custom-views-04-devcon-open.png)
+*Click the gear icon on a device card (1). The device configurator opens on the right (2).*
 
 ## Change a setting
 
@@ -37,7 +38,8 @@ Changes are stored on the platform at once, even before you sync. Keep this in m
 2. Check the list of settings to be saved and click **Save**.
 3. Choose whether the device restarts now. Most settings only take effect after a restart.
 
-![The Save configuration dialog with the settings to be saved](image: devcon-v4-02-sync)
+![The Save configuration dialog over the app settings, listing Custom views going to 1 items. Marker 1 points at the save icon with a badge for one change, marker 2 at the orange count next to the group General, marker 3 at the Save button in the dialog.](/wiki-images/app-custom-views/app-custom-views-03-sync-changes.png)
+*A badge on the save icon (1) and an orange count on the group (2) show changes that the app does not have yet. Click the save icon, check the list and click Save (3). The undo arrow next to the save icon discards the changes.*
 
 If the device is offline, it receives the settings when it connects again. [unverified for DevCon V4]
 

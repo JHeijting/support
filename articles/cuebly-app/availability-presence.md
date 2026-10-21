@@ -27,7 +27,8 @@ To change it, the user taps the **Available** switch on the **Home** screen of t
 - **Available**: the user receives messages and assistance requests.
 - **Not available**: the user does not receive them.
 
-![The Available switch on the Home screen](image: availability-01-home-switch)
+![The home screen of the Cuebly app with the Send help! button and, below it, the Status card. Marker 1 points at the Status card with the Available switch turned on.](/wiki-images/cuebly-app/cuebly-app-05-availability-switch.png)
+*Switch Available on or off under Status (1).*
 
 ## Presence
 

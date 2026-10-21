@@ -53,7 +53,8 @@ Logs you out of the app. Logout stays in Settings on purpose, so it is not press
 
 At the bottom, **Version** shows the version of the app.
 
-![Settings in the Cuebly app](image: app-settings-01)
+![The Settings screen of the Cuebly app: the user's name, Availability with the Available switch, Status of Notifications, Critical alerts and Location, Timer with Set timer alarm, Shortcuts with SOS shortcuts, and Language. The email address and device number are hidden.](/wiki-images/cuebly-app/cuebly-app-07-settings.png)
+*Settings in the Cuebly app.*
 
 ## What changed from the previous app
 

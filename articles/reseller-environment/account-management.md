@@ -20,7 +20,8 @@ You find account management in two places in the menu:
 
 What you see in the menu depends on your permissions.
 
-![The Accounts table with the toolbar and the row actions](image: account-management-01-accounts)
+![The Accounts page of the account manager environment, with a table of customer accounts. Marker 1 points at Accounts in the left menu, marker 2 at the Add button above the table.](/wiki-images/create-a-customer-account/create-a-customer-account-01-accounts-add.png)
+*Open Accounts (1) and click Add (2).*
 
 ## Accounts or sub-account managers
 
@@ -41,7 +42,8 @@ When you create a new account, you choose what it is:
 
 Only the account name is required.
 
-![The Add account form with Account and Sub-account manager](image: account-management-02-add-account)
+![The form for a new account. Marker 1 points at the choice between Account and Sub-account manager, marker 2 at Own reference, marker 3 at Account name, marker 4 at the language, marker 5 at the list of users that may manage the account. End of trial period is below the list.](/wiki-images/create-a-customer-account/create-a-customer-account-02-new-account-form.png)
+*Choose Account (1), fill in your own reference if you use one (2), the account name (3) and the language (4). Tick the users that may manage this account (5). Then click Save at the bottom right.*
 
 You can also start from the tree: go to **Account management**, select your account manager, and click **Add account** or **Add sub-account manager**.
 
@@ -59,7 +61,8 @@ On Edit you also find these settings:
 | **Location maximum validity** | How long the last known location of a device stays visible | Always show last known location |
 | **Alarm auto-close after** | Alarms that nobody closed by hand are closed automatically after this period | 30 days |
 
-![The Edit account form with Location maximum validity and Alarm auto-close after](image: account-management-03-edit-account)
+![The Edit account form. Marker 1 points at the Sub-account manager switch, marker 2 at Location maximum validity (Always show last known location), marker 3 at Alarm auto-close after (30 days).](/wiki-images/create-a-customer-account/create-a-customer-account-04-edit-account.png)
+*When you edit an account you can also turn it into a sub-account manager (1), set how long a location stays valid (2) and after how many days open alarms close automatically (3).*
 
 ## Log in to a customer environment
 
@@ -91,7 +94,8 @@ Click the dots icon at the end of the row in **Accounts**:
 
 Use **Show archive** to also show archived items in the tree.
 
-![The Account management tree with the detail panel](image: account-management-04-tree)
+![The Account management page. Marker 1 points at the tree with the account manager and the customer account beneath it. Marker 2 points at Edit, Add account and Add sub-account manager in the detail panel. Marker 3 points at the list of users with New user. The e-mail address of the user is hidden.](/wiki-images/create-a-customer-account/create-a-customer-account-05-account-tree.png)
+*Account management shows your account managers and accounts as a tree (1). Select one to edit it or add an account or sub-account manager beneath it (2), and to manage its users (3).*
 
 ### Users of a sub-account manager
 

@@ -27,7 +27,8 @@ A banner on the **Home** screen shows the time left.
 
 When you are safe, tap **Cancel** on the banner on the **Home** screen. The timer stops at once.
 
-![The timer banner on Home with Cancel](image: timer-alarm-02-banner)
+![The home screen of the Cuebly app. Marker 1 points at the large red Send help! button, marker 2 at the Status card with the Available switch, marker 3 at a running SOS Timer banner with 23:54 left and a Cancel button, marker 4 at the bottom bar with Home, Groups, Views and Settings.](/wiki-images/cuebly-app/cuebly-app-02-home.png)
+*Hold Send help! for 3 seconds to send an alarm (1). Switch your availability under Status (2). A running timer alarm shows at the top, with Cancel (3). The bottom bar (4) leads to Groups, Views and Settings.*
 
 ## What happens when time runs out
 

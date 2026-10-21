@@ -30,7 +30,8 @@ You need no app licenses for this.
 5. Fill in a **device name**, for example the user's name. The name is used in alarms and in scenario messages.
 6. Click **Save**. The message "Device has been saved" appears.
 
-![The Add device form for Mobile App Lite, creating a new user](image: add-app-user-01-create-user)
+![The New device form for the Cuebly app with create new user chosen. Marker 1 points at the create new user option, marker 2 at First name, marker 3 at Email address, marker 4 at the ticked Inform user by email box, marker 5 at Device name. Last name is optional.](/wiki-images/add-an-app-user/add-an-app-user-03-new-user.png)
+*For someone without a login, choose create new user (1). Fill in the first name (2) and email address (3). Keep Inform user by email ticked (4) so the user gets their login details. Give the device a name (5) and click Save.*
 
 ## What the user does next
 
@@ -46,7 +47,8 @@ You need no app licenses for this.
 
 After login the app shows the branding of the customer's account.
 
-![The onboarding summary in the app](image: add-app-user-02-onboarding-complete)
+![The last onboarding screen of the Cuebly app, titled Welcome: You're all set. Marker 1 points at the list Location, Notifications, Critical alerts, Microphone and Allow app, each marked Enabled.](/wiki-images/cuebly-app/cuebly-app-01-onboarding-complete.png)
+*At the end of the onboarding the app shows which permissions are on (1). You can change them later in the phone settings.*
 
 ## Where the app user shows up
 

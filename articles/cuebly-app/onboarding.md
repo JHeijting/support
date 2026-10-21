@@ -31,8 +31,11 @@ Tap **Continue** to go to the next step. The dots at the bottom show where you a
 
 If a permission is already given, the step shows a check mark.
 
-![The location step of the onboarding](image: onboarding-01-location)
-![The summary at the end of the onboarding](image: onboarding-02-complete)
+![The Location step of the Cuebly app onboarding. Marker 1 points at the title Location and the text: your location will only be sent when you make an alarm. Marker 2 points at the Continue button.](/wiki-images/cuebly-app/cuebly-app-06-onboarding-location.png)
+*The app explains why it needs your location (1). Tap Continue (2) and allow location access all the time in the phone settings.*
+
+![The last onboarding screen of the Cuebly app, titled Welcome: You're all set. Marker 1 points at the list Location, Notifications, Critical alerts, Microphone and Allow app, each marked Enabled.](/wiki-images/cuebly-app/cuebly-app-01-onboarding-complete.png)
+*At the end of the onboarding the app shows which permissions are on (1). You can change them later in the phone settings.*
 
 ## Change a permission later
 
