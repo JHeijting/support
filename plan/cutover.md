@@ -80,6 +80,7 @@ All other public pages stay as they are, or get small updates after go-live (dev
 
 - The repo source for images is frontend-design `wiki-images/<set>/`, built by Art from Tess's screenshots. Drafts link to `/wiki-images/<set>/<file>`.
 - In the wiki, drafts use asset folders under `drafts/` (for example `drafts/presentation-mode`).
+- Before an image goes into a wiki draft or live page, check frontend-design `wiki-images/wiki-drafts-image-map.md`: images with status "old test names" wait for Tess's retake and Art's re-render. Open now: presentation mode 03 to 05 (already in `drafts/presentation-mode`, to be replaced under the same names).
 - **At go-live each page's images move with it:** upload them to the page's final asset folder, named after the page's section and slug (for example `reseller-environment/presentation-mode`), change the image links in the page, and check the page as a guest. Old V3 screenshots that a rewritten page no longer uses can then be removed.
 - Art's concept diagrams (`wiki-images/diagrams/`) are used in several drafts. The alt text of the DevCon sync diagram said "DevCon V4" and "legacy DevCon" (now removed from the draft). If the image itself shows those words, Art must re-render it without version names before go-live.
 

@@ -76,6 +76,7 @@ The alarm moves to **Closed alerts**. The closed alarm shows your notes and the 
 
 ## Draft notes (remove before publishing)
 
+- **Q8 answered (Jarno, relayed by Manon, 2026-10-21):** the closing script is fixed today; scripts that customers build themselves are planned (Art makes proposal 010). The article describes only today's fixed script and promises nothing about the new one. Rewrite when proposal 010 is built.
 - **Follow-up protocol not in V4 yet** (Jarno): the V3 script had steps for connection established, cancellation code check, guardians and emergency services. The article describes only what V4 does today. Extend when the follow-up protocol is built.
 - **What each outcome leads to:** wiki report: not verified, the outcome is stored with the closed alarm. Ask Jarno before publishing.
 - **Alarm protocols:** wiki report: no protocols menu in the V4 customer environment, but the device card has an "Alarm protocol" field. Check with Jarno where panic word and cancellation code are set in V4.
