@@ -4,7 +4,7 @@ title: Change device settings (DevCon V4)
 description: Change the settings of a device over the air, sync them and undo changes
 status: check
 sources: frontend-design knowledge/modules/devices.md, glossary.md (DevCon V4), screenshots current/platform-v4/devices/ (Tess, V4 dev, 2026-10-20 and 2026-10-21)
-last fact check: 2026-10-21
+last fact check: 2026-10-21 (updated with Tess's wiki report, T4)
 author: David van der Berg
 ---
 
@@ -58,15 +58,23 @@ The history button shows earlier changes. [unverified: what the history shows]
 
 For an app device (type Mobile App Lite), DevCon has the group **General** with:
 
-- **Features**, such as PTT, Teams and Timer. Each has a switch **Enabled**, and a switch **Change device configuration**.
-- **Custom views**: pages of tiles for the app. See [Custom views](/en/customer-environment/devices/custom-views). [page not written yet]
+- **Features**, such as **Voice connection on alarm**, **Teams** and **Timer alarm**. Each feature has two switches:
+  - **Enabled**: whether the feature is on when the app starts.
+  - **Change device configuration**: whether the app user may change the feature in the app's Settings.
+- **Custom views**: pages of tiles for the app. Creating a view and choosing where custom views appear are stored on the platform at once; the app receives them with the next sync. See [Custom views](/en/customer-environment/devices/custom-views). [page not written yet]
+
+The app's own Settings no longer has sound, inactivity or geofence settings. You set the app's features here, per device.
+
+## Hide settings from the customer
+
+Account managers can hide a group or a single setting of DevCon V4 from the customer's users, with the eye icons that appear when presentation mode is off. See [Presentation mode](/en/reseller-environment/presentation-mode).
 
 ---
 
 ## Draft notes (remove before publishing)
 
-- **What does "Change device configuration" under each app feature do?** Open question in devices.md; probably whether the app user may change it. Explain once confirmed.
-- **Custom views:** created views are saved to the platform at once, although the help text says to use the save button. Which action sends them to the app is an open question. Custom views also only show in the app after a hidden feature switch on dev (B14, B20). The custom views page (N6) is held until that is resolved.
+- **Answered (wiki report):** "Change device configuration" = may the app user change it in the app (`userConfigurable`); "Enabled" = the value the app starts with. Proposal 007 suggests one switch plus a lock; update if built.
+- **Custom views:** answered in the wiki report: saving stores at once, the device gets it with the sync (v4-platform#443 point 10 covers the misleading help text). Custom views also only show in the app after a hidden feature switch on dev (B14, B20). The custom views page (N6) is held until that is resolved.
 - **Offline devices:** from the V3 page; not verified for DevCon V4.
 - **Save, open, download or upload a configuration, Run diagnostics:** V3 configurator features. Not seen in DevCon V4 by Tess; left out.
 - **Which devices use DevCon V4:** code says V4 and Emerit devices; on V4 dev every device opens DevCon V4. Confirm for production.

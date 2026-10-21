@@ -4,7 +4,7 @@ title: Timer alarm
 description: Set a timer in the Cuebly app that raises an alarm if you do not cancel it in time
 status: check
 sources: frontend-design knowledge/2026-10-21-fact-sheet-v4-and-app.md, modules/mobile-app.md, glossary.md (night test, app 1.4.0, 2026-10-21)
-last fact check: 2026-10-21
+last fact check: 2026-10-21 (updated with Tess's wiki report, T4)
 author: David van der Berg
 ---
 
@@ -39,7 +39,8 @@ When you are safe, tap **Cancel** on the banner on the **Home** screen. The time
 
 - A timer alarm is an alarm like any other. Handle it in **Alerts**, and use the scenario trigger **Timer** to warn colleagues or an alarm receiving centre.
 - A scenario can also start or stop the timer on a device with the action **Toggle timer alarm**.
-- In DevCon V4, the feature **Timer** can be switched on or off per app device. [unverified: what the user sees when it is off]
+- In DevCon V4, the feature **Timer alarm** has two switches per app device: **Enabled** (whether the timer is on when the app starts) and **Change device configuration** (whether the user may change it in the app). [unverified: what the user sees when it is off]
+- Hiding the Timer alarm setting from the customer with presentation mode does not remove the timer from the app. See [Presentation mode](/en/reseller-environment/presentation-mode).
 
 ---
 
@@ -51,5 +52,5 @@ When you are safe, tap **Cancel** on the banner on the **Home** screen. The time
   - The banner covers the header (F9).
   - When the alarm goes, the app shows nothing to the user (F8). Do not promise feedback in the app.
 - **Where the timer lives:** Settings > Set timer alarm today. Proposal 008 (timer placement) may move it; update when built.
-- **DevCon V4 feature Timer:** "Enabled" and "Change device configuration" switches exist; meaning of the second switch is an open question (devices.md).
+- **DevCon V4 feature Timer alarm:** meaning of both switches answered in the wiki report. Tess saw "Set timer alarm" still shown in the app with the setting hidden (presentation mode screenshot 07).
 - **Images:** requested from Art (timer-alarm-01, 02). Source screenshots: `current/app-v4/09-timer-nl.png` (Dutch, an English one is needed), `current/app-v4/10-timer-banner-en.png`.

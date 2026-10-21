@@ -1,10 +1,10 @@
 # Wiki inventory and V4 update plan
 
-**Owner:** David van den Berg (wiki, cloud)
-**Task:** T2
+**Owner:** David van der Berg (wiki, cloud)
+**Task:** T2, updated in T10 with Tess's wiki report
 **Date:** 2026-10-21
 **Status:** draft for Jarno's review
-**Location:** Business-processes `support-staging/plan/` (the `support` repo does not exist yet; move this file there once it does)
+**Location:** Business-processes `support-staging/plan/` (Manon copies it to the `support` repo)
 
 ## How this was made
 
@@ -12,6 +12,22 @@
 - Page text from the public rendered pages (`https://wiki.cuebly.com/en/<path>`). The GraphQL `pages.single` query is not open without a key (error "You are not authorized to view this page"), so the API alone is not enough to read content.
 - V4 facts from Tess's knowledge in frontend-design `knowledge/` (module files, glossary, fact sheet of 2026-10-21, `2026-10-21-wiki-gaps.md`, `v4-gaps.md`) and the screenshot index in `current/`.
 - **Not verified by Tess** is marked as `(unverified)`. That means the wiki page may still be right for V4, but nobody has checked it on V4 dev yet. Those pages wait for T4 (Tess's wiki report) before anything is rewritten.
+
+## Update after Tess's wiki report (T10)
+
+Tess's report (frontend-design `knowledge/wiki-report.md`, T4) agrees with this inventory on almost every page. What changed here:
+
+- **Presentation mode is documented** (frontend-design `knowledge/modules/presentation-mode.md`). Draft written: `support-staging/articles/reseller-environment/presentation-mode.md` (N1).
+- **The ARC sentence on `reseller-environment/device-management` is wrong for V4:** V4 cannot hide scenarios from the customer. Correction drafted: `support-staging/articles/reseller-environment/device-management-arc-fix.md`.
+- **No menu in the V4 customer environment** for Quick texts, Alarm protocols and Assistance requests. Assistance requests are sent with the scenario action "Send assistance request"; devices have an "Alarm protocol" field. Whether pages come back is a question for Jarno.
+- **Custom dashboards:** not in V4 yet (Jarno). `dashboards` should say so; presentation pages are not the same as presentation mode.
+- **Scenario triggers and actions:** the lists are "as seen on V4 dev" for one test account. Publish them with that label until Jarno confirms.
+- **Beacons** are added by the account manager in V4 (Beacons menu), not only by a Cuebly integrator: `customer-environment/beacons` and `reseller-environment/beacon-management` move from Keep to Update.
+- **Translations:** V4 manages translations in the platform's Translations page and the locale service; the Google Translate remark is outdated: `reseller-environment/translations` moves from Keep to Update.
+- **Device types without a page in V4:** Eview EV-06, EV-07B and EV-12, Twig Neo Ex, Twig remote button, Emerit e-RG360, Ajax hub and wall alarm, Moxa IO, generic device. Added as new pages N15 to N17 (grouped).
+- **New app topics:** SOS shortcuts and the Samsung XCover side button, messages in the app (proposal 009). Added as N18; N12 widened.
+- **Account management in V4** also has adoption (moving an account to another account manager) and ARC pills in the lists. A page for alarm receiving centre management is proposed (N19).
+- **Answers to my questions** are worked into the drafts (DevCon V4 switches, custom view sync, microphone reason, location wording, delete of archived accounts).
 
 ## Two things for Jarno first
 
@@ -22,14 +38,14 @@
 
 | Action | Pages | Meaning |
 |---|---|---|
-| Keep | 40 | Correct as far as we know, no V4 impact, or not product UI (many marked "check") |
-| Update text | 28 | Content is outdated or incomplete for V4 |
+| Keep | 37 | Correct as far as we know, no V4 impact, or not product UI (many marked "check") |
+| Update text | 31 | Content is outdated or incomplete for V4 |
 | Merge | 2 | Fold into another page |
 | Remove or replace | 3 | Page is empty or no longer fits V4 |
 | Restrict | 5 | Internal content, not for customers |
 | **Total** | **78** | |
-| Redo screenshots | 19 (of the pages above) | Images show V3 or the legacy app |
-| New pages | 14 | V4 features without a page |
+| Redo screenshots | 21 (of the pages above) | Images show V3 or the legacy app |
+| New pages | 19 | V4 features and device types without a page |
 
 Counts per page are in the tables below. A page can be both "update text" and "redo screenshots". The device pages are counted as "keep, check" until Tess or Jarno confirms their configuration tables for DevCon V4.
 
@@ -64,7 +80,7 @@ Counts per page are in the tables below. A page can be both "update text" and "r
 | `customer-environment/alerts` | Alerts | 2024-12-19 | Open and closed alerts, quick close, bulk close, auto-close, share, sound, presentation page | V4: list with type, device and time; "Alarm auto-close after" in the header (default 30 days); bulk close is an unlabelled check icon without notes; map on the right. The "show on alarm page" scenario action is not in V4. Share and presentation page not verified | Update, Shots |
 | `customer-environment/alerts/script` | Alarm script | 2025-07-01 | V3 closing script, steps and activity diagram | V4 closing script: alarm type and explanation, panic word and cancellation code, Call device, then the outcome (offer help, false or test alarm, verified alarm, situation not clear, no answer), notes, Close alarm. Time to close is recorded. Full follow-up protocol is not in V4 yet (Jarno) | Update, Shots |
 | `customer-environment/assistance-requests` | Assistance requests | 2025-07-01 | Send manually, response dashboard, statuses | Since V4 an assistance request is an alarm type (glossary). The page is only mounted for accounts that are not V4-only (code). Dashboard tiles New assistance request and Active assistance requests exist | Update, Wait T4 |
-| `customer-environment/beacons` | Beacons | 2025-02-27 | Edit, show on map | Not verified | Keep, check (unverified) |
+| `customer-environment/beacons` | Beacons | 2025-02-27 | Edit, show on map | V4: beacons are added by the account manager (Beacons menu), not only by a Cuebly integrator; map placement issue reported (v4-platform#478) (wiki report) | Update, Shots |
 | `customer-environment/contacts` | Contacts | 2025-07-01 | Contact fields, availability, create user from contact | V4 screenshot exists (`platform-v4/contacts/01-contact.png`), fields not verified | Keep, Shots, check (unverified) |
 | `customer-environment/dashboards` | Dashboards | 2025-07-01 | Custom dashboards, tiles, presentation pages | Conflicting sources: Jarno says custom dashboards are not in V4 yet; Tess saw a dashboard picker with `+` and a tile library on dev. Presentation pages not verified | Update, Shots, Wait T1 |
 | `customer-environment/dashboards/tiles` | Dashboard tiles | 2026-03-10 | Tile descriptions | V4 library: Attendance board, Free text, Live map, Team overview, Device information, Start scenario, Enable or disable scenarios, New assistance request, Active assistance requests, Open alarms, Days without alarms, Credits, Incomplete devices, Update needed, Trial period, iframe. New: iframe, size switch Small, Medium, Large, the orange "needs to be configured" badge. Renamed: Attendance overview to Attendance board, Pending to Active assistance requests. Open alerts tile still on the default dashboard (difference unexplained, B32) | Update |
@@ -85,13 +101,13 @@ Counts per page are in the tables below. A page can be both "update text" and "r
 | `reseller-environment` | Reseller environment | 2025-07-01 | Intro | V4 menu: Accounts, Account management, Devices, Sites, Beacons, Users, About, Wiki, My account (items depend on permissions) | Update |
 | `reseller-environment/account-management` | Account management | 2025-07-01 | Add, edit, login, alarm center, archive, delete | V4: choose Account or Sub-account manager; Users access list; Location maximum validity; Alarm auto-close after; no Timezone, App licenses or Modules (yet); login is an arrow icon, leaving is "Back to admin"; Account management tree; archive confirmation text. Draft: `support-staging/articles/reseller-environment/account-management.md` | Update, Shots |
 | `reseller-environment/account-management/modules` | Account modules | 2025-07-01 | V3 module list | No modules in V4 yet (F1, v4-platform#468; proposal 006 is a direction, not built). Keep for V3 accounts, add a V4 note | Update (short V4 note), rewrite once modules are decided |
-| `reseller-environment/beacon-management` | Beacon management | 2025-07-01 | Add beacon, types, battery reset | Beacons is in the V4 menu; not verified | Keep, check (unverified) |
+| `reseller-environment/beacon-management` | Beacon management | 2025-07-01 | Add beacon, types, battery reset | Beacons is in the V4 menu; not verified | Update, Shots (wiki report: V4 beacon types, beacons at position 0,0 on the map) |
 | `reseller-environment/device-management` | Device management | 2025-10-28 | Add, edit, manage, first connection, ARC, bulk, labels | V4: 40 device types; Mobile App Lite with select or create user; Import devices from `template-devices.xlsx`; Manage sections (Communication and Receive settings "coming soon"); Replace device; devices cannot be added from inside a customer account. Mentions "disable the Presentation mode" for ARC scenarios | Update, Shots, Wait T1 |
 | `reseller-environment/financial` | Financial | 2025-07-01 | Rates | Depends on permissions in V4; not verified | Keep, check (unverified) |
 | `reseller-environment/reports` | Reports | 2025-07-01 | "Coming soon" only | Empty page | Remove until there is content |
 | `reseller-environment/sim-card-management` | SIM card management | 2025-07-01 | SIM overview, manage, alerts | Depends on permissions in V4; not verified | Keep, check (unverified) |
 | `reseller-environment/site-management` | Site management | 2026-03-09 | Add site, manage, beacons | Sites is in the V4 menu (screenshot `platform-v4/account-manager/04-new-site.png`); details not verified | Keep, Shots, check |
-| `reseller-environment/translations` | Translations | 2025-07-01 | Edit translations | Depends on permissions in V4; not verified | Keep, check (unverified) |
+| `reseller-environment/translations` | Translations | 2025-07-01 | Edit translations | Depends on permissions in V4; not verified | Update (wiki report: V4 uses the platform's Translations page and the locale service; the Google Translate remark is outdated) |
 | `reseller-environment/user-management` | User management | 2025-07-01 | Add user, edit, reset, welcome, bulk | V4: New user with first name, last name, email, Inform user by email, and a list of sub-accounts the user can also access; user menu Permissions, Reset password, Delete; a new sub-account manager starts without users | Update, Shots |
 
 ## Cuebly app
@@ -178,7 +194,7 @@ In the wiki's own structure. Status: `draft` means a Markdown draft exists in `s
 
 | # | Path | Title | Source | Status |
 |---|---|---|---|---|
-| N1 | `reseller-environment/presentation-mode` | Presentation mode | T1 (Tess) | Waits for T1 |
+| N1 | `reseller-environment/presentation-mode` | Presentation mode | presentation-mode.md (T1) | Draft |
 | N2 | `reseller-environment/device-management/add-app-user` | Add an app user (Mobile App Lite) | devices.md, mobile-app.md | Draft |
 | N3 | `cuebly-app/timer-alarm` | Timer alarm | fact sheet, mobile-app.md | Draft |
 | N4 | `cuebly-app/availability-presence` | Availability, presence and connection | glossary, fact sheet | Draft |
@@ -186,35 +202,45 @@ In the wiki's own structure. Status: `draft` means a Markdown draft exists in `s
 | N6 | `customer-environment/devices/custom-views` | Custom views and quick buttons in the app | devices.md, scenarios.md | Later: held until custom views show without the hidden switch (B14, B20) |
 | N7 | `reseller-environment/account-management/sub-account-managers` | Sub-account managers | account-management.md | Part of the account management draft |
 | N8 | `reseller-environment/device-management/import-devices` | Import devices from a file | devices.md | Draft |
-| N9 | `customer-environment/users/permissions` | User permissions | account-management.md | Later: wait T4, and proposal 006 may change roles |
+| N9 | `customer-environment/users/permissions` | User permissions | account-management.md, wiki report | Next: V3 roles are replaced by permissions per subject (wiki report); proposal 006 may add roles later |
 | N10 | `cuebly-app/groups` | Teams and locations in the app | mobile-app.md | Later (can be part of the `cuebly-app` rewrite) |
 | N11 | `home/whats-new-in-v4` | What is new in V4 | all of the above | Later, after the first rewrites |
-| N12 | `cuebly-app/send-help` | Send an alarm with the app | fact sheet, mobile-app.md | Later |
+| N12 | `cuebly-app/send-help` | Send an alarm with the app (SOS button, SOS shortcuts, Samsung XCover side button) | fact sheet, mobile-app.md, wiki report | Later: needs Tess's details on SOS shortcuts |
+| N15 | `supported-devices/personal-trackers/eview` (rewrite as overview) | Eview EV-04, EV-06, EV-07B, EV-12 | wiki report, V4 device types | Later: needs device facts |
+| N16 | `supported-devices/personal-trackers/...` | Twig Neo Ex, Twig remote button, Emerit e-RG360 | wiki report | Later: needs device facts |
+| N17 | `supported-devices/gateways/...` | Ajax hub and wall alarm, Moxa IO, generic device | wiki report | Later: needs device facts |
+| N18 | `cuebly-app/messages` | Messages in the app | wiki report, proposal 009 | Later, after proposal 009 |
+| N19 | `reseller-environment/alarm-center-management` | Alarm receiving centre management (links per account and device, pills in lists) | wiki report | Later: needs Tess's steps |
 | N13 | `customer-environment/alerts/closing-script` | Close an alarm with the closing script (V4) | alerts.md | Draft (as a rewrite of `alerts/script`) |
 | N14 | `customer-environment/scenarios/quick-button` | Start a scenario with a quick button | scenarios.md | Later, with N6 |
 
 ## Suggested order
 
-1. Restrict the operations pages (Jarno, minutes of work).
-2. Rewrite `reseller-environment/account-management` (T5, account features as V4 does them today).
-3. Presentation mode (N1) after T1.
-4. App: N2 add an app user, N3 timer alarm, N4 availability and presence, then rewrite `cuebly-app/settings` and `cuebly-app/onboarding`.
-5. Alerts: N13 closing script, then `customer-environment/alerts`.
-6. Scenarios: triggers and actions lists, after Tess confirms which missing ones depend on modules or devices.
-7. Devices: N5 DevCon V4, N8 import devices, then `reseller-environment/device-management`.
-8. Screenshots for each rewritten page, requested from Art per article.
+Updated with Tess's order (wiki report):
+
+1. Restrict the operations pages and remove the empty pages (Jarno).
+2. New pages: add an app user (draft), presentation mode (draft), DevCon V4 (draft). Publish the device management ARC correction together with presentation mode.
+3. App pages: onboarding and settings (drafts), then geofencing, timer alarm, availability and presence (drafts).
+4. Customer environment: users (permissions, N9), scenario triggers and actions ("as seen on V4 dev"), alerts and the closing script (draft).
+5. Reseller: account management (draft), device management full rewrite, import devices (draft).
+6. Supported devices: missing V4 types (N15 to N17) and supported languages (draft).
+7. Screenshots for each rewritten page, requested from Art per article.
 
 ## Open questions
 
-For Tess (T4):
-- Are custom dashboards and presentation pages in V4 or not? Jarno says custom dashboards are not in V4 yet, the dashboard module notes a `+` and a tile library.
-- Do the scenario triggers and actions that are missing on dev depend on devices or modules, or are they gone in V4?
-- Are quick texts, alarm protocols and assistance requests pages going to exist for V4-only accounts?
-- Does the new app still offer assistance requests and e-B10 pairing?
-- Are Financial, SIM card management, Translations and Reports unchanged in V4 for users with permission?
+Answered by Tess in the wiki report: see the table "Answers to David's questions" in frontend-design `knowledge/wiki-report.md`. Still open:
 
 For Jarno:
 - Restrict the operations pages, and confirm the example webhook credentials are dummies.
+- Do Quick texts, Alarm protocols and Assistance requests pages come back for V4 accounts?
+- Do the scenario triggers and actions missing on dev depend on devices or modules?
+- What do the closing script outcomes lead to?
+- Presentation mode: should V4 hide scenarios again, should the choice be remembered after reload, what should a customer see when every DevCon group is hidden?
 - Keep the V3 pages for V3 customers during the change, or replace them? Advice: keep one wiki, and add a short "In V4" note on pages that differ, until all customers are on V4.
 - `about-cuebly`: remove, or write a short company page?
 - `cuebly-app/whitelabel`: replace with the one-app-with-branding explanation?
+
+For Tess:
+- SOS shortcuts and the XCover side button: exact options and steps (for N12).
+- Adoption of an account and alarm centre management: steps (for account management and N19).
+- Financial, SIM card management and Reports for a login with those permissions.

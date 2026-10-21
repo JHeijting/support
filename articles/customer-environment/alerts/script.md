@@ -5,7 +5,7 @@ description: Handle an alarm step by step and record the outcome
 replaces: customer-environment/alerts/script (2025-07-01)
 status: check
 sources: frontend-design knowledge/modules/alerts.md, glossary.md (Closing script), screenshots current/platform-v4/alerts/ (night test on V4 dev, 2026-10-21; Jarno)
-last fact check: 2026-10-21
+last fact check: 2026-10-21 (updated with Tess's wiki report, T4)
 author: David van der Berg
 ---
 
@@ -72,8 +72,8 @@ The alarm moves to **Closed alerts**. The closed alarm shows your notes and the 
 ## Draft notes (remove before publishing)
 
 - **Follow-up protocol not in V4 yet** (Jarno): the V3 script had steps for connection established, cancellation code check, guardians and emergency services. The article describes only what V4 does today. Extend when the follow-up protocol is built.
-- **What each outcome leads to** (for example, whether Verified alarm opens extra steps) is not documented by Tess. Verify on dev.
-- **Alarm protocols** may not exist for V4-only accounts (route only mounted for non-V4-only accounts, code). Check where panic word and cancellation code come from in V4.
+- **What each outcome leads to:** wiki report: not verified, the outcome is stored with the closed alarm. Ask Jarno before publishing.
+- **Alarm protocols:** wiki report: no protocols menu in the V4 customer environment, but the device card has an "Alarm protocol" field. Check with Jarno where panic word and cancellation code are set in V4.
 - **Discrete mode / silent alarm:** the V3 script had an extra listen step for devices in discrete mode. Not seen in V4.
 - **ARC accounts:** in V3 the script runs automatically for alarm receiving centres. Not verified in V4.
 - **Images:** requested from Art (closing-script-01, 02). Sources: `current/platform-v4/alerts/02-alarm-detail-close-menu.png`, `03-closing-script.png`, `04-closing-outcome.png` (this one has a text overlap glitch on the step title; ask Art to pick a clean frame or retake).

@@ -5,7 +5,7 @@ description: Create and manage customer accounts and sub-account managers in Cue
 replaces: reseller-environment/account-management (2025-07-01)
 status: check
 sources: frontend-design knowledge/modules/account-management.md, knowledge/v4-gaps.md, glossary.md (Tess, V4 dev, 2026-10-20 and 2026-10-21)
-last fact check: 2026-10-21
+last fact check: 2026-10-21 (updated with Tess's wiki report, T4)
 author: David van der Berg
 ---
 
@@ -127,7 +127,7 @@ To bring an account back, open it in the archive and choose **Unarchive**.
 
 ## Delete an account
 
-An account must be archived before it can be deleted. Deleting cannot be undone. [unverified]
+As an account manager you cannot delete an account. Archive it instead. To have an archived account deleted, contact Cuebly. [unverified: who deletes, and how]
 
 ## What changed from V3
 
@@ -142,7 +142,9 @@ An account must be archived before it can be deleted. Deleting cannot be undone.
 ## Draft notes (remove before publishing)
 
 - **Hold until bug B1 is fixed** ([v4-platform#463](https://gitlab.development.itelligo.nl/development/docs/v4-platform/-/issues/463)): own reference and language are not saved on V4 dev today. The article describes the intended behaviour.
-- **Delete:** the wiki says an account must be archived first; Tess saw no Delete for her login on V4 dev. Verify who can delete, or drop the section.
+- **Delete (wiki report):** an account manager cannot delete archived accounts in V4. "Contact Cuebly" is an assumption; Jarno to confirm.
+- **Adoption (wiki report):** V4 can move (adopt) an account to another account manager in the tree. Not described yet; Tess to document the steps, then add a section.
+- **ARC pills and device counts** in the Accounts list (wiki report): add one line once the ARC management page exists.
 - **Modules / account features:** not in V4 (F1, v4-platform#468). Proposal 006 is a direction only and is not described here. Once decided, add a section "Features of an account" and update `account-management/modules`.
 - **Timezone (F3, v4-platform#466):** if it comes back, add it to Create and Edit.
 - **F2 (v4-platform#465):** Location maximum validity and Alarm auto-close are only on Edit today. If they move to Add, update step list.

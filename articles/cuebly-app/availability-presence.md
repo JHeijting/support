@@ -4,7 +4,7 @@ title: Availability, presence and connection
 description: The three ways Cuebly shows whether an app user can be reached, and how they differ
 status: check
 sources: frontend-design knowledge/glossary.md (Availability, Presence, Connection; Jarno and night test 2026-10-21), fact sheet 2026-10-21, modules/mobile-app.md
-last fact check: 2026-10-21
+last fact check: 2026-10-21 (updated with Tess's wiki report, T4)
 author: David van der Berg
 ---
 
@@ -43,7 +43,7 @@ Presence can start scenarios with the triggers **Enter geofence**, **Exit geofen
 
 Connection tells whether the device is online. A green dot on a device card or a team member means the device is connected. The app shows **Online** at the top.
 
-A device that is offline cannot receive messages right away. Some scenario actions offer **Also send to app users who are offline**.
+A device that is offline cannot receive messages right away. In the customer environment, the send message icon of an app device is grey when the app user is not available. Some scenario actions offer **Also send to app users who are offline**.
 
 ## How they work together
 
