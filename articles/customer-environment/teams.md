@@ -48,6 +48,9 @@ Click the arrow icon on the team card, write the message and send it. The messag
 
 In team overviews, a member counts as available only when the device is online and the user has switched **Available** on in the app. See [Availability, presence and connection](/en/cuebly-app/availability-presence).
 
+![Three separate states. Connection: is the device online; shown as a green dot on device cards and team chips and as Online in the app header. Availability: does the person want to receive messages and assistance requests; set with the switch on the app's Home screen. Presence: is the device inside a geofence; set by its location and shown on the geofence card as Present and connected or Absent or disconnected, and in the app under Groups, Locations. Together: for a message to everyone in a geofence, only devices that are present and available receive it. In team views a device counts as available only when it is online and its Available switch is on.](/wiki-images/diagrams/diagrams-04-connection-availability-presence.png)
+*Connection, availability and presence are three different things.*
+
 ---
 
 ## Draft notes (remove before publishing)
@@ -57,4 +60,4 @@ In team overviews, a member counts as available only when the device is online a
 - **Create steps:** Tess documented the card, not the full create flow. Verify the steps and button labels.
 - **Message dialog:** the V3 page showed a summary of recipients before sending. Not verified in V4.
 - **Images:** Art's `teams/teams-01-team-card.png`. It shows "Tess QA team"; Jarno's demo names question is open (Q6).
-- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-04-connection-availability-presence.png`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).
+- Diagram `diagrams-04-connection-availability-presence.png` (Q11: diagrams welcome). Its check list: the last line (team views count a device as available only when online and available) follows Jarno, while F17 says the platform does not show availability yet; and the app still uses "Available" for presence (proposal 004).

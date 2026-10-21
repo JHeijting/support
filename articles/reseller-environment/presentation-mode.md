@@ -28,7 +28,7 @@ Presentation mode is not the same as a presentation page. A presentation page is
 ![The bottom of the left menu with the presentation mode icon grey, which means off. A tooltip reads: Toggle presentation mode for customers on/off.](/wiki-images/presentation-mode/presentation-mode-02-icon-off.png)
 *Click the icon to switch presentation mode off (1). Grey means off. After every page load or new login it is on again.*
 
-**Presentation mode is on when you start.** Every time you open or reload a page, or log in again, it is switched on. Switch it off again when you need it.
+**Presentation mode is always on when you log in to a customer account.** It is also switched on again when you reload a page. Switch it off when you need it.
 
 Only account managers who manage the account see the icon. The customer's own users never do.
 
@@ -62,25 +62,26 @@ Switch presentation mode **on** to check the result: the eye icons are gone and 
 
 ## Scenarios
 
-In V4, scenarios cannot be hidden from the customer. All scenarios are shown, with presentation mode on and off.
+In V4, scenarios cannot be hidden from the customer yet. All scenarios are shown, with presentation mode on and off.
 
 ## What changed from V3
 
 - The icon and its place are the same as in V3.
 - New in V4: the eye icons in DevCon V4, to hide groups and settings from the customer.
-- In V3 you could hide a scenario from the customer, for example the scenario that sends alarms to an alarm receiving centre. In V4 that is not possible.
+- In V3 you could hide a scenario from the customer, for example the scenario that sends alarms to an alarm receiving centre. In V4 that is not possible yet.
 
 ---
 
 ## Draft notes (remove before publishing)
 
-**For Jarno to decide (Q10):**
+**Decided by Jarno (Q10, 2026-10-21), waiting to be built:**
 
-1. **Remember the choice?** Today presentation mode switches on after every page load or login (ticket draft F31 asks to remember it). The article describes today's behaviour.
-2. **Every group hidden:** the customer then sees an empty settings panel without explanation (ticket draft B67). What should the customer see? The article leaves this out until decided.
-3. **Hide scenarios again?** V4 cannot hide scenarios (ticket draft F30). The article says so; update if F30 is built.
-4. **The app:** hiding works in DevCon on the web only; the app still shows a hidden feature (for example Set timer alarm). Intended, or should the app follow? Left out of the article.
+1. **Hide scenarios:** scenarios must be hideable from the customer again (ticket draft **F30**). When built, replace the Scenarios section with how to hide one, and remove "yet" in the two places it appears.
+2. **Every group hidden:** the panel must then tell the customer's user that they have no permission to change anything (ticket draft **B67**; today the panel is empty). When fixed, add one line under "Good to know": "If you hide every group of a device, the customer's users see that they have no permission to change its settings."
+3. **Always on when you log in to an account:** intended (F31 "remember the choice" is not wanted). The article describes it as intended.
+
+**Still open:** hiding works in DevCon on the web only; the app still shows a hidden feature (for example Set timer alarm). Intended, or should the app follow? Left out of the article. Not in Q10; ask Jarno if it matters for the article.
 
 **One check for Tess before publishing:** the customer's own view was checked with presentation mode on, not yet with a customer user's login.
 
-Verified by Tess (V4 dev and the web frontend code, 2026-10-21): the icon, its tooltip and colours, on after every page load, the eye icons, the red crossed eye and its tooltip, saving at once for the whole account and every device of that type, hiding does not change the device setting, scenarios cannot be hidden, presentation pages are a different feature. Left out: other details hidden by presentation mode (from code only). Images: Art's `presentation-mode` set 01 to 05, from Tess's screenshots.
+Verified by Tess (V4 dev and the web frontend code, 2026-10-21): the icon, its tooltip and colours, on after every login and page load, the eye icons, the red crossed eye and its tooltip, saving at once for the whole account and every device of that type, hiding does not change the device setting, scenarios cannot be hidden, presentation pages are a different feature. Left out: other details hidden by presentation mode (from code only). Images: Art's `presentation-mode` set 01 to 05, from Tess's screenshots; image 06 (empty panel) is not used, it shows the bug B67.

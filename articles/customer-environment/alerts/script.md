@@ -15,6 +15,9 @@ The closing script guides you through an alarm step by step: what kind of alarm 
 
 For a fast close without the steps, use **Quick close**. See [Alerts](/en/customer-environment/alerts).
 
+![Flow from an alarm in the Cuebly app to a closed alarm, in three lanes. Cuebly app: hold Send help! for 3 seconds, or a timer alarm runs out; the app shows "Alarm is sent" and the alarm goes to the platform. Platform: the alarm appears in Alerts and can start scenarios; alarms not closed by hand close automatically after a set number of days (default 30). Operator: Close alarm, then the closing script (alarm type, Start alarm handling, call the device, outcome, notes) or Quick close; the closed alarm shows the time to close and the notes.](/wiki-images/diagrams/diagrams-01-alarm-flow.png)
+*How an alarm from the app is handled and closed.*
+
 ## Start the closing script
 
 1. Go to **Alerts** and open the alarm under **Open alerts**.
@@ -79,4 +82,4 @@ The alarm moves to **Closed alerts**. The closed alarm shows your notes and the 
 - **Discrete mode / silent alarm:** the V3 script had an extra listen step for devices in discrete mode. Not seen in V4.
 - **ARC accounts:** in V3 the script runs automatically for alarm receiving centres. Not verified in V4.
 - **Images:** requested from Art (closing-script-01, 02). Sources: `current/platform-v4/alerts/02-alarm-detail-close-menu.png`, `03-closing-script.png`, `04-closing-outcome.png` (this one has a text overlap glitch on the step title; ask Art to pick a clean frame or retake).
-- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-01-alarm-flow.png (alarm from the app to Alerts, closing script or Quick close, auto-close)`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).
+- Diagram `diagrams-01-alarm-flow.png` (Q11: diagrams welcome). Its own check list: it stops at Closed (follow-up protocol not in V4 yet) and does not draw app feedback (F8).

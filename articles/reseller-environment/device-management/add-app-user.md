@@ -14,6 +14,9 @@ In Cuebly V4 the app is a device like any other. To give someone the Cuebly app,
 
 You need no app licenses for this.
 
+![How accounts are organised. An account manager (a reseller or Cuebly) has its own users, adds devices and creates accounts and sub-account managers. A sub-account manager creates its own accounts, users and devices, and everything beneath it counts towards the parent. Each account is a separate customer environment with users, devices (the Cuebly app is a device too: Mobile App Lite, linked to an app user) and everything else: scenarios, geofences, teams, contacts and alarms. Account manager users can be ticked per account.](/wiki-images/diagrams/diagrams-03-account-structure.png)
+*Account managers, sub-account managers and accounts.*
+
 ## Before you start
 
 - The customer account exists. See [Account management](/en/reseller-environment/account-management).
@@ -67,6 +70,6 @@ You need no app licenses for this.
 1. **Store links:** the exact app name in the App Store and Google Play, and the links to add in step 1.
 2. **Location wording** in the onboarding list ("send a location with an alarm and check locations"): the app itself says "Your location will only be sent when you make an alarm". Which wording is right?
 3. **Select an existing user:** the form also offers this, but it does not work well on dev (Jarno, to investigate). The article only describes creating a new user. Add the option back once it works?
-4. **Diagram (optional, Q11):** Art's `diagrams/diagrams-03-account-structure.png` (account managers, accounts, users, devices) could go under the intro. Only if Jarno allows concept diagrams on the wiki.
 
 Verified by Tess (V4 dev and app 1.4.0, 2026-10-20 and 2026-10-21): the add form and its fields, the save message, no adding from inside a customer environment, no import for Mobile App Lite, the row actions, the onboarding steps, the microphone reason (wiki report). Images: Art's sets, from Tess's screenshots; image 01 will be retaken once the raw labels SELECTUSER and CREATENEWUSER are translated (T7).
+- Diagram `diagrams-03-account-structure.png` (Q11: diagrams welcome). Its check list: "everything else" per account is taken from the menu.

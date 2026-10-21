@@ -18,6 +18,9 @@ When a scenario starts, it performs its **actions** one after the other. Add act
 
 An action with a lock icon is not active for your account. [unverified: what happens when you choose it; see draft notes]
 
+![How a scenario works, in four steps. 1. When this happens: the trigger, for example SOS button, Man down, Timer, Enter geofence, Quick button or Alarm closed. 2. Configure trigger: narrow it down, for example to chosen geofences. 3. Is the scenario on: the Enabled switch is on, and it is always available or inside its schedule. 4. Perform these actions: one or more actions such as Text message on device, Sms message, Email, Voice message, Send assistance request, Call webhook or Change team. Recipients are devices, teams and geofences; a geofence means the devices present in it, and of those only available app users receive messages and assistance requests. Nothing is stored until you click the save icon.](/wiki-images/diagrams/diagrams-02-scenario.png)
+*A scenario does something automatically when its trigger happens.*
+
 ## The actions
 
 | Action | What it does |
@@ -90,4 +93,4 @@ Sends the event, with the device and its location, to your own system. For the r
 - **"For concerning device"** did not show the message in the app in one geofence test (B36, to verify). Keep an eye on it before publishing.
 - **Webhook example on the old Scenarios page:** see Q5 (credentials).
 - **Images:** Art's `create-a-scenario/create-a-scenario-03-add-action.png` and `-04-text-message-action.png`.
-- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-02-scenario.png`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).
+- Diagram `diagrams-02-scenario.png` (Q11: diagrams welcome). Its check list: the trigger and action lists are those seen on dev; it says nothing is stored until the save icon, which matches the text.

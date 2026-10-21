@@ -16,6 +16,9 @@ author: David van der Berg
 ![The Alerts page with the list of open alerts. Marker 1 points at Alerts in the left menu with a count badge, marker 2 at an open Timer alarm in the list.](/wiki-images/handle-an-alarm/handle-an-alarm-01-open-alerts.png)
 *Open Alerts (1). The badge shows the number of open alarms. Click an alarm in Open alerts (2) to see its details.*
 
+![Flow from an alarm in the Cuebly app to a closed alarm, in three lanes. Cuebly app: hold Send help! for 3 seconds, or a timer alarm runs out; the app shows "Alarm is sent" and the alarm goes to the platform. Platform: the alarm appears in Alerts and can start scenarios; alarms not closed by hand close automatically after a set number of days (default 30). Operator: Close alarm, then the closing script (alarm type, Start alarm handling, call the device, outcome, notes) or Quick close; the closed alarm shows the time to close and the notes.](/wiki-images/diagrams/diagrams-01-alarm-flow.png)
+*How an alarm from the app is handled and closed.*
+
 ## The list
 
 - **Open alerts**: alarms that are not closed yet. New alarms appear at once.
@@ -72,4 +75,4 @@ If you do not hear alarms while the browser is in the background, see [FAQ - Web
 - **"Open alarms" and "Open alerts"** dashboard tiles: difference unexplained (B32). Not mentioned.
 - **Response pane** (wiki report: "describe the response pane"): not documented; ask Tess what it shows.
 - **Images:** Art's `handle-an-alarm/handle-an-alarm-01-open-alerts.png`; auto-close and bulk close have no image yet (T7).
-- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-01-alarm-flow.png`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).
+- Diagram `diagrams-01-alarm-flow.png` (Q11: diagrams welcome). Its own check list: it stops at Closed (follow-up protocol not in V4 yet) and does not draw app feedback (F8).

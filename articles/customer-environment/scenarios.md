@@ -16,6 +16,9 @@ A scenario is a rule: **when** something happens, the platform **does** one or m
 - What starts a scenario: see [Scenario triggers](/en/customer-environment/scenarios/triggers).
 - What a scenario can do: see [Scenario actions](/en/customer-environment/scenarios/actions).
 
+![How a scenario works, in four steps. 1. When this happens: the trigger, for example SOS button, Man down, Timer, Enter geofence, Quick button or Alarm closed. 2. Configure trigger: narrow it down, for example to chosen geofences. 3. Is the scenario on: the Enabled switch is on, and it is always available or inside its schedule. 4. Perform these actions: one or more actions such as Text message on device, Sms message, Email, Voice message, Send assistance request, Call webhook or Change team. Recipients are devices, teams and geofences; a geofence means the devices present in it, and of those only available app users receive messages and assistance requests. Nothing is stored until you click the save icon.](/wiki-images/diagrams/diagrams-02-scenario.png)
+*A scenario does something automatically when its trigger happens.*
+
 ## The scenario list
 
 Go to **Scenarios**. Each scenario is a card with its trigger, the number of actions and when it last ran ("Last run"). Use **Filter by device** to find the scenarios of one device.
@@ -73,4 +76,4 @@ To send events to your own system, use the action **Call webhook**. To check tha
 - **Unsaved card** (night test): a new scenario shows as a card in the list before it is saved, and is lost on close without saving. A gap, left out of the text; ask Tess for the ticket id.
 - **Empty list:** shows "Create a scenario" with an arrow pointing away from the button (B27). Not mentioned.
 - **Images:** Art's `create-a-scenario` 01, 02, 03.
-- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-02-scenario.png (trigger, configure, Enabled and schedule, actions)`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).
+- Diagram `diagrams-02-scenario.png` (Q11: diagrams welcome). Its check list: the trigger and action lists are those seen on dev; it says nothing is stored until the save icon, which matches the text.

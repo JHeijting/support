@@ -36,6 +36,9 @@ When you are safe, tap **Cancel** on the banner on the **Home** screen. The time
 2. **At the end**, the app sends a **Timer** alarm to the platform.
 3. The alarm appears in **Alerts** in the customer environment, with the device and the time, and can start scenarios with the trigger **Timer**.
 
+![Flow from an alarm in the Cuebly app to a closed alarm, in three lanes. Cuebly app: hold Send help! for 3 seconds, or a timer alarm runs out; the app shows "Alarm is sent" and the alarm goes to the platform. Platform: the alarm appears in Alerts and can start scenarios; alarms not closed by hand close automatically after a set number of days (default 30). Operator: Close alarm, then the closing script (alarm type, Start alarm handling, call the device, outcome, notes) or Quick close; the closed alarm shows the time to close and the notes.](/wiki-images/diagrams/diagrams-01-alarm-flow.png)
+*How an alarm from the app is handled and closed.*
+
 ## For administrators
 
 - A timer alarm is an alarm like any other. Handle it in **Alerts**, and use the scenario trigger **Timer** to warn colleagues or an alarm receiving centre.
@@ -55,4 +58,4 @@ When you are safe, tap **Cancel** on the banner on the **Home** screen. The time
 - **DevCon V4 feature Timer alarm:** meaning of both switches answered in the wiki report. Tess saw "Set timer alarm" still shown in the app with the setting hidden (presentation mode screenshot 07).
 - **Presentation mode:** with Timer alarm hidden, the app still shows Set timer alarm. Left out of the text (gap, see presentation mode notes and Q10).
 - **Images:** requested from Art (timer-alarm-01, 02). Source screenshots: `current/app-v4/09-timer-nl.png` (Dutch, an English one is needed), `current/app-v4/10-timer-banner-en.png`.
-- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-01-alarm-flow.png`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).
+- Diagram `diagrams-01-alarm-flow.png` (Q11: diagrams welcome). Its own check list: it stops at Closed (follow-up protocol not in V4 yet) and does not draw app feedback (F8).

@@ -30,6 +30,9 @@ Change the setting you need. The platform stores the change right away, even bef
 - the group shows an orange number, for example "1 setting not yet synced to the device",
 - the save button at the top shows a badge: "Sync 1 change to the device".
 
+![How device settings reach a device or the app in DevCon V4, in five steps. 1. Change a setting in the device configurator, for example a custom view of the Cuebly app. 2. The platform stores the new value at once. 3. It shows as not yet synced: an orange count on the group and a badge on the save icon; undo discards the change. 4. Click the save icon, check the list in Save configuration and click Save; for devices you choose whether they restart. 5. The device or app gets the settings; the change counts as synced once the device reports it. Other devices use the legacy DevCon.](/wiki-images/diagrams/diagrams-05-devcon-sync.png)
+*Changes in DevCon V4 reach the device when you save them.*
+
 ## Send the changes to the device
 
 1. Click the save button at the top of DevCon.
@@ -72,6 +75,6 @@ Account managers can hide a group or a single setting of DevCon V4 from the cust
 
 1. **Which devices use DevCon V4 in production:** the code says V4 and Emerit devices; on V4 dev every device opens DevCon V4.
 2. **Custom views:** DevCon V4 shows them for app devices, but on dev they only reach the app after a hidden feature switch (B14, B20). The article leaves them out until they work in production. Add a section then (page N6)?
-3. **Diagram (optional, Q11):** Art's `diagrams/diagrams-05-devcon-sync.png` (change, stored, not yet synced, save, synced) fits under "Change a setting". Only if Jarno allows concept diagrams.
 
 Verified by Tess (V4 dev, 2026-10-20 and 2026-10-21): opening DevCon, the groups, storing at once with the orange count and the sync badge, the Save configuration dialog and the restart question, Discard changes, the menu, the two switches per app feature (wiki report), hiding with presentation mode. Left out because not verified in V4: offline devices, history, saving and loading configurations, diagnostics. Images: Art's `app-custom-views` set, from Tess's screenshots.
+- Diagram `diagrams-05-devcon-sync.png` (Q11: diagrams welcome). It uses a custom view as its example, while this article leaves custom views out (B14, B20); ask Art for a version with a plain setting, or accept it. Whether the restart question also appears for the app is not verified.

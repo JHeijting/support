@@ -30,6 +30,9 @@ When you create a new account, you choose what it is:
 - **Account**: a customer environment for one customer.
 - **Sub-account manager**: an account manager below you, for example a dealer or a branch office. A sub-account manager can create and manage its own accounts, users and devices. Everything beneath a sub-account manager counts towards your own account manager.
 
+![How accounts are organised. An account manager (a reseller or Cuebly) has its own users, adds devices and creates accounts and sub-account managers. A sub-account manager creates its own accounts, users and devices, and everything beneath it counts towards the parent. Each account is a separate customer environment with users, devices (the Cuebly app is a device too: Mobile App Lite, linked to an app user) and everything else: scenarios, geofences, teams, contacts and alarms. Account manager users can be ticked per account.](/wiki-images/diagrams/diagrams-03-account-structure.png)
+*Account managers, sub-account managers and accounts.*
+
 ## Create an account
 
 1. Go to **Accounts** and click **Add**.
@@ -158,4 +161,4 @@ As an account manager you cannot delete an account. Archive it instead. To have 
 - **"Show devices"** opens Devices filtered on the account: from the V3 wiki, the V4 menu item exists (Tess) but the filter is not verified.
 - **Unarchive** for an account (not a sub-account manager): Tess verified it for the archived panel in Account management; check in the Accounts archive.
 - **Images:** requested from Art (account-management-01 to 04). Real email addresses must be redacted (the V4 screenshot shows Tess's address).
-- **Diagram (optional, Q11):** Art's `wiki-images/diagrams/diagrams-03-account-structure.png (account manager, sub-account manager, accounts, users, devices)`. Only if Jarno allows concept diagrams on the wiki (they are not screenshots).
+- Diagram `diagrams-03-account-structure.png` (Q11: diagrams welcome). Its check list: "everything else" per account is taken from the menu.
