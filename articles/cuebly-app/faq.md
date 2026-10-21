@@ -23,7 +23,7 @@ Phones stop or limit apps to save battery. For a safety app that could mean an a
 
 ## Why does an alarm or message sound when my phone is on Do Not Disturb?
 
-On Android the app asks for **Critical alerts**: permission to sound through Do Not Disturb. This is on purpose, so you do not miss an alarm or an urgent message. You can check the permission in the app under **Settings** > **Status**.
+On Android the app asks for **Critical alerts**: permission to sound through Do Not Disturb, so alarms and urgent messages are heard. You can check the permission in the app under **Settings** > **Status**.
 
 ## My phone keeps stopping the app
 
@@ -34,13 +34,13 @@ Some phones stop apps in the background to save battery. Check that:
 
 ## I cannot log in
 
-Check your email address and password. Tap **Forgot password** on the login screen to get a new one by email. If it still fails, check your internet connection: the app shows the same message for a wrong password and for no connection. [see draft notes]
+Check your email address and password, and that the phone is connected to the internet. Tap **Forgot password** on the login screen to get a new password by email.
 
 ---
 
 ## Draft notes (remove before publishing)
 
-- **Login message:** every login error shows "Credentials invalid", also network errors (app code). If the app gets separate messages, update the answer.
+- **Login message:** every login error shows "Credentials invalid", also network errors (app code). A gap, not explained in the text; ask Tess to draft a ticket if none exists.
 - **Notification channel** name for hiding the permanent notification: the old app used "App status notification". Check in the new app.
 - **Critical alerts and battery optimisation** were suggested by Tess (wiki report). Battery steps not verified per phone brand.
 - **iOS:** answers are Android based.

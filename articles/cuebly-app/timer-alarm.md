@@ -41,7 +41,6 @@ When you are safe, tap **Cancel** on the banner on the **Home** screen. The time
 - A timer alarm is an alarm like any other. Handle it in **Alerts**, and use the scenario trigger **Timer** to warn colleagues or an alarm receiving centre.
 - A scenario can also start or stop the timer on a device with the action **Toggle timer alarm**.
 - In DevCon V4, the feature **Timer alarm** has two switches per app device: **Enabled** (whether the timer is on when the app starts) and **Change device configuration** (whether the user may change it in the app). [unverified: what the user sees when it is off]
-- Hiding the Timer alarm setting from the customer with presentation mode does not remove the timer from the app. See [Presentation mode](/en/reseller-environment/presentation-mode).
 
 ---
 
@@ -54,4 +53,5 @@ When you are safe, tap **Cancel** on the banner on the **Home** screen. The time
   - When the alarm goes, the app shows nothing to the user (F8). Do not promise feedback in the app.
 - **Where the timer lives:** Settings > Set timer alarm today. Proposal 008 (timer placement) may move it; update when built.
 - **DevCon V4 feature Timer alarm:** meaning of both switches answered in the wiki report. Tess saw "Set timer alarm" still shown in the app with the setting hidden (presentation mode screenshot 07).
+- **Presentation mode:** with Timer alarm hidden, the app still shows Set timer alarm. Left out of the text (gap, see presentation mode notes and Q10).
 - **Images:** requested from Art (timer-alarm-01, 02). Source screenshots: `current/app-v4/09-timer-nl.png` (Dutch, an English one is needed), `current/app-v4/10-timer-banner-en.png`.

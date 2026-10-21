@@ -39,7 +39,7 @@ Go to **Scenarios**. Each scenario is a card with its trigger, the number of act
 ![The scenario editor with the Quick button trigger chosen. Marker 1 points at When this happens, set to Quick button. Marker 2 points at Configure trigger, which says to select this scenario in the device configurator. Marker 3 points at the list of actions: Call webhook, Change team, Email, Multi tenant, Sms message, Send assistance request, Send last on-screen message again, Text message on device, Toggle timer alarm and Voice message.](/wiki-images/create-a-scenario/create-a-scenario-03-add-action.png)
 *The chosen trigger shows under When this happens (1). Set its options under Configure trigger (2) and click Next. Under Perform these actions, click New action and choose what the scenario does (3).*
 
-**Save before you close the panel.** The new scenario shows as a card as soon as you start, but nothing is stored until you click the save icon.
+The scenario is stored when you click the save icon.
 
 ## Change, disable or delete a scenario
 
@@ -70,5 +70,6 @@ To send events to your own system, use the action **Call webhook**. To check tha
 - **Removed from the old page:** the webhook trigger example with client id and secret (Q5: confirm they are dummies, and whether the Webhook trigger exists in V4; it is not in the 21 triggers on dev) and the "obsolete" authorization header example. Bring back only if the Webhook trigger is in V4.
 - **Assistance request follow-up** (old page section) now sits in the actions page (Send assistance request, Too little turnout). Settings of that action not verified in V4.
 - **Delete, Copy:** V3 features; not seen by Tess in the V4 editor. Verify.
+- **Unsaved card** (night test): a new scenario shows as a card in the list before it is saved, and is lost on close without saving. A gap, left out of the text; ask Tess for the ticket id.
 - **Empty list:** shows "Create a scenario" with an arrow pointing away from the button (B27). Not mentioned.
 - **Images:** Art's `create-a-scenario` 01, 02, 03.

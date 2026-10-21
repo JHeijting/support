@@ -38,7 +38,6 @@ Let go before the long vibration to cancel.
 
 - The alarm appears in **Alerts** in the customer environment and can start scenarios, for example a message to colleagues nearby.
 - The app may open a voice connection, so the person who handles the alarm can hear you. This is set per device by your administrator (**Voice connection on alarm** in DevCon V4).
-- The app does not show yet when your alarm is picked up or closed. [see draft notes]
 
 ## Tips
 
@@ -51,7 +50,7 @@ Let go before the long vibration to cancel.
 
 - **XCover side button** was tested on a development build of app 1.4.0 with a simulated button (development/frontend/mobile#23 passed; vibration timing on mobile#48). Publish this section only when the release that contains it is in the stores, and check whether the button must be set up first (Samsung settings or the app's "SOS shortcuts" in Settings; wiki report mentions SOS shortcuts). Phone model names: check which XCover models.
 - **Without a location fix** the alarm currently waits up to 30 seconds before it is sent (B13). The "within a few seconds" claim holds with a location fix only; keep the tip, and update once B13 is fixed.
-- **No feedback after sending** (F8): the app only says "Alarm is sent". Update if the app gets follow-up feedback.
+- **No feedback after sending** (F8): the app only says "Alarm is sent". Left out of the text (gap); add what the app shows once F8 is built.
 - **Short tap gives no hint** (F7). If the app adds a hint, mention it.
 - **Voice connection:** wiki report and the XCover report (RTC started). Whether it opens for every alarm depends on the DevCon V4 setting; verify the wording with Tess.
 - **Images:** Art's `cuebly-app/cuebly-app-02-home.png`. No image of the XCover button (physical button; a photo or none).

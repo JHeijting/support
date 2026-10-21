@@ -45,7 +45,7 @@ Click **Close alarm** and choose:
 1. Under **Open alerts**, tick the alarms, or use **Select all**.
 2. Click the check icon at the top of the list.
 
-The selected alarms are closed at once, without notes and without asking first. Use it with care.
+The selected alarms are closed.
 
 ## Close alarms automatically
 
@@ -60,13 +60,12 @@ If you do not hear alarms while the browser is in the background, see [FAQ - Web
 ## What changed from V3
 
 - Alarms from scenarios with the action **Show at alerts page** no longer exist; that action is gone.
-- Closing several alarms at once does not ask for notes.
 
 ---
 
 ## Draft notes (remove before publishing)
 
-- **Bulk close without note or confirmation** (B21, development/docs/v4-platform#476): if fixed, update "without notes and without asking first".
+- **Bulk close without note or confirmation** (B21, development/docs/v4-platform#476): a gap, left out of the text. The check icon also has no label. Describe the intended flow (notes, confirmation) once fixed.
 - **Who may change auto-close:** the header shows it on the Alerts page, the account setting is on Edit account (account manager). Whether a customer user can change it from the Alerts header is not verified; Tess's screenshot shows a drop-down. Check.
 - **Share alert by email, browser notifications, presentation page of open alerts:** V3 features, not verified in V4. Left out.
 - **Alarms closed by an ARC:** not verified in V4. Left out.

@@ -28,13 +28,13 @@ Presentation mode is not the same as a presentation page. A presentation page is
 ![The bottom of the left menu with the presentation mode icon grey, which means off. A tooltip reads: Toggle presentation mode for customers on/off.](/wiki-images/presentation-mode/presentation-mode-02-icon-off.png)
 *Click the icon to switch presentation mode off (1). Grey means off. After every page load or new login it is on again.*
 
-**Presentation mode is always on when you start.** Every time you open or reload a page, or log in again, it is switched on. This is on purpose: you never show a customer something by accident. Switch it off again when you need it.
+**Presentation mode is on when you start.** Every time you open or reload a page, or log in again, it is switched on. Switch it off again when you need it.
 
 Only account managers who manage the account see the icon. The customer's own users never do.
 
 ## Choose which device settings the customer sees
 
-In **DevCon V4** you can hide a group of settings, or a single setting, from the customer's users. Use it to keep the device settings simple for a customer, or to protect settings the customer should not change.
+In **DevCon V4** you can hide a group of settings, or a single setting, from the customer's users.
 
 1. Switch presentation mode **off** (grey icon).
 2. Go to **Devices**, open a device card and click the gear icon **Change device configuration**.
@@ -57,19 +57,12 @@ Switch presentation mode **on** to check the result: the eye icons are gone and 
 ### Good to know
 
 - **Saved at once, for the whole account.** A click on an eye is saved immediately. You do not need the DevCon save button. The choice applies to every device of that type in the account, not only to the device you have open.
-- **Hiding is not switching off.** Hiding a setting only changes what the customer's users see in DevCon on the web. It does not change the setting on the device, and it does not change the app. For example: with **Timer alarm** hidden, the app user still sees **Set timer alarm** in the app. To switch a feature off, change the setting itself (for example **Enabled**), and then hide it if the customer should not change it back.
+- **Hiding is not switching off.** Hiding a setting does not change the setting on the device. To switch a feature off, change the setting itself (for example **Enabled**), and then hide it if the customer should not change it back.
 - **Change first, then hide.** A change in DevCon V4 is stored right away. If you change a setting and then hide it, your change stays.
-- **Do not hide every group.** If you hide all groups of a device, the customer sees an empty settings panel with only the device name.
-
-![The device configurator as the customer sees it when every group is hidden: the panel shows only the device name and is otherwise empty.](/wiki-images/presentation-mode/presentation-mode-06-all-hidden-empty.png)
-*If you hide every group, the customer sees an empty panel with only the device name (1), without an explanation.*
-
-![The Settings screen of the Cuebly app. Marker 1 points at Set timer alarm, which still shows although the Timer alarm setting is hidden in the device configurator.](/wiki-images/presentation-mode/presentation-mode-07-app-not-affected.png)
-*Hiding only changes what the customer's users see in the device configurator on the web. The app is not affected: Set timer alarm still shows (1).*
 
 ## Other things presentation mode hides
 
-With presentation mode on, the platform also hides some details that are meant for account managers only, for example the device id next to the device name in alarm details, and the instructions field on alarm protocol cards. [unverified in V4: taken from the platform code]
+With presentation mode on, the platform also hides some other details, for example the device id next to the device name in alarm details, and the instructions field on alarm protocol cards. [unverified in V4: taken from the platform code]
 
 ## Scenarios
 
@@ -89,6 +82,11 @@ In V4, scenarios cannot be hidden from the customer. All scenarios are shown, wi
 - **"Every device of that type"**: the module says the policy is per account and "applies to every device of that type in the account". Confirm whether hiding a General setting on a Mobile App Lite also hides a General group on an EV04 (same group key), or only on the same type.
 - **Two managers at once:** each eye click writes the whole account setting; not tested whether one overwrites the other. Leave out unless it proves to be a problem.
 - **Who sees the icon:** account managers who manage the account, and V3 shadow users (`canPresentAsCustomer`). "V3 shadow user" is left out of the customer text.
+- **Removed from the text after Manon's review (no workarounds for gaps, no invented intent):**
+  - Every group hidden gives the customer an empty panel without explanation: ticket draft **B67**. Describe the intended behaviour once Jarno answers Q10.
+  - With Timer alarm hidden, the app still shows Set timer alarm (screenshot 07): hiding works on the web only. Whether the app should follow is open (Q10 area); Art's images 06 and 07 are not used for now.
+  - Why the switch turns on after every page load is not documented; ticket draft **F31** asks to remember the choice. The text only says what happens.
+  - Hiding scenarios: ticket draft **F30**. The text states the fact that V4 cannot hide scenarios.
 - **Open questions for Jarno** (from Tess): should V4 hide scenarios again; should the choice be remembered after reload; what should a customer see when every group is hidden. Update the article when answered.
 - **Other hidden details:** device id and protocol instructions come from code; alarm protocols have no menu in V4 customer environments (wiki report). Verify or drop that section.
 - **Images:** Art's set `wiki-images/presentation-mode/` (frontend-design main), from Tess's screenshots. Paths in the article are relative to `wiki-images/`; adjust to the wiki's upload folder when publishing.

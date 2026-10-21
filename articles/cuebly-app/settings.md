@@ -49,7 +49,7 @@ Switch between **Light** and **Dark**.
 
 ## Logout
 
-Logs you out of the app. Logout stays in Settings on purpose, so it is not pressed by accident. [unverified: after logout the phone no longer receives messages or sends alarms]
+Logs you out of the app. [unverified: after logout the phone no longer receives messages or sends alarms]
 
 At the bottom, **Version** shows the version of the app.
 
