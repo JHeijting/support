@@ -53,6 +53,16 @@ The wiki inventory (`plan/wiki-inventory.md`) lists more new pages that are not 
 
 **Dropped from the plan:** N11 "What is new in V4". It conflicts with the rule "current product only".
 
+## May go live before the go-live (Jarno, T18)
+
+True today and free of version names. Jarno decides when; it is not part of the switch.
+
+| Final path | Draft | Wiki draft | How |
+|---|---|---|---|
+| `supported-devices/location-in-alarms` | `supported-devices/location-in-alarms.md` | `drafts/supported-devices/location-in-alarms` (id 116) | new page |
+| `supported-devices/personal-trackers/twig` | `supported-devices/personal-trackers/twig.section-behaviour.md` | `drafts/supported-devices/personal-trackers/twig-behaviour` (id 117) | insert the section before "MPTP protocol explained" |
+| `supported-devices/personal-trackers/twig-one`, `-neo`, `-embody`, `-protector-pro`, `-sos-card` | `supported-devices/personal-trackers/<model>.section-behaviour.md` | in id 117 (model line) | insert the section after "Configuration options" |
+
 ## Live pages to remove at go-live (Jarno to confirm each)
 
 | Live path | Why |
