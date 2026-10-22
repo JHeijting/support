@@ -6,6 +6,7 @@ Until the go-live, only changes to the wiki itself are logged here (drafts under
 
 | Date | Page (wiki path) | Change | Why | Ticket or release | By |
 |---|---|---|---|---|---|
+| 2026-10-22 | `drafts/supported-devices/elexol` (id 120) | Updated: Elexol named as the maker of the IPtoESPA444 converters, unverified mark removed | Brand name confirmed by Jarno | J17.4 | David van der Berg |
 | 2026-10-22 | `drafts/supported-devices` (id 121), `drafts/supported-devices/teltonika` (118), `drafts/supported-devices/emerit` (119), `drafts/supported-devices/elexol` (120) | Created: overview of all devices by brand and type, and three new brand pages (models, shared connection settings) | One brand page per brand (Jarno) | J16 | David van der Berg |
 | 2026-10-22 | `drafts/zz-permission-test-moved` (id 114) | Moved from `drafts/zz-permission-test`. The old path now gives 404: Wiki.js keeps no redirect after a move | Redirect test before the brand page moves (J16) | J16 | David van der Berg |
 | 2026-10-22 | `drafts/reseller-environment/account-management/presentation-mode` (id 115), `drafts/supported-devices/location-in-alarms` (id 116), `drafts/supported-devices/personal-trackers/twig-behaviour` (id 117) | Re-saved with the same content under the Wiki.js user "David"; "Last edited by" now shows David instead of Administrator. Guest view still 403 | Pages from this process must show David's name (Jarno) | | David van der Berg |

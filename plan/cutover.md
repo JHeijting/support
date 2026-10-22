@@ -152,7 +152,7 @@ Jarno: "Shouldn't this go under supported devices and then Twig? So that every b
 - `isPublished: false` would also hide a page, but whether guests are blocked by it cannot be tested from `drafts/` (guests are blocked there anyway), and the group rules on public paths may still show it. The move uses a tested rule.
 - Replacing the content with "coming soon" text breaks the rule "current product only, no promises".
 
-The old path then gives a 404 (no redirect, tested). Before parking or removing: fix the wiki links to these pages (they should be `/i/<id>` links or be removed, because an `/i/` link to a parked page gives guests a 403), and the website links in `plan/external-links.md` (alarm protocols, dashboard tiles: point them to the nearest live page or remove them, with Jarno's approval).
+The old path then gives a 404 (no redirect, tested). In the switch, remove the two links on `customer-environment/devices` (id 22) to alarm protocols and quick texts (Jarno, J17.2). Before parking or removing: fix the wiki links to these pages (they should be `/i/<id>` links or be removed, because an `/i/` link to a parked page gives guests a 403), and the website links in `plan/external-links.md` (alarm protocols, dashboard tiles: point them to the nearest live page or remove them, with Jarno's approval).
 
 **Merges** (from the inventory): `supported-devices/personal-trackers/eview` into `eview/ev-04` (or a short list page), `supported-devices/personal-trackers/queclink` into `queclink/GL320MG`. Dropped if the brand page proposal (above) is approved.
 

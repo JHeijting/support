@@ -8,7 +8,7 @@ Prepared by David van der Berg on 2026-10-22, for Jarno to approve as one batch.
 
 Every link between live pages that points to a device page is already an id link (`/i/<id>`), and those keep working after a move. No path link points to a page that moves.
 
-One check for Jarno: the rendered pages show `/i/<id>`. Please open the source of one page in the editor (for example **Personal alarms**, `supported-devices/personal-trackers`) and confirm that its links are written as `/i/<id>`. If the source has paths and Wiki.js only shows them as ids, the moves need the link fixes after all, and I list them from the editor.
+**Checked by Jarno in the editor (J17.3): the links are id links.** The original check: the rendered pages show `/i/<id>`. Please open the source of one page in the editor (for example **Personal alarms**, `supported-devices/personal-trackers`) and confirm that its links are written as `/i/<id>`. If the source has paths and Wiki.js only shows them as ids, the moves need the link fixes after all, and I list them from the editor.
 
 Downloads (`/downloadable-files/...`) are asset files, not pages. They do not move with the pages.
 
@@ -42,5 +42,5 @@ See `plan/external-links.md` (Manon). Fixed in the same switch, with Jarno's app
 
 ## To approve
 
-- [ ] Section 2: fix the broken link on device management (id 35) now.
-- [ ] Section 3: remove the two links on `customer-environment/devices` (id 22) in the go-live switch.
+- [x] Section 2: fix the broken link on device management (id 35) now. Approved (J17.1). Not done yet: David's wiki user cannot read or edit live pages (write only under `drafts/`). Jarno fixes it in the editor, or gives the user rights on this page.
+- [x] Section 3: remove the two links on `customer-environment/devices` (id 22) in the go-live switch. Approved (J17.2); in `plan/cutover.md`.
