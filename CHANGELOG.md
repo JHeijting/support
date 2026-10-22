@@ -6,6 +6,7 @@ Until the go-live, only changes to the wiki itself are logged here (drafts under
 
 | Date | Page (wiki path) | Change | Why | Ticket or release | By |
 |---|---|---|---|---|---|
+| 2026-10-22 | `drafts/zz-permission-test-moved` (id 114) | Deleted. Read back: "This page does not exist" | Leftover permission test page (Jarno approved J5 in David's chat) | J5 | David van der Berg |
 | 2026-10-22 | `reseller-environment/device-management` (id 35, live) | Republished (all page fields sent, content unchanged). Guest view 200 again with the `/i/4` link; offline from 14:40 CEST until the republish | End of the J17.1 incident (Jarno approved the republish in David's chat) | J17.1, J23 | David van der Berg |
 | 2026-10-22 | `reseller-environment/device-management` (id 35, live) | Link "personal trackers page" changed from `https://wiki.cuebly.com/personal-trackers` (broken) to `/i/4` (Personal alarms). Incident: the update also set the page to unpublished (Wiki.js resets `isPublished` when the field is not sent), so guests get 403 since 14:40 CEST. Republish refused in my session; waiting for Jarno (J23) | Broken link (Jarno approved J17.1 in David's chat) | J17.1, J23 | David van der Berg |
 | 2026-10-22 | `drafts/supported-devices/elexol` (id 120) | Updated: Elexol named as the maker of the IPtoESPA444 converters, unverified mark removed | Brand name confirmed by Jarno | J17.4 | David van der Berg |
