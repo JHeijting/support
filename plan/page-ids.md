@@ -9,6 +9,10 @@ Links in drafts use `/i/<id>` (see the link rule in `articles/README.md`). This 
 | 115 | `reseller-environment/account-management/presentation-mode` | Presentation mode | `drafts/reseller-environment/account-management/presentation-mode` |
 | 116 | `supported-devices/location-in-alarms` | How location reaches an alarm | `drafts/supported-devices/location-in-alarms` |
 | 117 | (section draft for `supported-devices/personal-trackers/twig`, id 71; not a page of its own) | How Twig devices behave (section draft) | `drafts/supported-devices/personal-trackers/twig-behaviour` |
+| 118 | `supported-devices/teltonika` | Teltonika | `drafts/supported-devices/teltonika` |
+| 119 | `supported-devices/emerit` | Emerit | `drafts/supported-devices/emerit` |
+| 120 | `supported-devices/elexol` | Elexol | `drafts/supported-devices/elexol` |
+| 121 | `supported-devices` | Supported devices | `drafts/supported-devices` |
 | 114 | (test page, delete; moved once for the redirect test) | Permission test | `drafts/zz-permission-test-moved` |
 
 ## New pages without an id yet

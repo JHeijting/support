@@ -110,7 +110,7 @@ Jarno: "Shouldn't this go under supported devices and then Twig? So that every b
 | 87 | `supported-devices/gateways/elexol-ip2espa-v1` | `supported-devices/elexol/ip2espa-v1` |
 | 88 | `supported-devices/gateways/elexol-ip2espa-v2` | `supported-devices/elexol/ip2espa-v2` |
 
-**New brand pages** (short at first: models list and what is verified as shared): `supported-devices/teltonika`, `supported-devices/emerit`, `supported-devices/elexol`, plus the overview `supported-devices`. Each starts under `drafts/` like any new page. Later brands from the inventory (N15 to N17: more Eview models, Twig Neo Ex and remote button, Emerit e-RG360, Ajax, Moxa) go straight into this structure.
+**New brand pages** (short at first: models list and what is verified as shared): `supported-devices/teltonika` (draft id 118), `supported-devices/emerit` (119), `supported-devices/elexol` (120), plus the overview `supported-devices` (121). In the wiki under `drafts/` since 2026-10-22; repo drafts `articles/supported-devices.md` and `articles/supported-devices/<brand>.md`. At the switch they move to their final paths (same ids). Later brands from the inventory (N15 to N17: more Eview models, Twig Neo Ex and remote button, Emerit e-RG360, Ajax, Moxa) go straight into this structure.
 
 **What changes elsewhere:**
 
@@ -123,7 +123,7 @@ Jarno: "Shouldn't this go under supported devices and then Twig? So that every b
 
 **Outside links:** the platform does not link to device pages (Jarno). The website does: two posts link to device pages (`twig-easy`, `emerit-ewg200`) and 24 more links go deep into the wiki, some with anchors and some to pages that go away. List: `plan/external-links.md` (Manon). These website links are fixed **in the same switch**, with Jarno's approval (the website is outward): preferably to `https://wiki.cuebly.com/i/<id>`, which survives later moves (an anchor can be added after it, but anchors change when headings change, so link to the page unless the section is essential). Search engines pick up the new paths by themselves.
 
-**When:** the structure can change before the V4 go-live, because device pages describe today's devices. Order: (1) Jarno approves the structure (done, J16), (2) redirect test on a draft (done: no redirect), (3) links to `/i/<id>` inside the wiki, (4) create the brand pages under `drafts/` for review, (5) move the live pages in one go with Jarno's approval and fix the website links from `plan/external-links.md` in the same switch, log every move in `CHANGELOG.md`.
+**When:** the structure can change before the V4 go-live, because device pages describe today's devices. Order: (1) Jarno approves the structure (done, J16), (2) redirect test on a draft (done: no redirect), (3) links to `/i/<id>` inside the wiki (checked: already id links, see `plan/link-fixes.md`), (4) create the brand pages under `drafts/` for review, (5) move the live pages in one go with Jarno's approval and fix the website links from `plan/external-links.md` in the same switch, log every move in `CHANGELOG.md`.
 
 ## Live pages at go-live: remove, or park until the feature is back (Jarno, J4, 2026-10-22)
 
