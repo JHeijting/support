@@ -22,7 +22,7 @@ Android and iOS stop or limit apps to save battery and memory, for example when 
 Tap **Continue** to go to the next step. The dots at the bottom show where you are.
 
 1. **Welcome**
-2. **Location**: the app sends your location to the platform, with an alarm and also outside alarms. It also checks on the phone whether you are inside the locations (geofences) your organisation assigned to you. Choose **Allow all the time** in the phone settings, so this also works when the app is in the background. [wording to confirm with Jarno]
+2. **Location**: your location is only sent when you make an alarm. The app also uses the phone's own geofence feature to check whether you are inside the locations (geofences) your organisation assigned to you; that location is not shown in the platform. Choose **Allow all the time** in the phone settings, so this also works when the app is in the background.
 3. **Notifications**: to receive messages from the platform. You can tap **Skip for now** and allow it later.
 4. **Critical alerts** (Android): so alarms and messages sound even when the phone is on Do Not Disturb. The app asks for notifications, Do Not Disturb access, display over other apps, and sound and vibration for its alerts.
 5. **Microphone**: after an SOS alarm, the app can open a voice connection with the person handling the alarm. The microphone is also used for push to talk.
@@ -45,7 +45,7 @@ Open **Settings** in the app. Under **Status** you see whether notifications, cr
 
 ## Draft notes (remove before publishing)
 
-- **Location wording:** Tess tested (T13): without any alarm the platform shows the app's last location with "Received on" and "Determined on" times on the device card, and the app checks assigned geofences in the background (Android foreground service). So "only sent with an alarm" is not accurate; the text now says the location is also sent outside alarms. The app's own onboarding text ("your location will only be sent when you make an alarm", also in the image) says otherwise. Jarno: which wording is intended? If the app text is wrong, it needs a ticket and image 01 a retake.
+- **Location wording (Jarno, J14, 2026-10-22):** the app's onboarding text is correct: the location is only sent with an alarm; geofencing uses the phone's native geofence feature, and that location is not shown elsewhere in the platform. Tess's T13 note (last location on the device card without an alarm) is being checked with her; if it holds, Manon decides, nothing goes in the text.
 - **iOS:** all steps were checked on Android only. iOS steps (critical alerts on iOS, location wording) are not verified. The previous page had iOS-only Bluetooth and Critical alerts steps.
 - **Microphone (answered, wiki report):** voice connection after an SOS, and push to talk.
 - **Steps never skip** when a permission is already given (they show a check mark but stay, "Permission needed"); Jarno wants detect and skip. Update when changed.

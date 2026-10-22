@@ -64,6 +64,65 @@ True today and free of version names. Jarno decides when; it is not part of the 
 | `supported-devices/personal-trackers/twig` | `supported-devices/personal-trackers/twig.section-behaviour.md` | `drafts/supported-devices/personal-trackers/twig-behaviour` (id 117) | insert the section before "MPTP protocol explained" |
 | `supported-devices/personal-trackers/twig-one`, `-neo`, `-embody`, `-protector-pro`, `-sos-card` | `supported-devices/personal-trackers/<model>.section-behaviour.md` | in id 117 (model line) | insert the section after "Configuration options" |
 
+## Proposal: one brand page per brand (Jarno, J9, 2026-10-22)
+
+**Status: proposal, waiting for Jarno.** Nothing is moved yet.
+
+Jarno: "Shouldn't this go under supported devices and then Twig? So that every brand gets a brand page with the relevant info about it?"
+
+**Today:** device pages sit in two category folders, and brands are mixed. Twig has a brand page (`personal-trackers/twig`, protocol and firmware) with its models next to it, not below it. Queclink and Eview have a near-empty brand page with the model below it. Teltonika has models in both folders and no brand page. Emerit and Elexol have no brand page.
+
+**Proposed structure:** `supported-devices/<brand>/<model>`.
+
+- **Brand page** `supported-devices/<brand>`: what all models share. Fixed sections, each only if there is something to say: **Models** (list with type: personal alarm, gateway, app), **How <brand> devices behave** (the device behaviour pattern, brand level), **Configuration** (DevCon settings shared by all models), **Firmware**, **Connect to the platform** (when the settings are the same for every model).
+- **Model page** `supported-devices/<brand>/<model>`: what is specific to the model (features, configuration table, connection settings if they differ, **How this device behaves** only for what differs). The model slug drops the brand name (`twig/one`, not `twig/twig-one`); the title keeps it ("Twig One").
+- **Type overview pages stay** at their current paths (`supported-devices/personal-trackers`, `supported-devices/gateways`): a short list of models of that type, linking to the model pages. Customers who look for "a personal alarm" still find a list.
+- **New page** `supported-devices`: overview of all brands and the two type lists.
+- **Device-neutral pages** stay directly under `supported-devices` (for example `location-in-alarms`).
+
+**Moves** (all keep their id, so `/i/<id>` links keep working):
+
+| Id | From | To |
+|---|---|---|
+| 71 | `supported-devices/personal-trackers/twig` | `supported-devices/twig` |
+| 101 | `.../personal-trackers/twig-easy` | `supported-devices/twig/easy` |
+| 5 | `.../personal-trackers/twig-embody` | `supported-devices/twig/embody` |
+| 108 | `.../personal-trackers/twig-eon` | `supported-devices/twig/eon` |
+| 6 | `.../personal-trackers/twig-neo` | `supported-devices/twig/neo` |
+| 8 | `.../personal-trackers/twig-one` | `supported-devices/twig/one` |
+| 7 | `.../personal-trackers/twig-one-ex` | `supported-devices/twig/one-ex` |
+| 12 | `.../personal-trackers/twig-protector` | `supported-devices/twig/protector` |
+| 9 | `.../personal-trackers/twig-protector-ex` | `supported-devices/twig/protector-ex` |
+| 11 | `.../personal-trackers/twig-protector-pro` | `supported-devices/twig/protector-pro` |
+| 10 | `.../personal-trackers/twig-protector-pro-ex` | `supported-devices/twig/protector-pro-ex` |
+| 13 | `.../personal-trackers/twig-sos-card` | `supported-devices/twig/sos-card` |
+| 14 | `.../personal-trackers/teltonika-tmt250` | `supported-devices/teltonika/tmt250` |
+| 15 | `.../personal-trackers/teltonika-gh5200` | `supported-devices/teltonika/gh5200` |
+| 85 | `supported-devices/gateways/teltonika-fmc640` | `supported-devices/teltonika/fmc640` |
+| 86 | `supported-devices/gateways/teltonika-fmc650` | `supported-devices/teltonika/fmc650` |
+| 16 | `.../personal-trackers/emerit-ewg100` | `supported-devices/emerit/ewg100` |
+| 111 | `.../personal-trackers/emerit-ewg200` | `supported-devices/emerit/ewg200` |
+| 89 | `.../personal-trackers/emerit-connect` | `supported-devices/emerit/connect-app` |
+| 77 | `.../personal-trackers/queclink` | `supported-devices/queclink` |
+| 78 | `.../personal-trackers/queclink/GL320MG` | `supported-devices/queclink/gl320mg` |
+| 81 | `.../personal-trackers/eview` | `supported-devices/eview` |
+| 82 | `.../personal-trackers/eview/ev-04` | `supported-devices/eview/ev-04` |
+| 87 | `supported-devices/gateways/elexol-ip2espa-v1` | `supported-devices/elexol/ip2espa-v1` |
+| 88 | `supported-devices/gateways/elexol-ip2espa-v2` | `supported-devices/elexol/ip2espa-v2` |
+
+**New brand pages** (short at first: models list and what is verified as shared): `supported-devices/teltonika`, `supported-devices/emerit`, `supported-devices/elexol`, plus the overview `supported-devices`. Each starts under `drafts/` like any new page. Later brands from the inventory (N15 to N17: more Eview models, Twig Neo Ex and remote button, Emerit e-RG360, Ajax, Moxa) go straight into this structure.
+
+**What changes elsewhere:**
+
+- The Queclink and Eview merges (section above) are dropped: their parent pages become brand pages instead.
+- Twig behaviour: the brand section (draft id 117) goes on the brand page `supported-devices/twig`; the model lines on the model pages. Draft 117 can move to `drafts/supported-devices/twig/behaviour`.
+- The two type overview pages (ids 4 and 84) get a rewrite: lists by type, linking to the model pages.
+- Internal links: links that use `/en/<path>` on live pages break on a move. Before the moves, replace them with `/i/<id>` on every page that is touched (pages.list plus a search for `/en/supported-devices/`).
+
+**Risk to check before the moves:** Wiki.js 2.5 does not keep a redirect from the old path after a move [unverified, test on a draft]. Links from outside the wiki (the platform, the app, manuals, partner documents, search engines) to `/en/supported-devices/personal-trackers/...` would then give a 404. Before moving: ask Jarno and the developers whether the platform or app link to device pages by path; if so, change those links to `/i/<id>` first.
+
+**When:** the structure can change before the V4 go-live, because device pages describe today's devices. Proposed order: (1) Jarno approves the structure, (2) test on a draft whether the old path redirects, (3) links to `/i/<id>`, (4) create the brand pages under `drafts/` for review, (5) move the live pages in one go with Jarno's approval, log every move in `CHANGELOG.md`.
+
 ## Live pages to remove at go-live (Jarno to confirm each)
 
 | Live path | Why |
@@ -81,7 +140,7 @@ True today and free of version names. Jarno decides when; it is not part of the 
 
 Each of these is open in the inventory's questions until Jarno decides. Before removal, check which pages link to it and fix those links in the same switch.
 
-**Merges** (from the inventory): `supported-devices/personal-trackers/eview` into `eview/ev-04` (or a short list page), `supported-devices/personal-trackers/queclink` into `queclink/GL320MG`.
+**Merges** (from the inventory): `supported-devices/personal-trackers/eview` into `eview/ev-04` (or a short list page), `supported-devices/personal-trackers/queclink` into `queclink/GL320MG`. Dropped if the brand page proposal (above) is approved.
 
 ## Live pages that stay
 

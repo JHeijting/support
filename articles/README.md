@@ -38,8 +38,10 @@ For how a device behaves in practice (what it sends when, how fresh its location
 | Level | Where | Title | What goes there |
 |---|---|---|---|
 | General | `supported-devices/location-in-alarms` (new page) | How location reaches an alarm | Device-neutral: an alarm can arrive in more than one message, how old a location can be, the scenario option "wait for possible new location", following an alarm through the alarm link, periodic tracking. Links to the brand and model pages |
-| Brand | the brand page, for example `supported-devices/personal-trackers/twig` | section **How Twig devices behave** | Behaviour shared by all models of the brand. Links to the general page |
-| Model | the model page, for example `.../twig-one` | section **How this device behaves**, after "Configuration options", before "Settings to connect to the platform" | Only what differs for this model, or which brand behaviour applies to it. One line with a link if nothing differs |
+| Brand | the brand page `supported-devices/<brand>`, for example `supported-devices/twig` (today still `supported-devices/personal-trackers/twig`, see the brand page proposal in `plan/cutover.md`) | section **How Twig devices behave** | Behaviour shared by all models of the brand. Links to the general page |
+| Model | the model page `supported-devices/<brand>/<model>`, for example `supported-devices/twig/one` (today `.../personal-trackers/twig-one`) | section **How this device behaves**, after "Configuration options", before "Settings to connect to the platform" | Only what differs for this model, or which brand behaviour applies to it. One line with a link if nothing differs |
+
+**Brand page sections** (each only when there is something to say): **Models**, **How <brand> devices behave**, **Configuration** (shared DevCon settings), **Firmware**, **Connect to the platform** (when the same for every model). The model page holds only what is specific to the model. Type overview pages (`personal-trackers`, `gateways`) only list models and link to them.
 
 **Each behaviour is one short block:**
 

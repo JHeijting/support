@@ -43,7 +43,7 @@ Tess's report (frontend-design `knowledge/wiki-report.md`, T4) agrees with this 
 | `cuebly-app/availability-presence` | Availability, presence and connection | new | check | 0 | `articles/cuebly-app/availability-presence.md` |
 | `cuebly-app/faq` | FAQ - mobile app | rewrite | check | 2 | `articles/cuebly-app/faq.md` |
 | `cuebly-app/geofencing` | App geofencing | rewrite | check | 1 | `articles/cuebly-app/geofencing.md` |
-| `cuebly-app/onboarding` | Onboarding | rewrite | check | 1 | `articles/cuebly-app/onboarding.md` |
+| `cuebly-app/onboarding` | Onboarding | rewrite | check | 0 | `articles/cuebly-app/onboarding.md` |
 | `cuebly-app/send-help` | Send an alarm with the app | new | check | 1 | `articles/cuebly-app/send-help.md` |
 | `cuebly-app/settings` | App settings | rewrite | check | 2 | `articles/cuebly-app/settings.md` |
 | `cuebly-app/timer-alarm` | Timer alarm | new | check | 1 | `articles/cuebly-app/timer-alarm.md` |
