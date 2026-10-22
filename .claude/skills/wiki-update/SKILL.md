@@ -26,6 +26,7 @@ David van der Berg's checklist for the wiki part (cloud, public knowledge only).
 
 - Search `support-staging/plan/wiki-inventory.md` for the module, the screen and the terms (also old names).
 - Search the drafts too: `grep -rl "<term>" support-staging/articles/`.
+- Check the **parked** pages (`plan/cutover.md`, "Park" table; in the wiki under `drafts/parked/`): when a parked feature ships, rewrite that page in place and move it back to its live path with Jarno's approval (same id).
 - A change can hit a draft, a live page without a draft yet, or call for a new page. A new page goes into the inventory's "New pages" table first.
 
 ## 3. Update the draft

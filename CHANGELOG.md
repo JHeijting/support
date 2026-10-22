@@ -6,6 +6,7 @@ Until the go-live, only changes to the wiki itself are logged here (drafts under
 
 | Date | Page (wiki path) | Change | Why | Ticket or release | By |
 |---|---|---|---|---|---|
+| 2026-10-22 | `drafts/zz-permission-test-moved` (id 114) | Moved from `drafts/zz-permission-test`. The old path now gives 404: Wiki.js keeps no redirect after a move | Redirect test before the brand page moves (J16) | J16 | David van der Berg |
 | 2026-10-22 | `drafts/reseller-environment/account-management/presentation-mode` (id 115), `drafts/supported-devices/location-in-alarms` (id 116), `drafts/supported-devices/personal-trackers/twig-behaviour` (id 117) | Re-saved with the same content under the Wiki.js user "David"; "Last edited by" now shows David instead of Administrator. Guest view still 403 | Pages from this process must show David's name (Jarno) | | David van der Berg |
 | 2026-10-22 | `drafts/reseller-environment/account-management/presentation-mode` (id 115) | Moved from `drafts/reseller-environment/presentation-mode` (same id, links unaffected) | Presentation mode is part of Accounts (Jarno, J2) | | David van der Berg |
 | 2026-10-22 | `drafts/reseller-environment/presentation-mode` (id 115), `drafts/supported-devices/location-in-alarms` (id 116), `drafts/supported-devices/personal-trackers/twig-behaviour` (id 117) | Links changed to id links (`/i/<id>`) | Link rule: links must not break on a rename, a move or the go-live switch | Manon, 2026-10-22 | David van der Berg |

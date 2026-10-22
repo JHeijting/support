@@ -66,7 +66,7 @@ True today and free of version names. Jarno decides when; it is not part of the 
 
 ## Proposal: one brand page per brand (Jarno, J9, 2026-10-22)
 
-**Status: proposal, waiting for Jarno.** Nothing is moved yet.
+**Status: approved by Jarno (J16, 2026-10-22).** Nothing is moved yet. Step 2 (redirect test) is done, see below.
 
 Jarno: "Shouldn't this go under supported devices and then Twig? So that every brand gets a brand page with the relevant info about it?"
 
@@ -119,26 +119,40 @@ Jarno: "Shouldn't this go under supported devices and then Twig? So that every b
 - The two type overview pages (ids 4 and 84) get a rewrite: lists by type, linking to the model pages.
 - Internal links: links that use `/en/<path>` on live pages break on a move. Before the moves, replace them with `/i/<id>` on every page that is touched (pages.list plus a search for `/en/supported-devices/`).
 
-**Risk to check before the moves:** Wiki.js 2.5 does not keep a redirect from the old path after a move [unverified, test on a draft]. Links from outside the wiki (the platform, the app, manuals, partner documents, search engines) to `/en/supported-devices/personal-trackers/...` would then give a 404. Before moving: ask Jarno and the developers whether the platform or app link to device pages by path; if so, change those links to `/i/<id>` first.
+**Redirect test (2026-10-22, done):** test page id 114 moved from `drafts/zz-permission-test` to `drafts/zz-permission-test-moved`. The old path gives **404 "Page Not Found"** (logged in), no redirect; the new path works. So Wiki.js 2.5 keeps no redirect after a move: every outside link to an old path breaks.
 
-**When:** the structure can change before the V4 go-live, because device pages describe today's devices. Proposed order: (1) Jarno approves the structure, (2) test on a draft whether the old path redirects, (3) links to `/i/<id>`, (4) create the brand pages under `drafts/` for review, (5) move the live pages in one go with Jarno's approval, log every move in `CHANGELOG.md`.
+**Outside links:** the platform does not link to device pages (Jarno). The website does: two posts link to device pages (`twig-easy`, `emerit-ewg200`) and 24 more links go deep into the wiki, some with anchors and some to pages that go away. List: `plan/external-links.md` (Manon). These website links are fixed **in the same switch**, with Jarno's approval (the website is outward): preferably to `https://wiki.cuebly.com/i/<id>`, which survives later moves (an anchor can be added after it, but anchors change when headings change, so link to the page unless the section is essential). Search engines pick up the new paths by themselves.
 
-## Live pages to remove at go-live (Jarno to confirm each)
+**When:** the structure can change before the V4 go-live, because device pages describe today's devices. Order: (1) Jarno approves the structure (done, J16), (2) redirect test on a draft (done: no redirect), (3) links to `/i/<id>` inside the wiki, (4) create the brand pages under `drafts/` for review, (5) move the live pages in one go with Jarno's approval and fix the website links from `plan/external-links.md` in the same switch, log every move in `CHANGELOG.md`.
 
-| Live path | Why |
-|---|---|
-| `reseller-environment/reports` | "Coming soon" only |
-| `about-cuebly` | title only, unless Jarno wants a company page |
-| `cuebly-app/whitelabel` | replaced by one app with the account's branding (Jarno to confirm); a short replacement page may follow |
-| `customer-environment/quick-texts` | no menu in the new customer environment |
-| `customer-environment/alarm-protocols` | no page in the new customer environment; devices have an Alarm protocol field |
-| `customer-environment/assistance-requests` | an assistance request is now an alarm type, sent with a scenario action |
-| `cuebly-app/assistance-requests` | not in the new app |
-| `cuebly-app/e-b10` | pairing not in the new app |
-| `reseller-environment/account-management/modules` | modules are not part of an account (proposal 006 is a direction, not built) |
-| `customer-environment/dashboards/tiles` | custom dashboards are not available; rewrite instead if they come |
+## Live pages at go-live: remove, or park until the feature is back (Jarno, J4, 2026-10-22)
 
-Each of these is open in the inventory's questions until Jarno decides. Before removal, check which pages link to it and fix those links in the same switch.
+**Remove** (delete at go-live; fix links to them first):
+
+| Live path | Id | Why |
+|---|---|---|
+| `reseller-environment/reports` | 76 | "Coming soon" only (J4.1) |
+| `about-cuebly` | 31 | title only (J4.2) |
+| `cuebly-app/whitelabel` | 61 | about the previous app (J4.3) |
+| `reseller-environment/account-management/modules` | 95 | a page in the spirit of proposal 006 comes later, as a new page (J4.9) |
+
+**Park** (the feature comes back; the page must not show old behaviour after go-live, but is not deleted):
+
+| Live path | Id | Comes back as | Then |
+|---|---|---|---|
+| `customer-environment/quick-texts` | 27 | probably as it is now (J4.4) | rewrite when it ships |
+| `customer-environment/alarm-protocols` | 21 | as now, maybe the new proposal (J4.5) | rewrite when it ships |
+| `cuebly-app/assistance-requests` | 92 | coming soon in the new app (J4.7) | rewrite when it ships |
+| `cuebly-app/e-b10` | 96 | pairing coming soon in the new app (J4.8) | rewrite when it ships |
+| `customer-environment/dashboards/tiles` | 91 | coming (J4.10) | rewrite when it ships |
+
+**Rewrite** (not parked): `customer-environment/assistance-requests` (id 23) works differently and merges with alarms (J4.6). It gets a draft with today's behaviour; it goes live at go-live, or is parked like the others if the merge is not in the product yet at go-live.
+
+**How to park in Wiki.js 2.5:** move the page to `drafts/parked/<live path>` at go-live (`pages.move`, keeps the id and the content and history). Guests cannot see anything under `drafts/` (tested: 403); staff still can. When the feature ships, the `wiki-update` skill picks the page up: rewrite it in place under `drafts/parked/`, Jarno approves, move it back to its live path (same id). Why not the alternatives:
+- `isPublished: false` would also hide a page, but whether guests are blocked by it cannot be tested from `drafts/` (guests are blocked there anyway), and the group rules on public paths may still show it. The move uses a tested rule.
+- Replacing the content with "coming soon" text breaks the rule "current product only, no promises".
+
+The old path then gives a 404 (no redirect, tested). Before parking or removing: fix the wiki links to these pages (they should be `/i/<id>` links or be removed, because an `/i/` link to a parked page gives guests a 403), and the website links in `plan/external-links.md` (alarm protocols, dashboard tiles: point them to the nearest live page or remove them, with Jarno's approval).
 
 **Merges** (from the inventory): `supported-devices/personal-trackers/eview` into `eview/ev-04` (or a short list page), `supported-devices/personal-trackers/queclink` into `queclink/GL320MG`. Dropped if the brand page proposal (above) is approved.
 
