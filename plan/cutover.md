@@ -12,7 +12,7 @@ All new and rewritten pages stay drafts until the official go-live of the new pl
 - **New pages move to their final path** with `pages.move` of the draft, never `pages.create` at the final path: moving keeps the page id, and links between pages use the id (`/i/<id>`, see `plan/page-ids.md`). Recreating a page would break those links.
 - **Images move with their page.** Each page's images are uploaded to the page's final asset folder (see "Images" below), and the image links in the page are changed to that folder in the same step. A page never goes live with links to `drafts/`.
 - **Nothing is published without Jarno's approval.** The go-live switch is one approval for the whole list below, after a final review of each draft.
-- **"Last edited by" shows David van der Berg** (Jarno, 2026-10-22), also after go-live, so pages from this process can be told from pages written by hand. Wiki.js 2.5 books every API key request on user 1 (Administrator), so the drafts made so far show "Administrator". Jarno creates a Local user "David van der Berg" in group "David API"; a later session logs in with `authentication.login` and uses that token. At go-live, either David gets write rights on the live paths and does the switch himself, or he re-saves each switched page right after, so every live page shows his name. Re-save the existing drafts (ids 115 to 117) once the user exists.
+- **"Last edited by" shows David van der Berg** (Jarno, 2026-10-22), also after go-live, so pages from this process can be told from pages written by hand. Wiki.js 2.5 books every API key request on user 1 (Administrator), so the drafts made so far show "Administrator". Jarno creates a Local user "David van der Berg" in group "David API"; a later session logs in with `authentication.login` and uses that token. At go-live, either David gets write rights on the live paths and does the switch himself, or he re-saves each switched page right after, so every live page shows his name. Done 2026-10-22: the Local user exists (display name "David"), the drafts 115 to 117 were re-saved and show "Last edited by David".
 - **Rights:** David's key can write only under `drafts/`. The switch needs a key with write rights on the live paths for that night, or Jarno runs it. To be decided by Jarno.
 
 ## Pages that get a rewrite (content replaced, same path)
@@ -42,7 +42,7 @@ All new and rewritten pages stay drafts until the official go-live of the new pl
 
 | Final path | Draft | Wiki draft | Images to move |
 |---|---|---|---|
-| `reseller-environment/account-management/presentation-mode` | `reseller-environment/account-management/presentation-mode.md` | `drafts/reseller-environment/presentation-mode` (id 115) | asset folder `drafts/presentation-mode`, images 01 to 05 |
+| `reseller-environment/account-management/presentation-mode` | `reseller-environment/account-management/presentation-mode.md` | `drafts/reseller-environment/account-management/presentation-mode` (id 115) | asset folder `drafts/presentation-mode`, images 01 to 05 |
 | `customer-environment/devices/devcon` | `customer-environment/devices/devcon.md` | | per draft |
 | `reseller-environment/device-management/add-app-user` | `reseller-environment/device-management/add-app-user.md` | | per draft |
 | `reseller-environment/device-management/import-devices` | `reseller-environment/device-management/import-devices.md` | | per draft |

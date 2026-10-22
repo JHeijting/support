@@ -4,8 +4,8 @@ title: Alerts
 description: See incoming alarms, handle them and close them
 replaces: customer-environment/alerts (2024-12-19)
 status: check
-sources: frontend-design knowledge/modules/alerts.md (night test 2026-10-21), wiki-report.md (alerts row), glossary.md; sound and browser notification text kept from the previous wiki page
-last fact check: 2026-10-21
+sources: frontend-design knowledge/modules/alerts.md (night test 2026-10-21), Tess T13 answers 2026-10-21 (tested: alarm card, right pane, Quick close), wiki-report.md (alerts row), glossary.md; sound and browser notification text kept from the previous wiki page
+last fact check: 2026-10-22
 author: David van der Berg
 ---
 
@@ -28,20 +28,25 @@ Each alarm shows its type (for example **SOS button** or **Timer**), the device 
 
 ## Open an alarm
 
-Click an alarm to see:
+Click an alarm. The alarm card in the middle shows:
 
-- its status, type and time,
-- the device, its connection and last location, with a map ("No location information available" when there is none),
-- the device fields, such as operating address and industry,
-- **What happened**: a timeline of the alarm,
-- whether an assistance request is linked to it.
+- its status and type, with **Close alarm**,
+- **Voice connection available** with **Join the call**, when the device has started a voice connection,
+- a map (**Enlarge** makes it bigger; "No location information available" when there is none),
+- the device, the time of the alarm, and the last location with the time it was received and the time it was determined,
+- the device fields, such as phone number, operating address, industry and alarm protocol.
+
+The pane on the right shows:
+
+- **Create assistance request**, to ask others for help (name, devices, teams, geofences, message, language),
+- **What happened**, a timeline of the alarm: for example location fixed, alarm raised, alarm closed with the note.
 
 ## Close an alarm
 
 Click **Close alarm** and choose:
 
 - **Start closing script**: a step-by-step guide that records the outcome and the time to close. See [Close an alarm with the closing script](/i/94).
-- **Quick close**: close the alarm at once, with notes. [unverified: notes on quick close]
+- **Quick close**: close the alarm at once. Fill in **What actions did you do?** (required).
 
 ### Close several alarms at once
 
@@ -73,6 +78,7 @@ If you do not hear alarms while the browser is in the background, see [FAQ - Web
 - **Share alert by email, browser notifications, presentation page of open alerts:** V3 features, not verified in V4. Left out.
 - **Alarms closed by an ARC:** not verified in V4. Left out.
 - **"Open alarms" and "Open alerts"** dashboard tiles: difference unexplained (B32). Not mentioned.
-- **Response pane** (wiki report: "describe the response pane"): not documented; ask Tess what it shows.
+- **Response pane:** tested by Tess (T13, 2026-10-21 23:26 to 23:33 CEST, SOS from the app), now in the text.
+- **Assistance request from an alarm** (v4-platform#461): a request made from the alarm shows as a separate alert and is not closed with the alarm. Jarno: assistance requests will be merged into alarms (Q9). Left out of the text until that is built.
 - **Images:** Art's `handle-an-alarm/handle-an-alarm-01-open-alerts.png`; auto-close and bulk close have no image yet (T7).
 - Diagram `diagrams-01-alarm-flow.png` (Q11: diagrams welcome). Its own check list: it stops at Closed (follow-up protocol not in V4 yet) and does not draw app feedback (F8).

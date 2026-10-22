@@ -5,7 +5,7 @@ description: What a scenario can do in Cuebly V4, and how to use placeholders
 replaces: customer-environment/scenarios/actions (2026-06-02)
 status: check
 sources: frontend-design knowledge/modules/scenarios.md (10 actions, Text message on device in detail, night test 2026-10-21), wiki-report.md, screenshot current/platform-v4/scenarios/04-action-types.png; webhook body and placeholder explanations kept from the previous wiki page
-last fact check: 2026-10-21
+last fact check: 2026-10-22
 author: David van der Berg
 ---
 
@@ -35,6 +35,7 @@ An action with a lock icon is not active for your account. [unverified: what hap
 | **Toggle timer alarm** | Starts or stops the timer alarm on a device |
 | **Call webhook** | Sends the event to another system over HTTP |
 | **Multi tenant** | Starts a scenario in another customer account |
+| **Send alarm to ARC** | Sends the alarm to the alarm receiving center (ARC) linked to the account. Only offered with an alarm trigger or **Connection changed**, and once per scenario. [unverified: read in the code, not yet seen in the screen] |
 
 ## Text message on device
 
@@ -83,9 +84,9 @@ Sends the event, with the device and its location, to your own system. For the r
 **Removed from the page (wiki rule: current product only, Jarno 2026-10-21). Kept here for the cutover plan:**
 
 - **Show at alerts page** is gone. Alarms show in **Alerts** by themselves.
-- Not offered in V4 for a standard account: Start tracking, Change geofence presence, Create generic alarm, Send to ARC and Set digital I/O. [see draft notes]
+- Not offered in V4 for a standard account: Start tracking, Change geofence presence, Create generic alarm and Set digital I/O. [see draft notes]
 
-- **"As seen on V4 dev":** 10 actions for Tess's test customer. Missing V3 actions may depend on devices or modules (Jarno, Q8 area). Send to ARC especially: see the device management ARC correction.
+- **"As seen on V4 dev":** 10 actions for Tess's test customer. Missing V3 actions may depend on devices or modules (Jarno, Q8 area). **Send alarm to ARC** (`send_to_arc`) exists (Tess, T13, code): only with an alarm trigger or connection changed, once per scenario; linking an ARC creates an ARC-link scenario with it. Not seen live (no ARC on Tess's accounts), so it was missing from her list of 10.
 - **Lock icons:** in the screenshot Multi tenant, Sms message, Send assistance request and Voice message have a lock. On the dashboard, a locked tile opens "Activate module" with a request form (B42); for actions this is not verified. Proposal 006 drops the request flow. Describe once verified.
 - **Placeholders** appear twice with raw names today (B30); the table uses the names from Tess's list.
 - **Wait for possible new location** (V3 checkbox for location placeholders) not verified in V4; left out.

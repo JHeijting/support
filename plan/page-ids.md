@@ -6,7 +6,7 @@ Links in drafts use `/i/<id>` (see the link rule in `articles/README.md`). This 
 
 | Id | Final path | Title | Wiki draft path now |
 |---|---|---|---|
-| 115 | `reseller-environment/account-management/presentation-mode` | Presentation mode | `drafts/reseller-environment/presentation-mode` |
+| 115 | `reseller-environment/account-management/presentation-mode` | Presentation mode | `drafts/reseller-environment/account-management/presentation-mode` |
 | 116 | `supported-devices/location-in-alarms` | How location reaches an alarm | `drafts/supported-devices/location-in-alarms` |
 | 117 | (section draft for `supported-devices/personal-trackers/twig`, id 71; not a page of its own) | How Twig devices behave (section draft) | `drafts/supported-devices/personal-trackers/twig-behaviour` |
 | 114 | (test page, delete at go-live) | Permission test | `drafts/zz-permission-test` |

@@ -37,7 +37,7 @@ A green check mark means the permission is given. Tap a line to open the phone s
 
 ## SOS shortcuts
 
-Ways to send an alarm without opening the app, for example the side button of a Samsung XCover phone. [unverified: exact options; see draft notes]
+Ways to send an alarm without opening the app, with Android shortcuts and the action button. [unverified: exact options] The side button of a Samsung XCover phone does not need this setting. See [Send an alarm with the app](/en/cuebly-app/send-help).
 
 ## Language
 
@@ -66,8 +66,8 @@ At the bottom, **Version** shows the version of the app.
 - The sound settings, call permissions, inactivity (man down) alarm and the switch to enable the app in a geofence are no longer in the app's settings. Your administrator sets the app's features per device in DevCon, for example **Voice connection on alarm**, **Teams** and **Timer alarm**, and decides whether you may change them yourself. See [Change device settings (DevCon)](/en/customer-environment/devices/devcon).
 
 - **Logout effect** ("no longer receive messages") is an assumption; verify with Tess.
-- **Answered (wiki report):** old settings are not in the new app; features are set per device in DevCon V4. Whether inactivity (man down) and sound settings exist at all in the new app is not confirmed; the text does not promise them.
-- **SOS shortcuts:** the wiki report lists an "SOS shortcuts" section in Settings and the Samsung XCover side button (works in the background; press, warning and commit vibrations). Not in Tess's 1.4.0 screenshot. Get the exact options from Tess before publishing, or write a separate page (inventory N12).
+- **Answered (wiki report):** old settings are not in the new app; features are set per device in DevCon V4. Tess tested (T13): sound, inactivity alarm and a geofence switch are not in the new app, and not in DevCon for Mobile App Lite. The text does not mention them.
+- **SOS shortcuts:** the wiki report lists an "SOS shortcuts" section in Settings and the Samsung XCover side button (works in the background; press, warning and commit vibrations). Tess (T13): SOS shortcuts is for Android shortcuts and the action button, not needed for the XCover key. The exact options are still to be listed by Tess.
 - **Tapping a Status line opens phone settings:** the screenshot shows arrows; behaviour not verified.
 - **Dev menu** (long press on the Settings title in development builds) is left out on purpose.
 - **Images:** requested from Art (app-settings-01). Source is Dutch (`current/app-v4/08-settings-nl.png`); an English capture is needed (T7). The screenshot shows a device id at the top; Art should crop or redact it.

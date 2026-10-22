@@ -5,7 +5,7 @@ description: Let the platform act automatically when something happens
 replaces: customer-environment/scenarios (2026-07-09)
 status: check
 sources: frontend-design knowledge/modules/scenarios.md (night test 2026-10-21), presentation-mode.md (scenarios cannot be hidden), wiki-report.md; webhook and assistance request follow-up kept from the previous wiki page
-last fact check: 2026-10-21
+last fact check: 2026-10-22
 author: David van der Berg
 ---
 
@@ -48,7 +48,11 @@ The scenario is stored when you click the save icon.
 
 Click the scenario card to open it. Change what you need and click the save icon.
 
-- **Disable**: switch **Enabled** off and save. [unverified: Delete and Copy]
+- **Disable**: switch **Enabled** off and save.
+- **Copy**: click **Copy**. The scenario is saved, and an unsaved copy opens. Change the copy and save it.
+- **Delete**: click **Delete** and confirm with **Are you sure?**. The message "Scenario deleted" appears.
+
+[unverified: Copy and Delete were read in the code, not yet seen in the screen]
 
 ## Test an action
 
@@ -72,7 +76,7 @@ To send events to your own system, use the action **Call webhook**. To check tha
 
 - **Removed from the old page:** the webhook trigger example with client id and secret (Q5: confirm they are dummies, and whether the Webhook trigger exists in V4; it is not in the 21 triggers on dev) and the "obsolete" authorization header example. Bring back only if the Webhook trigger is in V4.
 - **Assistance request follow-up** (old page section) now sits in the actions page (Send assistance request, Too little turnout). Settings of that action not verified in V4.
-- **Delete, Copy:** V3 features; not seen by Tess in the V4 editor. Verify.
+- **Delete, Copy:** Tess read them in the code (T13): Copy saves, then opens an unsaved copy; Delete asks "Delete scenario?" / "Are you sure?" and shows "Scenario deleted". Not yet seen in the UI; remove the mark after a UI check.
 - **Unsaved card** (night test): a new scenario shows as a card in the list before it is saved, and is lost on close without saving. A gap, left out of the text; ask Tess for the ticket id.
 - **Empty list:** shows "Create a scenario" with an arrow pointing away from the button (B27). Not mentioned.
 - **Images:** Art's `create-a-scenario` 01, 02, 03.

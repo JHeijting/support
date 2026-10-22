@@ -4,8 +4,8 @@ title: Device management (correction: ARC scenario)
 section: Connect a device to your alarm receiving center (ARC), last part
 type: correction (replace one passage on the live page; the full page rewrite comes later)
 status: check
-sources: frontend-design knowledge/modules/presentation-mode.md (V4 scenarios cannot be hidden), wiki-report.md (device-management row)
-last fact check: 2026-10-21
+sources: frontend-design knowledge/modules/presentation-mode.md (scenarios cannot be hidden), Tess T13 answers 2026-10-21 (code: Send alarm to ARC, ARC-link scenario), wiki-report.md (device-management row)
+last fact check: 2026-10-22
 author: David van der Berg
 ---
 
@@ -24,7 +24,7 @@ author: David van der Berg
 > Lastly, the alarms must be sent to the ARC by a scenario in the customer environment.
 >
 > 1. Log in to the customer environment. See [Account management](/i/34).
-> 2. Go to **Scenarios** and check that there is a scenario with an alarm trigger and the action that sends the alarm to the alarm center. Only devices that are connected to the ARC are used by this action. [unverified]
+> 2. Go to **Scenarios**. Linking the ARC creates a scenario with the action **Send alarm to ARC**. Check that it is there and enabled. To make your own, use an alarm trigger (or **Connection changed**) and add **Send alarm to ARC**; a scenario can have this action once. Only devices that are connected to the ARC are used by this action. [unverified: read in the code, not yet seen live]
 >
 > Scenarios cannot be hidden from the customer. The customer sees this scenario in their own **Scenarios** list. You do not need to switch off presentation mode to see it. See [Presentation mode](/i/115).
 
@@ -32,5 +32,5 @@ author: David van der Berg
 
 ## Draft notes (remove before publishing)
 
-- **The ARC action in V4:** Tess counted 10 scenario actions on V4 dev for a test account, and "Send to ARC" / "Send to alarm center" is not one of them. It may depend on the account's ARC link or modules. Before publishing, check on an account with an ARC linked: is the ARC scenario still created by default, and what is the action called? If V4 sends alarms to the ARC without a scenario, drop the steps and keep only the presentation mode sentence.
+- **The ARC action:** Tess (T13, code): the action is "Send alarm to ARC" (`send_to_arc`), offered only with an alarm trigger or "connection changed", once per scenario; linking an ARC creates an ARC-link scenario with it. Not seen live (no ARC on her accounts). Before publishing: one check on an account with an ARC linked (scenario name and that it is enabled). Whether "only connected devices" still holds is not covered by her answer.
 - The rest of the device management page is planned as a full rewrite (inventory: Wi-Fi only, Cuebly SIM with ICCID, import, power off and reboot, DevCon V4).

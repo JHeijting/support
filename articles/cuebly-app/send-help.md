@@ -26,7 +26,7 @@ The app confirms with "Alarm is sent". The alarm arrives on the platform within 
 
 ## With the side button of a Samsung XCover
 
-On a Samsung Galaxy XCover phone you can use the programmable side button, also when the app is in the background. [see draft notes]
+On a Samsung Galaxy XCover phone you can use the programmable side button, also when the app is in the background. In the phone's settings, set the side button to open the Cuebly app; the app needs no setting for it. [unverified: phone setting, tested with a simulated button only]
 
 1. **Press and hold** the side button.
 2. The phone vibrates when you press, then gives four short pulses as a warning.
@@ -48,7 +48,7 @@ Let go before the long vibration to cancel.
 
 ## Draft notes (remove before publishing)
 
-- **XCover side button** was tested on a development build of app 1.4.0 with a simulated button (development/frontend/mobile#23 passed; vibration timing on mobile#48). Publish this section only when the release that contains it is in the stores, and check whether the button must be set up first (Samsung settings or the app's "SOS shortcuts" in Settings; wiki report mentions SOS shortcuts). Phone model names: check which XCover models.
+- **XCover side button** was tested on a development build of app 1.4.0 with a simulated button (development/frontend/mobile#23 passed; vibration timing on mobile#48). Publish this section only when the release that contains it is in the stores, Setup (Tess, T13, emulator): the app reacts to the XCover key without any app setting; on a real XCover the side key must point to the app in the phone's settings, not verified on a real device. The app's SOS shortcuts are for Android shortcuts and the action button, not for the XCover key. Phone model names: check which XCover models.
 - **Without a location fix** the alarm currently waits up to 30 seconds before it is sent (B13). The "within a few seconds" claim holds with a location fix only; keep the tip, and update once B13 is fixed.
 - **No feedback after sending** (F8): the app only says "Alarm is sent". Left out of the text (gap); add what the app shows once F8 is built.
 - **Short tap gives no hint** (F7). If the app adds a hint, mention it.

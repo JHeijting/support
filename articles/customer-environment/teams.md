@@ -4,8 +4,8 @@ title: Teams
 description: Group devices and app users into teams, and message a whole team at once
 replaces: customer-environment/teams (2021-12-23)
 status: check
-sources: screenshot current/platform-v4/teams/01-team-card.png, wiki-report.md (teams row), qa/2026-10-21-night-findings.md (P18, P19), glossary.md (Connection, Availability), fact sheet 2026-10-21 (teams in the app)
-last fact check: 2026-10-21
+sources: screenshot current/platform-v4/teams/01-team-card.png, Tess T13 answers 2026-10-21 (tested: create and message steps), wiki-report.md (teams row), qa/2026-10-21-night-findings.md (P18, P19), glossary.md (Connection, Availability), fact sheet 2026-10-21 (teams in the app)
+last fact check: 2026-10-22
 author: David van der Berg
 ---
 
@@ -17,27 +17,31 @@ A device can be in more than one team.
 
 ## Create a team
 
-1. Go to **Teams** and click **New team**.
+1. Go to **Teams** and click **New team** (at the bottom, or **+** at the top). An empty team card appears at the top.
 2. Type the team name.
-3. Add the devices.
-4. Save. [unverified: exact steps and button names]
+3. Click the device chips (**+**) to add devices.
+4. Click the save icon. The **X** cancels.
 
 ## The team card
 
-Each team is a card with its name and its members. A member with a green dot is online; a grey member is offline.
+Each team is a card with its name and its members. A member with a green dot is online; a grey chip means the device is offline.
 
 On the card:
 
 - the pencil icon edits the team,
 - the bin icon deletes it,
-- the arrow icon sends a message to the team.
+- the send icon sends a message to the team.
 
 ![The Teams page with one team card. The card shows edit, delete and send message icons and the devices in the team, each with a green status dot. Marker 1 points at the team card, marker 2 at the New team button.](/wiki-images/teams/teams-01-team-card.png)
 *Each team shows its devices and their status (1). Click New team (2) to create a team. On a card, use the pencil to edit, the bin to delete and the arrow to send a message to the team.*
 
 ## Send a message to a team
 
-Click the arrow icon on the team card, write the message and send it. The message reaches the members that are online and available, and that can show messages. [unverified: dialog steps and summary of recipients]
+1. Click the send icon on the team card. **Send message** opens and lists the team's devices.
+2. Type the message under **Type your message**.
+3. Click **Send**.
+
+The message reaches the members that are online and available, and that can show messages. [unverified: who receives the message]
 
 ## Teams in scenarios
 
@@ -57,7 +61,6 @@ In team overviews, a member counts as available only when the device is online a
 
 - **Save then Delete in the same place** (P19): right after saving a new team, the Delete button appears exactly where Save was, so a second click deletes the team. Consider a warning in the article ("check before you click again") if this ships unfixed, or wait for the fix (proposal 002).
 - **Name field without label** (P18).
-- **Create steps:** Tess documented the card, not the full create flow. Verify the steps and button labels.
-- **Message dialog:** the V3 page showed a summary of recipients before sending. Not verified in V4.
+- **Create and message steps:** tested by Tess (T13, 2026-10-21 23:20 CEST). Still open: who exactly receives a team message (online, available, can show messages) was not part of the test.
 - **Images:** Art's `teams/teams-01-team-card.png`. It shows "Tess QA team"; Jarno's demo names question is open (Q6).
 - Diagram `diagrams-04-connection-availability-presence.png` (Q11: diagrams welcome). Its check list: the last line (team views count a device as available only when online and available) follows Jarno, while F17 says the platform does not show availability yet; and the app still uses "Available" for presence (proposal 004).

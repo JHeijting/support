@@ -43,18 +43,18 @@ Tess's report (frontend-design `knowledge/wiki-report.md`, T4) agrees with this 
 | `cuebly-app/availability-presence` | Availability, presence and connection | new | check | 0 | `articles/cuebly-app/availability-presence.md` |
 | `cuebly-app/faq` | FAQ - mobile app | rewrite | check | 2 | `articles/cuebly-app/faq.md` |
 | `cuebly-app/geofencing` | App geofencing | rewrite | check | 1 | `articles/cuebly-app/geofencing.md` |
-| `cuebly-app/onboarding` | Onboarding | rewrite | check | 0 | `articles/cuebly-app/onboarding.md` |
+| `cuebly-app/onboarding` | Onboarding | rewrite | check | 1 | `articles/cuebly-app/onboarding.md` |
 | `cuebly-app/send-help` | Send an alarm with the app | new | check | 1 | `articles/cuebly-app/send-help.md` |
 | `cuebly-app/settings` | App settings | rewrite | check | 2 | `articles/cuebly-app/settings.md` |
 | `cuebly-app/timer-alarm` | Timer alarm | new | check | 1 | `articles/cuebly-app/timer-alarm.md` |
 | `customer-environment` | Customer environment | rewrite | check | 0 | `articles/customer-environment.md` |
-| `customer-environment/alerts` | Alerts | rewrite | check | 2 | `articles/customer-environment/alerts.md` |
+| `customer-environment/alerts` | Alerts | rewrite | check | 1 | `articles/customer-environment/alerts.md` |
 | `customer-environment/alerts/script` | Close an alarm with the closing script | rewrite | check | 1 | `articles/customer-environment/alerts/script.md` |
 | `customer-environment/dashboards` | Dashboards | rewrite | check | 2 | `articles/customer-environment/dashboards.md` |
 | `customer-environment/scenarios` | Scenarios | rewrite | check | 2 | `articles/customer-environment/scenarios.md` |
 | `customer-environment/scenarios/actions` | Scenario actions | rewrite | check | 4 | `articles/customer-environment/scenarios/actions.md` |
 | `customer-environment/scenarios/triggers` | Scenario triggers | rewrite | check | 6 | `articles/customer-environment/scenarios/triggers.md` |
-| `customer-environment/teams` | Teams | rewrite | check | 2 | `articles/customer-environment/teams.md` |
+| `customer-environment/teams` | Teams | rewrite | check | 1 | `articles/customer-environment/teams.md` |
 | `customer-environment/users` | Users and permissions | rewrite | check | 2 | `articles/customer-environment/users.md` |
 | `home` | Cuebly Wiki home | rewrite | check | 0 | `articles/home.md` |
 | `reseller-environment/account-management` | Account management | rewrite | check | 1 | `articles/reseller-environment/account-management.md` |

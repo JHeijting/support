@@ -4,8 +4,8 @@ title: Users and permissions
 description: Give people access to a customer environment and choose what they may do
 replaces: customer-environment/users (2025-07-01)
 status: check
-sources: frontend-design knowledge/modules/account-management.md (permissions dialog), wiki-report.md (users row), screenshot current/platform-v4/users/01-permissions-dialog.png (Tess, V4 dev, 2026-10-20 and 2026-10-21)
-last fact check: 2026-10-21
+sources: frontend-design knowledge/modules/account-management.md (permissions dialog), wiki-report.md (users row), screenshot current/platform-v4/users/01-permissions-dialog.png (Tess, V4 dev, 2026-10-20 and 2026-10-21), Tess T13 answers 2026-10-21 (tested: Add user)
+last fact check: 2026-10-22
 author: David van der Berg
 ---
 
@@ -14,6 +14,15 @@ author: David van der Berg
 Users are the people who log in to a customer environment. You choose per user what they may do, with **permissions**.
 
 You find the users of an account under **Administration** > **Users** in the customer environment.
+
+## Add a user
+
+1. Go to **Users** and click **Add**. **New user** opens.
+2. Fill in **First name**, **Last name** (optional) and **Email address**.
+3. Leave **Inform user by email** ticked to send the user an email about the new account, or untick it.
+4. Click **Save**. It stays disabled until the required fields are filled.
+
+Then give the user permissions (below).
 
 ## Permissions
 
@@ -57,7 +66,7 @@ People who use the Cuebly app are users of the account too. Their app is added a
 - The roles Administrator, Portal user, App user and Alarm receiving center are replaced by permissions per subject.
 - App licenses are gone: the app is added as a device.
 
-- **Customer environment Users page:** the permissions dialog and the user menu (Permissions, Reset password, Delete) were verified on the Account management panel and the V4 permissions screenshot. The customer environment's own Add user form is not documented by Tess; this draft does not describe adding a user there. Ask Tess for the fields (T13), then add "Add a user".
+- **Customer environment Users page:** the permissions dialog and the user menu (Permissions, Reset password, Delete) were verified on the Account management panel and the V4 permissions screenshot. Add user: tested by Tess (T13, 23:20 CEST): First name, Last name (optional), Email address, "Inform user by email" (on by default), nothing else. What the email contains, and the permissions a new user starts with, are not tested; the text does not say.
 - **Subjects:** 25 in total; the screenshot shows Translations, Alarms, Contacts, Accounts, Communications, Device_configs, Dashboards, Geofences, Sites, Alarm Protocols, Scenarios, Users, Arc, Whitelabels, Alerts, App, Api_tokens, Permissions and more. Several are raw names ("Device_configs", "Api_tokens") and some are not meaningful inside a customer account (Accounts, Whitelabels, Translations). Worth a ticket for readable names; the article names only the clear ones.
 - **"Other permissions"** with raw strings such as `read.accounts.<id>` is left out on purpose.
 - **Read, Update, Manage:** meaning assumed from the names. The examples table needs Jarno or Tess to confirm a minimum set for an operator.
