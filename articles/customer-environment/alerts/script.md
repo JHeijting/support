@@ -13,7 +13,7 @@ author: David van der Berg
 
 The closing script guides you through an alarm step by step: what kind of alarm it is, who to call, and what the outcome was. It helps operators and security staff who handle alarms in their own organisation, and it records how long it took to close the alarm.
 
-For a fast close without the steps, use **Quick close**. See [Alerts](/en/customer-environment/alerts).
+For a fast close without the steps, use **Quick close**. See [Alerts](/i/20).
 
 ![Flow from an alarm in the Cuebly app to a closed alarm, in three lanes. Cuebly app: hold Send help! for 3 seconds, or a timer alarm runs out; the app shows "Alarm is sent" and the alarm goes to the platform. Platform: the alarm appears in Alerts and can start scenarios; alarms not closed by hand close automatically after a set number of days (default 30). Operator: Close alarm, then the closing script (alarm type, Start alarm handling, call the device, outcome, notes) or Quick close; the closed alarm shows the time to close and the notes.](/wiki-images/diagrams/diagrams-01-alarm-flow.png)
 *How an alarm from the app is handled and closed.*

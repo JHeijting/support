@@ -10,13 +10,13 @@ author: David van der Berg
 
 ## How Twig devices behave
 
-How a Twig sends its location with an alarm. For what this means in general, see [How location reaches an alarm](/en/supported-devices/location-in-alarms).
+How a Twig sends its location with an alarm. For what this means in general, see [How location reaches an alarm](/i/116).
 
 ### The first alarm message has no indoor location
 
 A Twig sends an alarm in two steps. The first message goes out on the SOS, with the information the device has at that moment, without beacon (indoor) information. The beacon information follows in a later message. [unverified]
 
-The alarm in **Alerts** shows the beacon location as soon as it arrives, but scenario actions that run on the alarm can miss it. For what that means and what to do, see [How location reaches an alarm](/en/supported-devices/location-in-alarms).
+The alarm in **Alerts** shows the beacon location as soon as it arrives, but scenario actions that run on the alarm can miss it. For what that means and what to do, see [How location reaches an alarm](/i/116).
 
 **Applies to:** all Twig models with beacon support.
 

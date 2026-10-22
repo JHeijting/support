@@ -9,9 +9,10 @@ All new and rewritten pages stay drafts until the official go-live of the new pl
 - **Current product only.** The wiki describes how Cuebly works now: no version names (no V3, no V4), no "What changed" sections, no comparisons with before (Jarno, 2026-10-21). The configurator is called DevCon.
 - **Drafts live under `drafts/` in the wiki** (not visible to guests) and as Markdown in `support-staging/articles/`. The Markdown is the source; the wiki draft is a copy for review.
 - **Replace, do not recreate.** A live page that gets a rewrite keeps its id, path and history: at go-live its content is replaced with the draft (`pages.update` on the live id). Links from outside keep working.
-- **New pages move to their final path** (`pages.move` of the draft, or `pages.create` at the final path).
+- **New pages move to their final path** with `pages.move` of the draft, never `pages.create` at the final path: moving keeps the page id, and links between pages use the id (`/i/<id>`, see `plan/page-ids.md`). Recreating a page would break those links.
 - **Images move with their page.** Each page's images are uploaded to the page's final asset folder (see "Images" below), and the image links in the page are changed to that folder in the same step. A page never goes live with links to `drafts/`.
 - **Nothing is published without Jarno's approval.** The go-live switch is one approval for the whole list below, after a final review of each draft.
+- **"Last edited by" shows David van der Berg** (Jarno, 2026-10-22), also after go-live, so pages from this process can be told from pages written by hand. Wiki.js 2.5 books every API key request on user 1 (Administrator), so the drafts made so far show "Administrator". Jarno creates a Local user "David van der Berg" in group "David API"; a later session logs in with `authentication.login` and uses that token. At go-live, either David gets write rights on the live paths and does the switch himself, or he re-saves each switched page right after, so every live page shows his name. Re-save the existing drafts (ids 115 to 117) once the user exists.
 - **Rights:** David's key can write only under `drafts/`. The switch needs a key with write rights on the live paths for that night, or Jarno runs it. To be decided by Jarno.
 
 ## Pages that get a rewrite (content replaced, same path)
@@ -41,7 +42,7 @@ All new and rewritten pages stay drafts until the official go-live of the new pl
 
 | Final path | Draft | Wiki draft | Images to move |
 |---|---|---|---|
-| `reseller-environment/presentation-mode` | `reseller-environment/presentation-mode.md` | `drafts/reseller-environment/presentation-mode` (id 115) | asset folder `drafts/presentation-mode`, images 01 to 05 |
+| `reseller-environment/account-management/presentation-mode` | `reseller-environment/account-management/presentation-mode.md` | `drafts/reseller-environment/presentation-mode` (id 115) | asset folder `drafts/presentation-mode`, images 01 to 05 |
 | `customer-environment/devices/devcon` | `customer-environment/devices/devcon.md` | | per draft |
 | `reseller-environment/device-management/add-app-user` | `reseller-environment/device-management/add-app-user.md` | | per draft |
 | `reseller-environment/device-management/import-devices` | `reseller-environment/device-management/import-devices.md` | | per draft |
@@ -91,7 +92,7 @@ All other public pages stay as they are, or get small updates after go-live (dev
 - The repo source for images is frontend-design `wiki-images/<set>/`, built by Art from Tess's screenshots. Drafts link to `/wiki-images/<set>/<file>`.
 - In the wiki, drafts use asset folders under `drafts/` (for example `drafts/presentation-mode`).
 - Before an image goes into a wiki draft or live page, check frontend-design `wiki-images/wiki-drafts-image-map.md`: images with status "old test names" wait for Tess's retake and Art's re-render. Open now: presentation mode 03 to 05 (already in `drafts/presentation-mode`, to be replaced under the same names).
-- **At go-live each page's images move with it:** upload them to the page's final asset folder, named after the page's section and slug (for example `reseller-environment/presentation-mode`), change the image links in the page, and check the page as a guest. Old V3 screenshots that a rewritten page no longer uses can then be removed.
+- **At go-live each page's images move with it:** upload them to the page's final asset folder, named after the page's section and slug (for example `reseller-environment/account-management/presentation-mode`), change the image links in the page, and check the page as a guest. Old V3 screenshots that a rewritten page no longer uses can then be removed.
 - Art's concept diagrams (`wiki-images/diagrams/`) are used in several drafts. The alt text of the DevCon sync diagram said "DevCon V4" and "legacy DevCon" (now removed from the draft). If the image itself shows those words, Art must re-render it without version names before go-live.
 
 ## The switch, step by step

@@ -19,7 +19,7 @@ You need no app licenses for this.
 
 ## Before you start
 
-- The customer account exists. See [Account management](/en/reseller-environment/account-management).
+- The customer account exists. See [Account management](/i/34).
 - You add devices in your own environment, under **Devices**. You cannot add a device from inside a customer environment.
 
 ## Add the app device

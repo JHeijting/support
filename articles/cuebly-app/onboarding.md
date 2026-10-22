@@ -39,7 +39,7 @@ If a permission is already given, the step shows a check mark.
 
 ## Change a permission later
 
-Open **Settings** in the app. Under **Status** you see whether notifications, critical alerts and location are allowed. Tap a line to fix it. See [App settings](/en/cuebly-app/settings).
+Open **Settings** in the app. Under **Status** you see whether notifications, critical alerts and location are allowed. Tap a line to fix it. See [App settings](/i/93).
 
 ---
 

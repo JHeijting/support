@@ -16,7 +16,7 @@ The Cuebly app turns an iPhone or Android phone into a personal safety device. T
 ## Get started
 
 - **For account managers:** add the app as a device of the type Mobile App Lite. See [Add an app user](/en/reseller-environment/device-management/add-app-user).
-- **For app users:** install the app, log in with the details from the welcome email and follow the [onboarding](/en/cuebly-app/onboarding).
+- **For app users:** install the app, log in with the details from the welcome email and follow the [onboarding](/i/97).
 
 There is one Cuebly app for everyone. After login, the app shows the branding of your organisation. [unverified with a partner brand]
 
@@ -27,7 +27,7 @@ The bottom bar has:
 - **Home**: the **Send help!** button, the **Available** switch and, when a timer runs, the timer banner.
 - **Groups**: your **Teams**, with their members and whether they are available, and your **Locations** (geofences), with a map and who is present.
 - **Views**: pages with tiles set up by your administrator, for example a quick button that starts a scenario, or instructions. Only shown when your administrator set up custom views. [see draft notes]
-- **Settings**: availability, permissions, timer alarm, language, theme and logout. See [App settings](/en/cuebly-app/settings).
+- **Settings**: availability, permissions, timer alarm, language, theme and logout. See [App settings](/i/93).
 
 ![The home screen of the Cuebly app. Marker 1 points at the large red Send help! button, marker 2 at the Status card with the Available switch, marker 3 at a running SOS Timer banner with 23:54 left and a Cancel button, marker 4 at the bottom bar with Home, Groups, Views and Settings.](/wiki-images/cuebly-app/cuebly-app-02-home.png)
 *Hold Send help! for 3 seconds to send an alarm (1). Switch your availability under Status (2). A running timer alarm shows at the top, with Cancel (3). The bottom bar (4) leads to Groups, Views and Settings.*
@@ -50,7 +50,7 @@ Messages and assistance requests reach apps that are online. That is why the onb
 
 ## Languages
 
-The app has the same 10 languages as the platform. Choose the language in **Settings**; it does not depend on the language of your phone. See [Supported languages](/en/about-cuebly/supported-languages).
+The app has the same 10 languages as the platform. Choose the language in **Settings**; it does not depend on the language of your phone. See [Supported languages](/i/30).
 
 ---
 

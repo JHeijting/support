@@ -19,7 +19,7 @@ You can hide the notification and keep the function: in the Android settings for
 
 ## Why does the app ask for so many permissions?
 
-Phones stop or limit apps to save battery. For a safety app that could mean an alarm or message arrives late. See [Onboarding](/en/cuebly-app/onboarding) for each permission and why it is needed.
+Phones stop or limit apps to save battery. For a safety app that could mean an alarm or message arrives late. See [Onboarding](/i/97) for each permission and why it is needed.
 
 ## Why does an alarm or message sound when my phone is on Do Not Disturb?
 

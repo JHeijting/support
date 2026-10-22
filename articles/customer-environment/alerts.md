@@ -40,7 +40,7 @@ Click an alarm to see:
 
 Click **Close alarm** and choose:
 
-- **Start closing script**: a step-by-step guide that records the outcome and the time to close. See [Close an alarm with the closing script](/en/customer-environment/alerts/script).
+- **Start closing script**: a step-by-step guide that records the outcome and the time to close. See [Close an alarm with the closing script](/i/94).
 - **Quick close**: close the alarm at once, with notes. [unverified: notes on quick close]
 
 ### Close several alarms at once
@@ -58,7 +58,7 @@ At the top of **Alerts**, **Alarm auto-close after** shows after how long alarms
 
 The speaker icon at the top of **Alerts** switches the alarm sound on or off. [unverified]
 
-If you do not hear alarms while the browser is in the background, see [FAQ - Web](/en/customer-environment/faq).
+If you do not hear alarms while the browser is in the background, see [FAQ - Web](/i/105).
 
 ---
 

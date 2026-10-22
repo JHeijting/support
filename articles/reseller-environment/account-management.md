@@ -82,7 +82,7 @@ You can also log in from **Account management**: click the arrow icon next to th
 
 Click the dots icon at the end of the row in **Accounts**:
 
-- **Manage alarm center**: connect the account to an alarm receiving centre. See [Alarm Receiving Centers](/en/integrations/arcs).
+- **Manage alarm center**: connect the account to an alarm receiving centre. See [Alarm Receiving Centers](/i/90).
 - **Show devices**: open **Devices**, filtered on this account.
 - **Archive**: see below.
 
@@ -113,7 +113,7 @@ To add a user:
 5. Tick the sub-accounts the user may also access. All are ticked by default.
 6. Click **Save**.
 
-Each user in the list has a menu with **Permissions**, **Reset password** and **Delete**. See [User management](/en/reseller-environment/user-management).
+Each user in the list has a menu with **Permissions**, **Reset password** and **Delete**. See [User management](/i/33).
 
 ## Archive an account
 

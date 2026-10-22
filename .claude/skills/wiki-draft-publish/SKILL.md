@@ -41,6 +41,7 @@ From `support-staging/articles/<path>.md`:
 - front matter `title` and `description` become the page's title and description;
 - drop the front matter, the H1 (Wiki.js shows the title) and everything from `---` + `## Draft notes` on;
 - change image links `/wiki-images/<set>/<file>` to `/drafts/<page-slug>/<file>`.
+- check the links: every link is `/i/<id>` (link rule in `articles/README.md`). A remaining `/en/<path>` link must point to a new page listed in `plan/page-ids.md` under "New pages without an id yet".
 
 Build the request with Python (`json.dump` with GraphQL variables), never by hand-escaping Markdown.
 
@@ -56,7 +57,7 @@ Build the request with Python (`json.dump` with GraphQL variables), never by han
 
 - New: `pages { create(content, description, editor: "markdown", isPublished: true, isPrivate: false, locale: "en", path: "drafts/<path>", tags: [], title) }`.
 - Existing: `pages { update(id, content, tags: []) }`. `tags` is required, or the update fails with "Cannot read properties of undefined (reading 'map')".
-- Check `responseResult.succeeded`. Note the page id.
+- Check `responseResult.succeeded`. Note the page id, add it to `plan/page-ids.md`, and replace every `/en/<final path>` link to this page in the other drafts with `/i/<id>` (`grep -rn "/en/<final path>" support-staging/articles`).
 
 ## 5. Check and log
 

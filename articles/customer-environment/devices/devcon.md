@@ -65,7 +65,7 @@ The app's own Settings has no sound, inactivity or geofence settings. You set th
 
 ## Hide settings from the customer
 
-Account managers can hide a group or a single setting of DevCon from the customer's users, with the eye icons that appear when presentation mode is off. See [Presentation mode](/en/reseller-environment/presentation-mode).
+Account managers can hide a group or a single setting of DevCon from the customer's users, with the eye icons that appear when presentation mode is off. See [Presentation mode](/i/115).
 
 ---
 

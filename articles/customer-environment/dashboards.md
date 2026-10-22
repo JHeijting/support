@@ -30,7 +30,7 @@ Custom dashboards, with your own tiles, are not available. [see draft notes]
 
 ## Presentation pages are not presentation mode
 
-A **presentation page** shows dashboards as a slideshow, for example on a screen on the wall. **Presentation mode** is something else: it lets an account manager see an account the way the customer sees it. See [Presentation mode](/en/reseller-environment/presentation-mode).
+A **presentation page** shows dashboards as a slideshow, for example on a screen on the wall. **Presentation mode** is something else: it lets an account manager see an account the way the customer sees it. See [Presentation mode](/i/115).
 
 ---
 

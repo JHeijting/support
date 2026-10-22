@@ -10,7 +10,7 @@ author: David van der Berg
 
 ## How this device behaves
 
-The Twig SOS card sends an alarm in two steps: the indoor location (beacons) follows after the first alarm message. How recent that indoor location is depends on the setting **show beacons in display**. See [How Twig devices behave](/en/supported-devices/personal-trackers/twig#how-twig-devices-behave) and [How location reaches an alarm](/en/supported-devices/location-in-alarms).
+The Twig SOS card sends an alarm in two steps: the indoor location (beacons) follows after the first alarm message. How recent that indoor location is depends on the setting **show beacons in display**. See [How Twig devices behave](/i/71#how-twig-devices-behave) and [How location reaches an alarm](/i/116).
 
 *Last checked: October 2026.*
 

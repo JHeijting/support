@@ -6,6 +6,8 @@ Until the go-live, only changes to the wiki itself are logged here (drafts under
 
 | Date | Page (wiki path) | Change | Why | Ticket or release | By |
 |---|---|---|---|---|---|
+| 2026-10-22 | `drafts/reseller-environment/presentation-mode` (id 115), `drafts/supported-devices/location-in-alarms` (id 116), `drafts/supported-devices/personal-trackers/twig-behaviour` (id 117) | Links changed to id links (`/i/<id>`) | Link rule: links must not break on a rename, a move or the go-live switch | Manon, 2026-10-22 | David van der Berg |
+| 2026-10-22 | `drafts/reseller-environment/presentation-mode` (id 115) | Final path changed to `reseller-environment/account-management/presentation-mode` (presentation mode is part of Accounts). The wiki draft is not moved: `pages.move` was blocked in my session; the id stays the same, so links are not affected | Jarno's feedback (J2) | | David van der Berg |
 | 2026-10-22 | `drafts/supported-devices/personal-trackers/twig-behaviour` (id 117) | Updated: scenario consequence and what to do now only on the general page (link); "more than ten minutes" instead of an exact number | Manon's review: one fact in one place; 700 seconds was one observation, not a limit | T18 | David van der Berg |
 | 2026-10-22 | `drafts/supported-devices/personal-trackers/twig-behaviour` (id 117) | Created: draft of the section "How Twig devices behave" and the model line | Alarms in two steps and the age of the indoor location (a partner report, product facts only) | T18 | David van der Berg |
 | 2026-10-22 | `drafts/supported-devices/location-in-alarms` (id 116) | Created: new page "How location reaches an alarm" | Same, device-neutral | T18 | David van der Berg |

@@ -15,10 +15,10 @@ Here you find how to work with the Cuebly platform and the Cuebly app: for custo
 
 ## Start here
 
-- **New to Cuebly?** Start with the [customer environment](/en/customer-environment) or, as a reseller, the [reseller environment](/en/reseller-environment).
-- **Using the app?** See the [Cuebly app](/en/cuebly-app): how to [send an alarm](/en/cuebly-app/send-help), set a [timer alarm](/en/cuebly-app/timer-alarm) and change your [settings](/en/cuebly-app/settings).
-- **Setting up a customer?** [Create an account](/en/reseller-environment/account-management), [add an app user](/en/reseller-environment/device-management/add-app-user) and check what the customer sees with [presentation mode](/en/reseller-environment/presentation-mode).
-- **Devices:** see the [supported personal alarms](/en/supported-devices/personal-trackers) and [gateways](/en/supported-devices/gateways).
+- **New to Cuebly?** Start with the [customer environment](/i/18) or, as a reseller, the [reseller environment](/i/2).
+- **Using the app?** See the [Cuebly app](/i/29): how to [send an alarm](/en/cuebly-app/send-help), set a [timer alarm](/en/cuebly-app/timer-alarm) and change your [settings](/i/93).
+- **Setting up a customer?** [Create an account](/i/34), [add an app user](/en/reseller-environment/device-management/add-app-user) and check what the customer sees with [presentation mode](/i/115).
+- **Devices:** see the [supported personal alarms](/i/4) and [gateways](/i/84).
 
 ---
 

@@ -17,14 +17,14 @@ Every customer has its own environment in Cuebly. There the customer's people fo
 
 | Menu item | What you do there |
 |---|---|
-| **Dashboard** | See the state of the account at a glance: open alarms, days without alarms. See [Dashboards](/en/customer-environment/dashboards) |
-| **Alerts** | Follow and close alarms. See [Alerts](/en/customer-environment/alerts) |
-| **Devices** | See all devices and app users on the map, change device settings. See [Devices](/en/customer-environment/devices) |
-| **Geofences** | Draw zones and see who is present. See [Geofences](/en/customer-environment/geofences) |
-| **Teams** | Group devices and message them at once. See [Teams](/en/customer-environment/teams) |
-| **Contacts** | Keep the people and companies to call or notify. See [Contacts](/en/customer-environment/contacts) |
-| **Scenarios** | Let the platform act automatically. See [Scenarios](/en/customer-environment/scenarios) |
-| **Users** (under Administration) | Give people access and set their permissions. See [Users and permissions](/en/customer-environment/users) |
+| **Dashboard** | See the state of the account at a glance: open alarms, days without alarms. See [Dashboards](/i/19) |
+| **Alerts** | Follow and close alarms. See [Alerts](/i/20) |
+| **Devices** | See all devices and app users on the map, change device settings. See [Devices](/i/22) |
+| **Geofences** | Draw zones and see who is present. See [Geofences](/i/24) |
+| **Teams** | Group devices and message them at once. See [Teams](/i/25) |
+| **Contacts** | Keep the people and companies to call or notify. See [Contacts](/i/83) |
+| **Scenarios** | Let the platform act automatically. See [Scenarios](/i/28) |
+| **Users** (under Administration) | Give people access and set their permissions. See [Users and permissions](/i/37) |
 
 What each user sees depends on their permissions.
 
@@ -32,7 +32,7 @@ At the bottom of the menu you change the language and switch the alarm sound on 
 
 ## For account managers
 
-As an account manager you open a customer environment from **Accounts** with the arrow icon, and leave it with **Back to admin**. You then also see the presentation mode icon at the bottom of the menu. See [Presentation mode](/en/reseller-environment/presentation-mode).
+As an account manager you open a customer environment from **Accounts** with the arrow icon, and leave it with **Back to admin**. You then also see the presentation mode icon at the bottom of the menu. See [Presentation mode](/i/115).
 
 ---
 

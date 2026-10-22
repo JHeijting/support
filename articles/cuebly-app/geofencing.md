@@ -15,7 +15,7 @@ A geofence is a zone on the map, for example a building or a site. The Cuebly ap
 
 ## How it works
 
-- Your administrator creates geofences in the customer environment and links devices or teams to them. See [Geofences](/en/customer-environment/geofences).
+- Your administrator creates geofences in the customer environment and links devices or teams to them. See [Geofences](/i/24).
 - The app checks on the phone whether you are inside those geofences, also when the app is in the background.
 - The app reports when you enter or leave. The platform shows you as present in the geofence, and can start a scenario with the trigger **Enter geofence** or **Exit geofence**.
 
@@ -27,7 +27,7 @@ Go to **Groups** > **Locations**. You see the geofences assigned to you, with th
 
 ## What you need
 
-- Location permission set to **Allow all the time**. See [Onboarding](/en/cuebly-app/onboarding).
+- Location permission set to **Allow all the time**. See [Onboarding](/i/97).
 - Background activity allowed for the app.
 
 ---

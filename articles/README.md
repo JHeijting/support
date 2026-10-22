@@ -20,6 +20,15 @@ The folders follow the wiki's own paths. `reseller-environment/account-managemen
 - **Do not document bugs or gaps as behaviour.** No workarounds for known bugs in the text. Put them in the Draft notes with the ticket id, and describe the intended behaviour once Jarno confirms it, or leave the point out.
 - **"Good to know" only for what a customer really needs** to do the task right.
 
+## Links between pages
+
+Links use the page id, never the path: `[Alerts](/i/20)`, with an anchor if needed: `[How Twig devices behave](/i/71#how-twig-devices-behave)`. Wiki.js redirects `/i/<id>` to the page's current path (tested 2026-10-22), and an id never changes when a page is renamed or moved.
+
+- Look the id up in `plan/page-ids.md` (live pages and drafts).
+- A rewritten page keeps its live id (its content is replaced at go-live). A new page gets its id when it is created under `drafts/`, and keeps it because it is **moved**, never recreated, to its final path at go-live.
+- A link to a new page that is not in the wiki yet stays `/en/<final path>` and is listed in `plan/page-ids.md` under "New pages without an id yet". Replace it with `/i/<id>` as soon as the page is created under `drafts/`.
+- Link text is the page title or what the reader does there, never the bare URL.
+
 ## Pattern: device behaviour
 
 For how a device behaves in practice (what it sends when, how fresh its location is, what a setting changes), beyond the feature and configuration tables. First used for Twig and beacons (T18).

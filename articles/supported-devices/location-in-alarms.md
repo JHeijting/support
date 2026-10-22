@@ -28,7 +28,7 @@ The alarm in **Alerts** shows the newer location as soon as it arrives. A scenar
 
 ## A location can be older than the alarm
 
-A device does not always measure its location at the moment of the alarm. It can send the last location it knew, for example the last beacon it saw. How old that location can be depends on the device and its settings. See the device page, section **How this device behaves**, for example [Twig](/en/supported-devices/personal-trackers/twig).
+A device does not always measure its location at the moment of the alarm. It can send the last location it knew, for example the last beacon it saw. How old that location can be depends on the device and its settings. See the device page, section **How this device behaves**, for example [Twig](/i/71).
 
 Any device can move after the alarm, or get a better location. That is another reason to follow the alarm through the alarm itself or the live location link.
 

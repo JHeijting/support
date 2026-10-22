@@ -13,8 +13,8 @@ author: David van der Berg
 
 A scenario is a rule: **when** something happens, the platform **does** one or more things. For example: when someone sends an SOS from the app, send a message to everyone present in the same building.
 
-- What starts a scenario: see [Scenario triggers](/en/customer-environment/scenarios/triggers).
-- What a scenario can do: see [Scenario actions](/en/customer-environment/scenarios/actions).
+- What starts a scenario: see [Scenario triggers](/i/79).
+- What a scenario can do: see [Scenario actions](/i/80).
 
 ![How a scenario works, in four steps. 1. When this happens: the trigger, for example SOS button, Man down, Timer, Enter geofence, Quick button or Alarm closed. 2. Configure trigger: narrow it down, for example to chosen geofences. 3. Is the scenario on: the Enabled switch is on, and it is always available or inside its schedule. 4. Perform these actions: one or more actions such as Text message on device, Sms message, Email, Voice message, Send assistance request, Call webhook or Change team. Recipients are devices, teams and geofences; a geofence means the devices present in it, and of those only available app users receive messages and assistance requests. Nothing is stored until you click the save icon.](/wiki-images/diagrams/diagrams-02-scenario.png)
 *A scenario does something automatically when its trigger happens.*
@@ -60,11 +60,11 @@ A scenario with the trigger **Quick button** is started from a tile in the Cuebl
 
 ## Who sees the scenarios
 
-All users with access to scenarios see all scenarios of the account. A scenario cannot be hidden from the customer, also not by an account manager. See [Presentation mode](/en/reseller-environment/presentation-mode).
+All users with access to scenarios see all scenarios of the account. A scenario cannot be hidden from the customer, also not by an account manager. See [Presentation mode](/i/115).
 
 ## Webhooks
 
-To send events to your own system, use the action **Call webhook**. To check that a request comes from Cuebly, see [Webhook signature](/en/customer-environment/scenarios/webhook-signature).
+To send events to your own system, use the action **Call webhook**. To check that a request comes from Cuebly, see [Webhook signature](/i/113).
 
 ---
 

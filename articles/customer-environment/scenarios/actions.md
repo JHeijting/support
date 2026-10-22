@@ -74,7 +74,7 @@ Device fields you added yourself are available as placeholders too.
 
 ## Call webhook
 
-Sends the event, with the device and its location, to your own system. For the request body and how to check that a request comes from Cuebly, see [Webhook signature](/en/customer-environment/scenarios/webhook-signature). [unverified: request body]
+Sends the event, with the device and its location, to your own system. For the request body and how to check that a request comes from Cuebly, see [Webhook signature](/i/113). [unverified: request body]
 
 ---
 

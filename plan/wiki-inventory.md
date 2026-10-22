@@ -17,7 +17,7 @@
 
 Tess's report (frontend-design `knowledge/wiki-report.md`, T4) agrees with this inventory on almost every page. What changed here:
 
-- **Presentation mode is documented** (frontend-design `knowledge/modules/presentation-mode.md`). Draft written: `support-staging/articles/reseller-environment/presentation-mode.md` (N1).
+- **Presentation mode is documented** (frontend-design `knowledge/modules/presentation-mode.md`). Draft written: `support-staging/articles/reseller-environment/account-management/presentation-mode.md` (N1).
 - **The ARC sentence on `reseller-environment/device-management` is wrong for V4:** V4 cannot hide scenarios from the customer. Correction drafted: `support-staging/articles/reseller-environment/device-management-arc-fix.md`.
 - **No menu in the V4 customer environment** for Quick texts, Alarm protocols and Assistance requests. Assistance requests are sent with the scenario action "Send assistance request"; devices have an "Alarm protocol" field. Whether pages come back is a question for Jarno.
 - **Custom dashboards:** not in V4 yet (Jarno). `dashboards` should say so; presentation pages are not the same as presentation mode.
@@ -37,7 +37,7 @@ Tess's report (frontend-design `knowledge/wiki-report.md`, T4) agrees with this 
 |---|---|---|---|---|---|
 | `customer-environment/devices/devcon` | Change device settings (DevCon) | new | review | 1 | `articles/customer-environment/devices/devcon.md` |
 | `reseller-environment/device-management/add-app-user` | Add an app user | new | review | 1 | `articles/reseller-environment/device-management/add-app-user.md` |
-| `reseller-environment/presentation-mode` | Presentation mode | new | review | 0 | `articles/reseller-environment/presentation-mode.md` |
+| `reseller-environment/account-management/presentation-mode` | Presentation mode | new | review | 0 | `articles/reseller-environment/account-management/presentation-mode.md` |
 | `about-cuebly/supported-languages` | Supported languages | rewrite | check | 0 | `articles/about-cuebly/supported-languages.md` |
 | `cuebly-app` | Cuebly app | rewrite | check | 3 | `articles/cuebly-app.md` |
 | `cuebly-app/availability-presence` | Availability, presence and connection | new | check | 0 | `articles/cuebly-app/availability-presence.md` |
@@ -228,7 +228,7 @@ In the wiki's own structure. Status: `draft` means a Markdown draft exists in `s
 
 | # | Path | Title | Source | Status |
 |---|---|---|---|---|
-| N1 | `reseller-environment/presentation-mode` | Presentation mode | presentation-mode.md (T1) | Draft |
+| N1 | `reseller-environment/account-management/presentation-mode` | Presentation mode | presentation-mode.md (T1) | Draft |
 | N2 | `reseller-environment/device-management/add-app-user` | Add an app user (Mobile App Lite) | devices.md, mobile-app.md | Draft |
 | N3 | `cuebly-app/timer-alarm` | Timer alarm | fact sheet, mobile-app.md | Draft |
 | N4 | `cuebly-app/availability-presence` | Availability, presence and connection | glossary, fact sheet | Draft |
