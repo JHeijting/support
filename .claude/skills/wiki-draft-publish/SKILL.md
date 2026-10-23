@@ -68,7 +68,7 @@ Build the request with Python (`json.dump` with GraphQL variables), never by han
 2. Upload each image under its own file name:
    `curl -sS https://wiki.cuebly.com/u -H "Authorization: Bearer $(cat <token file>)" -F 'mediaUpload={"folderId":<id>}' -F "mediaUpload=@<file>;type=image/png"` returns `ok`.
 3. Check with `{ assets { list(folderId: <id>, kind: ALL) { filename fileSize } } }`.
-4. To replace an image, upload the new one under the same name and check that `fileSize` changed (not tested yet; if the size stays the same, ask Manon).
+4. To replace an image, upload the new one under the same name and check that `fileSize` changed. Tested 2026-10-23: the upload replaces the file in place (same asset id, new size and `updatedAt`), no duplicate.
 
 ## 4. Create or update the page
 
