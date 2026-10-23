@@ -19,36 +19,36 @@ All new and rewritten pages stay drafts until the official go-live of the new pl
 
 | Live path | Draft (`support-staging/articles/`) | Wiki draft | Images to move |
 |---|---|---|---|
-| `home` | `home.md` | | |
-| `about-cuebly/supported-languages` | `about-cuebly/supported-languages.md` | | |
-| `cuebly-app` | `cuebly-app.md` | | per draft |
-| `cuebly-app/faq` | `cuebly-app/faq.md` | | per draft |
-| `cuebly-app/geofencing` | `cuebly-app/geofencing.md` | | per draft |
-| `cuebly-app/onboarding` | `cuebly-app/onboarding.md` | | per draft |
-| `cuebly-app/settings` | `cuebly-app/settings.md` | | per draft |
-| `customer-environment` | `customer-environment.md` | | per draft |
-| `customer-environment/alerts` | `customer-environment/alerts.md` | | per draft |
-| `customer-environment/alerts/script` | `customer-environment/alerts/script.md` | | per draft |
-| `customer-environment/dashboards` | `customer-environment/dashboards.md` | | per draft |
-| `customer-environment/scenarios` | `customer-environment/scenarios.md` | | per draft |
-| `customer-environment/scenarios/actions` | `customer-environment/scenarios/actions.md` | | per draft |
-| `customer-environment/scenarios/triggers` | `customer-environment/scenarios/triggers.md` | | per draft |
-| `customer-environment/teams` | `customer-environment/teams.md` | | per draft |
-| `customer-environment/users` | `customer-environment/users.md` | | per draft |
-| `reseller-environment/account-management` | `reseller-environment/account-management.md` | | per draft |
-| `reseller-environment/device-management` | correction only: `reseller-environment/device-management-arc-fix.md` replaces the ARC passage; a full rewrite is still to be written | | |
+| `home` | `home.md` | `drafts/home` (id 139) | |
+| `about-cuebly/supported-languages` | `about-cuebly/supported-languages.md` | `drafts/about-cuebly/supported-languages` (id 127) | |
+| `cuebly-app` | `cuebly-app.md` | `drafts/cuebly-app` (id 128) | per draft |
+| `cuebly-app/faq` | `cuebly-app/faq.md` | `drafts/cuebly-app/faq` (id 129) | per draft |
+| `cuebly-app/geofencing` | `cuebly-app/geofencing.md` | `drafts/cuebly-app/geofencing` (id 130) | per draft |
+| `cuebly-app/onboarding` | `cuebly-app/onboarding.md` | `drafts/cuebly-app/onboarding` (id 131) | per draft |
+| `cuebly-app/settings` | `cuebly-app/settings.md` | `drafts/cuebly-app/settings` (id 141) | per draft |
+| `customer-environment` | `customer-environment.md` | `drafts/customer-environment` (id 132) | per draft |
+| `customer-environment/alerts` | `customer-environment/alerts.md` | `drafts/customer-environment/alerts` (id 133) | per draft |
+| `customer-environment/alerts/script` | `customer-environment/alerts/script.md` | `drafts/customer-environment/alerts/script` (id 142) | per draft |
+| `customer-environment/dashboards` | `customer-environment/dashboards.md` | `drafts/customer-environment/dashboards` (id 134) | per draft |
+| `customer-environment/scenarios` | `customer-environment/scenarios.md` | `drafts/customer-environment/scenarios` (id 135) | per draft |
+| `customer-environment/scenarios/actions` | `customer-environment/scenarios/actions.md` | `drafts/customer-environment/scenarios/actions` (id 136) | per draft |
+| `customer-environment/scenarios/triggers` | `customer-environment/scenarios/triggers.md` | `drafts/customer-environment/scenarios/triggers` (id 137) | per draft |
+| `customer-environment/teams` | `customer-environment/teams.md` | `drafts/customer-environment/teams` (id 138) | per draft |
+| `customer-environment/users` | `customer-environment/users.md` | `drafts/customer-environment/users` (id 143) | per draft |
+| `reseller-environment/account-management` | `reseller-environment/account-management.md` | `drafts/reseller-environment/account-management` (id 144) | per draft |
+| `reseller-environment/device-management` | correction only: `reseller-environment/device-management-arc-fix.md` replaces the ARC passage; a full rewrite is still to be written | `drafts/reseller-environment/device-management-arc-fix` (id 140) | |
 
 ## New pages (move to the final path)
 
 | Final path | Draft | Wiki draft | Images to move |
 |---|---|---|---|
 | `reseller-environment/account-management/presentation-mode` | `reseller-environment/account-management/presentation-mode.md` | `drafts/reseller-environment/account-management/presentation-mode` (id 115) | asset folder `drafts/presentation-mode`, images 01 to 05 |
-| `customer-environment/devices/devcon` | `customer-environment/devices/devcon.md` | | per draft |
-| `reseller-environment/device-management/add-app-user` | `reseller-environment/device-management/add-app-user.md` | | per draft |
-| `reseller-environment/device-management/import-devices` | `reseller-environment/device-management/import-devices.md` | | per draft |
-| `cuebly-app/availability-presence` | `cuebly-app/availability-presence.md` | | per draft |
-| `cuebly-app/send-help` | `cuebly-app/send-help.md` | | per draft |
-| `cuebly-app/timer-alarm` | `cuebly-app/timer-alarm.md` | | per draft |
+| `customer-environment/devices/devcon` | `customer-environment/devices/devcon.md` | `drafts/customer-environment/devices/devcon` (id 125) | per draft |
+| `reseller-environment/device-management/add-app-user` | `reseller-environment/device-management/add-app-user.md` | `drafts/reseller-environment/device-management/add-app-user` (id 126) | per draft |
+| `reseller-environment/device-management/import-devices` | `reseller-environment/device-management/import-devices.md` | `drafts/reseller-environment/device-management/import-devices` (id 145) | per draft |
+| `cuebly-app/availability-presence` | `cuebly-app/availability-presence.md` | `drafts/cuebly-app/availability-presence` (id 122) | per draft |
+| `cuebly-app/send-help` | `cuebly-app/send-help.md` | `drafts/cuebly-app/send-help` (id 123) | per draft |
+| `cuebly-app/timer-alarm` | `cuebly-app/timer-alarm.md` | `drafts/cuebly-app/timer-alarm` (id 124) | per draft |
 
 The wiki inventory (`plan/wiki-inventory.md`) lists more new pages that are not written yet (custom views, quick button, device types, messages in the app, alarm receiving centre management). They join this table when their draft exists.
 

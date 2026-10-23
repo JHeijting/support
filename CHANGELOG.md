@@ -6,6 +6,7 @@ Until the go-live, only changes to the wiki itself are logged here (drafts under
 
 | Date | Page (wiki path) | Change | Why | Ticket or release | By |
 |---|---|---|---|---|---|
+| 2026-10-23 | 24 new drafts under `drafts/` (ids 122 to 145), asset folders `drafts/<page-slug>` (ids 27 to 41) | Created from the repo drafts, without the Draft notes; images with old test names left out as "[Image to follow]"; links to the five new pages as `/i/<id>`. Guest view 403 for every page | Review in place by Jarno (Manon, under Jarno's standing approval for drafts) | | David van der Berg |
 | 2026-10-23 | asset folder `drafts/presentation-mode` (images of draft id 115) | Images 03, 04 and 05 replaced in place under the same file names (asset ids 121 to 123 kept; sizes now 107210, 100928, 101480 bytes, equal to Art's files). 01 and 02 were already identical and left as is. Page 115 unchanged, guest view 403 | Demo names (Fernhollow Care Group (demo)) instead of old test names | frontend-design 000bc72 | David van der Berg |
 | 2026-10-22 | `drafts/zz-permission-test-moved` (id 114) | Deleted. Read back: "This page does not exist" | Leftover permission test page (Jarno approved J5 in David's chat) | J5 | David van der Berg |
 | 2026-10-22 | `reseller-environment/device-management` (id 35, live) | Republished (all page fields sent, content unchanged). Guest view 200 again with the `/i/4` link; offline from 14:40 CEST until the republish | End of the J17.1 incident (Jarno approved the republish in David's chat) | J17.1, J23 | David van der Berg |

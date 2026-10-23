@@ -13,17 +13,36 @@ Links in drafts use `/i/<id>` (see the link rule in `articles/README.md`). This 
 | 119 | `supported-devices/emerit` | Emerit | `drafts/supported-devices/emerit` |
 | 120 | `supported-devices/elexol` | Elexol | `drafts/supported-devices/elexol` |
 | 121 | `supported-devices` | Supported devices | `drafts/supported-devices` |
-| 114 | (test page, delete; moved once for the redirect test) | Permission test | `drafts/zz-permission-test-moved` |
+| 122 | `cuebly-app/availability-presence` | Availability, presence and connection | `drafts/cuebly-app/availability-presence` |
+| 123 | `cuebly-app/send-help` | Send an alarm with the app | `drafts/cuebly-app/send-help` |
+| 124 | `cuebly-app/timer-alarm` | Timer alarm | `drafts/cuebly-app/timer-alarm` |
+| 125 | `customer-environment/devices/devcon` | Change device settings (DevCon) | `drafts/customer-environment/devices/devcon` |
+| 126 | `reseller-environment/device-management/add-app-user` | Add an app user | `drafts/reseller-environment/device-management/add-app-user` |
+| 127 | `about-cuebly/supported-languages` | Supported languages | `drafts/about-cuebly/supported-languages` |
+| 128 | `cuebly-app` | Cuebly app | `drafts/cuebly-app` |
+| 129 | `cuebly-app/faq` | FAQ - mobile app | `drafts/cuebly-app/faq` |
+| 130 | `cuebly-app/geofencing` | App geofencing | `drafts/cuebly-app/geofencing` |
+| 131 | `cuebly-app/onboarding` | Onboarding | `drafts/cuebly-app/onboarding` |
+| 132 | `customer-environment` | Customer environment | `drafts/customer-environment` |
+| 133 | `customer-environment/alerts` | Alerts | `drafts/customer-environment/alerts` |
+| 134 | `customer-environment/dashboards` | Dashboards | `drafts/customer-environment/dashboards` |
+| 135 | `customer-environment/scenarios` | Scenarios | `drafts/customer-environment/scenarios` |
+| 136 | `customer-environment/scenarios/actions` | Scenario actions | `drafts/customer-environment/scenarios/actions` |
+| 137 | `customer-environment/scenarios/triggers` | Scenario triggers | `drafts/customer-environment/scenarios/triggers` |
+| 138 | `customer-environment/teams` | Teams | `drafts/customer-environment/teams` |
+| 139 | `home` | Cuebly Wiki home | `drafts/home` |
+| 140 | (correction for `reseller-environment/device-management`, id 35) | Device management (correction: ARC scenario) | `drafts/reseller-environment/device-management-arc-fix` |
+| 141 | `cuebly-app/settings` | App settings | `drafts/cuebly-app/settings` |
+| 142 | `customer-environment/alerts/script` | Close an alarm with the closing script | `drafts/customer-environment/alerts/script` |
+| 143 | `customer-environment/users` | Users and permissions | `drafts/customer-environment/users` |
+| 144 | `reseller-environment/account-management` | Account management | `drafts/reseller-environment/account-management` |
+| 145 | `reseller-environment/device-management/import-devices` | Import devices from a file | `drafts/reseller-environment/device-management/import-devices` |
 
 ## New pages without an id yet
 
 Links to these stay `/en/<final path>` until the page is created under `drafts/`; then replace them with `/i/<id>`.
 
-- `cuebly-app/availability-presence`
-- `cuebly-app/send-help`
-- `cuebly-app/timer-alarm`
-- `customer-environment/devices/devcon`
-- `reseller-environment/device-management/add-app-user`
+(none: all new pages are in the wiki under `drafts/` since 2026-10-23)
 
 ## Live pages
 

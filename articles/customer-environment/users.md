@@ -55,7 +55,7 @@ The menu at the end of a user's row also has:
 
 ## App users
 
-People who use the Cuebly app are users of the account too. Their app is added as a device of the type Mobile App Lite. See [Add an app user](/en/reseller-environment/device-management/add-app-user).
+People who use the Cuebly app are users of the account too. Their app is added as a device of the type Mobile App Lite. See [Add an app user](/i/126).
 
 ---
 

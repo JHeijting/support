@@ -19,7 +19,7 @@ Your name, your email address and the device number of this app. Support may ask
 
 ## Availability
 
-The **Available** switch. When it is on, you receive messages and assistance requests. You find the same switch on the **Home** screen. See [Availability, presence and connection](/en/cuebly-app/availability-presence).
+The **Available** switch. When it is on, you receive messages and assistance requests. You find the same switch on the **Home** screen. See [Availability, presence and connection](/i/122).
 
 ## Status
 
@@ -33,11 +33,11 @@ A green check mark means the permission is given. Tap a line to open the phone s
 
 ## Timer
 
-**Set timer alarm** starts a timer that raises an alarm if you do not cancel it in time. See [Timer alarm](/en/cuebly-app/timer-alarm).
+**Set timer alarm** starts a timer that raises an alarm if you do not cancel it in time. See [Timer alarm](/i/124).
 
 ## SOS shortcuts
 
-Ways to send an alarm without opening the app, with Android shortcuts and the action button. [unverified: exact options] The side button of a Samsung XCover phone does not need this setting. See [Send an alarm with the app](/en/cuebly-app/send-help).
+Ways to send an alarm without opening the app, with Android shortcuts and the action button. [unverified: exact options] The side button of a Samsung XCover phone does not need this setting. See [Send an alarm with the app](/i/123).
 
 ## Language
 
@@ -63,7 +63,7 @@ At the bottom, **Version** shows the version of the app.
 **Removed from the page (wiki rule: current product only, Jarno 2026-10-21). Kept here for the cutover plan:**
 
 - Settings is a tab in the bottom bar, not behind the menu icon.
-- The sound settings, call permissions, inactivity (man down) alarm and the switch to enable the app in a geofence are no longer in the app's settings. Your administrator sets the app's features per device in DevCon, for example **Voice connection on alarm**, **Teams** and **Timer alarm**, and decides whether you may change them yourself. See [Change device settings (DevCon)](/en/customer-environment/devices/devcon).
+- The sound settings, call permissions, inactivity (man down) alarm and the switch to enable the app in a geofence are no longer in the app's settings. Your administrator sets the app's features per device in DevCon, for example **Voice connection on alarm**, **Teams** and **Timer alarm**, and decides whether you may change them yourself. See [Change device settings (DevCon)](/i/125).
 
 - **Logout effect** ("no longer receive messages") is an assumption; verify with Tess.
 - **Answered (wiki report):** old settings are not in the new app; features are set per device in DevCon V4. Tess tested (T13): sound, inactivity alarm and a geofence switch are not in the new app, and not in DevCon for Mobile App Lite. The text does not mention them.

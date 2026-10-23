@@ -24,7 +24,7 @@ Which triggers you see depends on your account and its devices. The list below i
 | **SOS button** | a selected device raises an SOS alarm, for example "Send help!" in the app |
 | **Man down** | a selected device raises a man down alarm |
 | **Ripcord** | the cord of a Twig device with a ripcord is pulled (Twig Embody, Neo, SOS card, SOS card P5) |
-| **Timer** | a timer alarm runs out. See [Timer alarm](/en/cuebly-app/timer-alarm) |
+| **Timer** | a timer alarm runs out. See [Timer alarm](/i/124) |
 | **Alarm closed** | an alarm of a selected device is closed |
 
 ## Device status

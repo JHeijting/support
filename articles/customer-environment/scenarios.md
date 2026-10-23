@@ -60,7 +60,7 @@ Open the action and click **Test action**. The action runs once, without the tri
 
 ## Quick buttons
 
-A scenario with the trigger **Quick button** is started from a tile in the Cuebly app. You link the tile to the scenario in the device's custom view in DevCon, not in the scenario. See [Change device settings (DevCon)](/en/customer-environment/devices/devcon).
+A scenario with the trigger **Quick button** is started from a tile in the Cuebly app. You link the tile to the scenario in the device's custom view in DevCon, not in the scenario. See [Change device settings (DevCon)](/i/125).
 
 ## Who sees the scenarios
 

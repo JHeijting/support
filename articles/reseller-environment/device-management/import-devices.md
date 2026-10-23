@@ -39,7 +39,8 @@ Tips:
 - **Ripcord: Yes** is only possible for Twig types that have a ripcord: Twig Embody, Neo, SOS card and SOS card P5.
 - Excel sometimes turns long numbers into a different number. The import then shows "Excel changed this number". Format the IMEI, ICCID and phone number columns as text.
 
-![The template with the Start here line and an example row](image: import-devices-01-template)
+![The device import template. Marker 1 points at the notes on which fields are required, marker 2 at the column headers Name, Account ID, IMEI, Type, SMS initial server config, ICCID, Phone number and APN with a hint under each, marker 3 at the two example rows, marker 4 at Start here, below which the devices are filled in.](/wiki-images/import-devices/import-devices-02-template.png)
+*The notes say which fields are required (1) and every column has a hint (2). Fill in your devices below Start here (4): the example rows and everything above Start here are skipped (3).*
 
 ## 3. Upload and check
 
@@ -60,7 +61,7 @@ Click **Add N devices**. The result shows how many devices were added, for examp
 
 Add these one at a time with **Add**:
 
-- Mobile App Lite (the Cuebly app), see [Add an app user](/en/reseller-environment/device-management/add-app-user)
+- Mobile App Lite (the Cuebly app), see [Add an app user](/i/126)
 - Generic
 - ESPA2
 - Emerit Connect App

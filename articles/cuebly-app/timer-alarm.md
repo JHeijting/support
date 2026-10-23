@@ -21,7 +21,8 @@ Use the timer alarm when you go into a situation where you might not be able to 
 
 A banner on the **Home** screen shows the time left.
 
-![The timer screen with the dial and the quick choices](image: timer-alarm-01-set-timer)
+![The Timer alarm screen of the Cuebly app. Marker 1 points at the wheel to choose the duration, set to 30 minutes, marker 2 at the quick choices 30m, 1h, 2h and 6h, marker 3 at the Start timer button.](/wiki-images/cuebly-app/cuebly-app-09-timer.png)
+*Choose how long (1) or tap a quick choice (2), then Start timer (3). If the timer is not cancelled in time, an alarm goes out.*
 
 ## Cancel the timer
 

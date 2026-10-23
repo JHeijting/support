@@ -15,7 +15,7 @@ The Cuebly app turns an iPhone or Android phone into a personal safety device. T
 
 ## Get started
 
-- **For account managers:** add the app as a device of the type Mobile App Lite. See [Add an app user](/en/reseller-environment/device-management/add-app-user).
+- **For account managers:** add the app as a device of the type Mobile App Lite. See [Add an app user](/i/126).
 - **For app users:** install the app, log in with the details from the welcome email and follow the [onboarding](/i/97).
 
 There is one Cuebly app for everyone. After login, the app shows the branding of your organisation. [unverified with a partner brand]
@@ -34,9 +34,9 @@ The bottom bar has:
 
 ## What you can do
 
-- **Ask for help:** hold **Send help!** for 3 seconds. See [Send an alarm with the app](/en/cuebly-app/send-help).
-- **Set a timer alarm:** see [Timer alarm](/en/cuebly-app/timer-alarm).
-- **Choose whether you receive messages:** the **Available** switch. See [Availability, presence and connection](/en/cuebly-app/availability-presence).
+- **Ask for help:** hold **Send help!** for 3 seconds. See [Send an alarm with the app](/i/123).
+- **Set a timer alarm:** see [Timer alarm](/i/124).
+- **Choose whether you receive messages:** the **Available** switch. See [Availability, presence and connection](/i/122).
 - **Read messages:** messages from the platform appear at once. Tap **OK** to confirm you read them.
 
 ![The Cuebly app after tapping a quick button tile. Marker 1 points at a Message dialog with the text sent by the scenario and an OK button, marker 2 at the confirmation Scenario started at the bottom.](/wiki-images/cuebly-app/cuebly-app-04-message.png)

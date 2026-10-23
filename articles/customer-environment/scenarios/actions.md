@@ -51,7 +51,7 @@ An action with a lock icon is not active for your account. [unverified: what hap
 ![The Text message on device action. Marker 1 points at the Devices field, marker 2 at the message text, marker 3 at the placeholders that can be added to the message, such as DATE, TIME and DEVICE, marker 4 at the language of the message, marker 5 at the save icon at the top of the editor.](/wiki-images/create-a-scenario/create-a-scenario-04-text-message-action.png)
 *Choose who receives the message (1) and write it (2). Click a placeholder to add details such as the time or the device (3). Choose the language (4), then save the scenario with the icon at the top (5).*
 
-Of the people present in a geofence, only app users who are **available** receive the message. See [Availability, presence and connection](/en/cuebly-app/availability-presence).
+Of the people present in a geofence, only app users who are **available** receive the message. See [Availability, presence and connection](/i/122).
 
 ## Placeholders
 

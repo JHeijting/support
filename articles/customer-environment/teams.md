@@ -50,7 +50,7 @@ The message reaches the members that are online and available, and that can show
 
 ## Who counts as available
 
-In team overviews, a member counts as available only when the device is online and the user has switched **Available** on in the app. See [Availability, presence and connection](/en/cuebly-app/availability-presence).
+In team overviews, a member counts as available only when the device is online and the user has switched **Available** on in the app. See [Availability, presence and connection](/i/122).
 
 ![Three separate states. Connection: is the device online; shown as a green dot on device cards and team chips and as Online in the app header. Availability: does the person want to receive messages and assistance requests; set with the switch on the app's Home screen. Presence: is the device inside a geofence; set by its location and shown on the geofence card as Present and connected or Absent or disconnected, and in the app under Groups, Locations. Together: for a message to everyone in a geofence, only devices that are present and available receive it. In team views a device counts as available only when it is online and its Available switch is on.](/wiki-images/diagrams/diagrams-04-connection-availability-presence.png)
 *Connection, availability and presence are three different things.*

@@ -39,7 +39,7 @@ Change the setting you need. The platform stores the change right away, even bef
 2. Check the list of settings to be saved and click **Save**.
 3. Choose whether the device restarts now.
 
-![The Save configuration dialog over the app settings, listing Custom views going to 1 items. Marker 1 points at the save icon with a badge for one change, marker 2 at the orange count next to the group General, marker 3 at the Save button in the dialog.](/wiki-images/app-custom-views/app-custom-views-03-sync-changes.png)
+![The Save configuration dialog over the app settings, listing Custom views going to 1 items for Sara, night shift, with the option to send it to other devices of the same type too. Marker 1 points at the save icon with a badge for one change, marker 2 at the orange count next to the group General, marker 3 at the Save button in the dialog.](/wiki-images/app-custom-views/app-custom-views-03-sync-changes.png)
 *A badge on the save icon (1) and an orange count on the group (2) show changes that the app does not have yet. Click the save icon, check the list and click Save (3). The undo arrow next to the save icon discards the changes.*
 
 ## Undo changes that are not synced
